@@ -1,9 +1,9 @@
 # Site
-name: 'Mundana'
-description: 'Mundana is a free Jekyll theme for awesome people like you, Medium like.'
-logo: 'assets/images/logo.png'
-favicon: 'assets/images/favicon.ico'
 baseurl: ''
+name: 'Diogo Matheus'
+description: 'Description.'
+favicon: 'assets/images/favicon.ico'
+logo: 'assets/images/logo.png'
 disqus: 'demowebsite'
 email: 'wowthemesnet@gmail.com'
 mailchimp-list: 'https://wowthemes.us11.list-manage.com/subscribe/post?u=8aeb20a530e124561927d3bd8&amp;id=8c3d2d214b'
@@ -19,21 +19,13 @@ plugins:
   - jekyll-seo-tag
   
 authors:
-    sal:
-      name:           Sal
-      site:           https://www.wowthemes.net
-      avatar:         /assets/images/avatar1.jpg
-      bio:            "Hi, I am Sal, the author of Mundana, the theme you're currently previewing. I hope you like it!"
-      email:          wowthemesnet@gmail.com
-      twitter:        https://twitter.com/wowthemesnet
-
-    jane:
-      name:           Jane
-      site:           https://www.wowthemes.net
-      avatar:         /assets/images/avatar2.jpg
-      bio:            "Blogger, fashionista, love to explore new ideas and write on my morning coffee!"
-      email:          fakemail@gmail.com
-      twitter:        https://twitter.com/wowthemesnet
+    diogomatheus:
+      name: Diogo Matheus
+      site: https://diogomatheus.github.io
+      avatar: assets/images/author-profile.jpg
+      bio: "Short bio."
+      email: dm.matheus@gmail.com
+      twitter: https://twitter.com/diogomatheus_
  
 # Defaults
 defaults:
@@ -43,8 +35,8 @@ defaults:
       path: "_posts"
     values:
       layout: post
-      author: sal
-      avatar: /assets/images/avatar1.jpg
+      author: diogomatheus
+      avatar: assets/images/author-profile.jpg
       
   # all pages
   - scope:
