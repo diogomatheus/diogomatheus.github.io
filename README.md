@@ -1,1 +1,3 @@
-# diogomatheus.github.io
+# Personal Website & Blog
+
+Made with Jekyll and Mundana Theme.
