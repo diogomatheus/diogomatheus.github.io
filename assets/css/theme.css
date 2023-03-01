@@ -1,7 +1,6 @@
 /*!
  * Mundana Jekyll Theme (https://www.wowthemes.net/mundana-jekyll-theme/)
  */
-
 body {
 	overflow-x:hidden;
 	padding-top:69.75px;
@@ -189,7 +188,8 @@ a.text-dark:hover {
 }
 .navbar {
 	font-weight:400;
-	padding: 0.25rem 0rem;
+	padding-top: 0.25rem;
+	padding-bottom: 0.25rem;
 	transition:top 0.2s ease-in-out;
 }
 .navbar .highlight .nav-link {
@@ -206,7 +206,14 @@ a.text-dark:hover {
 .navbar-brand {
 	margin-right:2rem;
 	font-size:1.55rem;
-    font-family:"Georgia","Times New Roman",serif;
+  font-family:"Georgia","Times New Roman",serif;
+}
+@media (max-width: 575.98px) {
+	.navbar-expand-lg > .container,
+	.navbar-expand-lg > .container-fluid {
+	  padding-right: inherit;
+    padding-left: inherit;
+	}
 }
 .dropdown-item {
 	font-weight:400;
