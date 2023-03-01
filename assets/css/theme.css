@@ -3,10 +3,10 @@
  */
 body {
 	overflow-x:hidden;
-	padding-top:69.75px;
+	padding-top:69.43px;
 }
 .site-content {
-	margin-top:50px;
+	margin-top:40px;
 	min-height:400px;
 }
 .remove-site-content-margin {
@@ -208,7 +208,7 @@ a.text-dark:hover {
 	font-size:1.55rem;
   font-family:"Georgia","Times New Roman",serif;
 }
-@media (max-width: 575.98px) {
+@media (min-width: 576px) {
 	.navbar-expand-lg > .container,
 	.navbar-expand-lg > .container-fluid {
 	  padding-right: inherit;
@@ -272,7 +272,7 @@ a.text-dark:hover {
 }
 .bd-search .form-control {
 	color:#999;
-	width: 400px;
+	width: 350px;
 	border-radius:30px;
 	border:1px solid #eee;
 }
