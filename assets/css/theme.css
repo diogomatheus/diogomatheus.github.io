@@ -3,7 +3,7 @@
  */
 body {
 	overflow-x:hidden;
-	padding-top:100px;
+	padding-top:80px;
 }
 img {
 	max-width:100%;
@@ -197,9 +197,9 @@ a.text-dark:hover {
 	color:#fff !important;
 }
 .navbar-brand {
-	margin-right:2rem;
-	font-size:1.55rem;
-  	font-family:"Georgia","Times New Roman",serif;
+	margin-right: 2rem;
+	font-size: 1.55rem;
+  	font-family: "Georgia","Times New Roman",serif;
 }
 @media (min-width: 576px) {
 	.navbar-expand-lg > .container,
@@ -207,6 +207,10 @@ a.text-dark:hover {
 		padding-right: inherit;
     	padding-left: inherit;
 	}
+}
+.navbar-brand img {
+	max-width: 200px;
+    min-width: 150px;
 }
 .dropdown-item {
 	font-weight:400;
