@@ -1,4 +1,4 @@
- // alertbar later
+    // alertbar later
     $(document).scroll(function () {
         var y = $(this).scrollTop();
         if (y > 280) {
@@ -9,7 +9,7 @@
     });
 
 
-// Hide Header on on scroll down
+    // Hide Header on on scroll down
     var didScroll;
     var lastScrollTop = 0;
     var delta = 5;
