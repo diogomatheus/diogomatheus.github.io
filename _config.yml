@@ -22,7 +22,7 @@ authors:
     diogomatheus:
       name: Diogo Matheus
       site: https://diogomatheus.github.io
-      avatar: assets/images/author-profile.jpg
+      avatar: assets/images/diogomatheus-profile.jpg
       bio: "Software Engineer | Software Architect | Manager"
       email: dm.matheus@gmail.com
       twitter: https://twitter.com/diogomatheus_
@@ -36,7 +36,7 @@ defaults:
     values:
       layout: post
       author: diogomatheus
-      avatar: assets/images/author-profile.jpg
+      avatar: assets/images/diogomatheus-profile.jpg
       
   # all pages
   - scope:
