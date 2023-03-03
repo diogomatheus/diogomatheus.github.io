@@ -1,6 +1,6 @@
 # Site
 baseurl: ''
-permalink: pretty
+permalink: /:categories/:year/:month/:day/:title:output_ext
 favicon: 'assets/images/favicon.ico'
 logo: 'assets/images/diogomatheus-logo.png'
 name: 'Diogo Matheus'
