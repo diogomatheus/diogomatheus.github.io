@@ -7,7 +7,7 @@
 			{{ post.excerpt  | strip_html | strip_newlines | truncate: 186}}
 		</p>
 		<small class="d-block text-muted">
-			In 
+			Em 
 			<span class="catlist">
 				{% for category in post.categories %}
 				<a class="text-capitalize text-muted smoothscroll" href="{{site.baseurl}}/categories.html#{{ category | downcase }}">{{ category }}</a><span class="sep">, </span>
@@ -15,7 +15,7 @@
 			</span>
 		</small>
 		<small class="text-muted">
-			{{ post.date | date: '%b %d, %Y' }}
+      {{ page.date | date_to_string: "ordinal", "BR" }}
 		</small>
 	</div>
 	{% if post.image %}
