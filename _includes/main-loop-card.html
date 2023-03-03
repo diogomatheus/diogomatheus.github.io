@@ -15,7 +15,7 @@
 			</span>
 		</small>
 		<small class="text-muted">
-      {{ post.date | date_to_string: "ordinal", "BR" }}
+			{% include portuguese-date.html date=post.date %}
 		</small>
 	</div>
 	{% if post.image %}

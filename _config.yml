@@ -1,12 +1,16 @@
-# Site
+# Website
 baseurl: ''
 permalink: /:categories/:year/:month/:day/:title:output_ext
 favicon: 'assets/images/favicon.ico'
 logo: 'assets/images/diogomatheus-logo.png'
 name: 'Diogo Matheus'
-description: 'Description.'
+description: 'TO DO'
 disqus: 'diogomatheus'
 include: ["_pages"]
+
+# Localization
+lang: 'pt-br'
+languages: ["pt-br"]
 
 # Plugins
 plugins: 
@@ -14,7 +18,8 @@ plugins:
   - jekyll-sitemap
   - jekyll-paginate
   - jekyll-seo-tag
-  
+
+# Authors
 authors:
     diogomatheus:
       name: Diogo Matheus
@@ -26,7 +31,6 @@ authors:
  
 # Defaults
 defaults:
-
   # all posts
   - scope:
       path: "_posts"
@@ -34,7 +38,6 @@ defaults:
       layout: post
       author: diogomatheus
       avatar: assets/images/diogomatheus-profile.jpg
-      
   # all pages
   - scope:
       path: "_pages"
