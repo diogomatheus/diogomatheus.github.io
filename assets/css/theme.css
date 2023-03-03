@@ -210,7 +210,11 @@ a.text-dark:hover {
 }
 .navbar-brand img {
 	max-width: 200px;
-    min-width: 150px;
+}
+@media (max-width:991.98px) {
+	.navbar-brand img {
+		max-width: 150px;
+	}
 }
 .dropdown-item {
 	font-weight:400;
