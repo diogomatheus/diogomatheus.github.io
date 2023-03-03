@@ -662,6 +662,9 @@ footer {
 	z-index:1022;
 	position:relative;
 }
+footer .footer-social-media {
+	font-size: 2em;
+}
 .sticky-top-offset {
 	top:70px;
 }
