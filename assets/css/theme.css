@@ -271,11 +271,24 @@ a.text-dark:hover {
 .navbar-light .navbar-text a:hover,.navbar-light .navbar-text a:focus {
 	color:rgba(0,0,0,0.9);
 }
+.bd-search {
+	width: 100%;
+}
 .bd-search .form-control {
 	color:#999;
-	width: 350px;
+	width: 500px;
 	border-radius:30px;
 	border:1px solid #eee;
+}
+@media (max-width:1199.98px) {
+	.bd-search .form-control {
+		width: 450px;
+	}
+}
+@media (max-width:991.98px) {
+	.bd-search .form-control {
+		width: 100%;
+	}
 }
 .mb-2rem {
 	margin-bottom:2rem;
