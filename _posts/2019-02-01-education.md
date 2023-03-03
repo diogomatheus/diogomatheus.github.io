@@ -1,8 +1,8 @@
 ---
-layout: post
-title:  "Education must also train one for quick, resolute and effective thinking."
-categories: [ Jekyll, tutorial ]
+title: "Education must also train one for quick, resolute and effective thinking"
 image: assets/images/3.jpg
+categories: [ Jekyll, tutorial ]
+tags: []
 ---
 There are lots of powerful things you can do with the Markdown editor
 

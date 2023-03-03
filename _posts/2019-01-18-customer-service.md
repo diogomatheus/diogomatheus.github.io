@@ -1,9 +1,8 @@
 ---
-layout: post
-title:  "What is Jekyll"
-author: diogomatheus
-categories: [ Jekyll, tutorial ]
+title: "What is Jekyll"
 image: assets/images/11.jpg
+categories: [ Jekyll, tutorial ]
+tags: []
 ---
 No more databases, comment moderation, or pesky updates to install-just your content. Markdown, Liquid, HTML & CSS go in. Static sites come out ready for deployment. Permalinks, categories, pages, posts, and custom layouts are all first-class citizens here.
 

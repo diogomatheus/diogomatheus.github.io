@@ -1,16 +1,12 @@
 # Website
 baseurl: ''
+name: Diogo Matheus
+description: TO DO
+favicon: assets/images/favicon.ico
+logo: assets/images/diogomatheus-logo.png
 permalink: /:categories/:year/:month/:day/:title:output_ext
-favicon: 'assets/images/favicon.ico'
-logo: 'assets/images/diogomatheus-logo.png'
-name: 'Diogo Matheus'
-description: 'TO DO'
-disqus: 'diogomatheus'
-include: ["_pages"]
-
-# Localization
-lang: 'pt-br'
-languages: ["pt-br"]
+disqus: diogomatheus
+include: [ _pages ]
 
 # Plugins
 plugins: 
@@ -23,30 +19,20 @@ plugins:
 authors:
     diogomatheus:
       name: Diogo Matheus
-      site: https://diogomatheus.github.io
       avatar: assets/images/diogomatheus-profile.jpg
-      bio: "Software Engineer | Software Architect | Manager"
-      email: dm.matheus@gmail.com
       twitter: https://twitter.com/diogomatheus_
  
 # Defaults
 defaults:
-  # all posts
   - scope:
-      path: "_posts"
+      path: _posts
     values:
       layout: post
       author: diogomatheus
-      avatar: assets/images/diogomatheus-profile.jpg
-  # all pages
-  - scope:
-      path: "_pages"
-    values:
-      layout: page
 
-# Paginate
+# Pagination
 paginate: 10
-paginate_path: "/page/:num/"
+paginate_path: /page/:num/
 
-# Exclude metadata and development time dependencies (like Grunt plugins)
+# Exclude
 exclude: [README.markdown, package.json, grunt.js, Gruntfile.js, Gruntfile.coffee, node_modules]
