@@ -5,7 +5,7 @@ favicon: 'assets/images/favicon.ico'
 logo: 'assets/images/diogomatheus-logo.png'
 name: 'Diogo Matheus'
 description: 'Description.'
-disqus: 'demowebsite'
+disqus: 'diogomatheus'
 include: ["_pages"]
 
 # Plugins
