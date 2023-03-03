@@ -21,11 +21,9 @@ As well as bold and italics, you can also use some other special formatting in M
 
 There are two types of code elements which can be inserted in Markdown, the first is inline, and the other is block. Inline code is formatted by wrapping any word or words in back-ticks, `like this`. Larger snippets of code can be displayed across multiple lines using triple back ticks:
 
-<div class="code-highlight langague-css">
-.my-link {
+<pre><code class="language-css">.my-link {
     text-decoration: underline;
-}
-</div>
+}</code></pre>
 
 If you want to get really fancy, you can even add syntax highlighting using Rouge.
 
