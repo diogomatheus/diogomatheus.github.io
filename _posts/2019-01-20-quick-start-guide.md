@@ -8,7 +8,7 @@ image: assets/images/12.jpg
 
 If you already have a full Ruby development environment with all headers and RubyGems installed (see Jekyll’s requirements), you can create a new Jekyll site by doing the following:
 
-```ruby
+<pre><code class="language-ruby">
 # Install Jekyll and Bundler gems through RubyGems
 gem install jekyll bundler
 
@@ -22,4 +22,4 @@ cd myblog
 bundle exec jekyll serve
 
 # Now browse to http://localhost:4000
-```
+</code></pre>
