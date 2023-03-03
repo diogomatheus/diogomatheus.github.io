@@ -28,7 +28,7 @@ pagination:
                     </p>
                     <div>
                         <small class="d-block text-muted">
-                            In 
+                            Em 
                             <span class="catlist">
                                 {% for category in latest_post.categories %}
                                 <a class="text-capitalize text-muted smoothscroll" href="{{site.baseurl}}/categories.html#{{ category | downcase }}">{{ category }}</a><span class="sep">, </span>
@@ -60,7 +60,7 @@ pagination:
                         <a class="text-dark" href="{{site.baseurl}}{{second_post.url}}">{{ second_post.title }}</a>
                     </h2>
                     <small class="d-block text-muted">
-                        In 
+                        Em 
                         <span class="catlist">
                             {% for category in second_post.categories %}
                             <a class="text-capitalize text-muted smoothscroll" href="{{site.baseurl}}/categories.html#{{ category | downcase }}">{{ category }}</a><span class="sep">, </span>
@@ -88,7 +88,7 @@ pagination:
                         <a class="text-dark" href="{{site.baseurl}}{{third_post.url}}">{{ third_post.title }}</a>
                     </h2>
                     <small class="d-block text-muted">
-                        In 
+                        Em 
                         <span class="catlist">
                             {% for category in third_post.categories %}
                             <a class="text-capitalize text-muted smoothscroll" href="{{site.baseurl}}/categories.html#{{ category | downcase }}">{{ category }}</a><span class="sep">, </span>
@@ -116,7 +116,7 @@ pagination:
                         <a class="text-dark" href="{{site.baseurl}}{{fourth_post.url}}">{{ fourth_post.title }}</a>
                     </h2>
                     <small class="d-block text-muted">
-                        In 
+                        Em 
                         <span class="catlist">
                             {% for category in fourth_post.categories %}
                             <a class="text-capitalize text-muted smoothscroll" href="{{site.baseurl}}/categories.html#{{ category | downcase }}">{{ category }}</a><span class="sep">, </span>
@@ -144,7 +144,7 @@ pagination:
                     <p class="mb-3 lead">
                         {{ post.excerpt | strip_html | strip_newlines | truncate: 136 }}
                     </p>
-                    <a href="{{site.baseurl}}{{post.url}}" class="btn btn-dark">Read More</a>
+                    <a href="{{site.baseurl}}{{post.url}}" class="btn btn-dark">Continue lendo</a>
                 </div>
                 <div class="col-md-6 d-none d-md-block pr-0" style="background-size:cover;background-image:url({{site.baseurl}}/{{ post.image }});"></div>
             </div>
@@ -161,7 +161,7 @@ pagination:
     
         <div class="col-md-8 main-loop">
             
-            <h4 class="font-weight-bold spanborder"><span>All Stories</span></h4>
+            <h4 class="font-weight-bold spanborder"><span>Lista de publicações</span></h4>
             
             {% for post in paginator.posts %}
                 {% include publication-card.html %}
