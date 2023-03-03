@@ -668,7 +668,7 @@ footer .footer-social-media {
 .sticky-top-offset {
 	top:70px;
 }
-.homefirstpage .main-loop .main-loop-card:nth-child(-n+5) {
+.homefirstpage .main-loop .publication-card:nth-child(-n+5) {
 	display:none !important;
 }
 .image-preview {
