@@ -36,7 +36,7 @@ pagination:
                             </span>                   
                         </small>
                         <small class="text-muted">
-                            {% include portuguese-date.html date=latest_post.date %}
+                            {{ latest_post.date | date: "%d/%m/%Y" }}
                         </small>
                     </div>
                 </div>
@@ -68,7 +68,7 @@ pagination:
                         </span>                   
                     </small>
                     <small class="text-muted">
-                        {% include portuguese-date.html date=second_post.date %}
+                        {{ second_post.date | date: "%d/%m/%Y" }}
                     </small>
                 </div>
             </div>
@@ -96,7 +96,7 @@ pagination:
                         </span>                   
                     </small>
                     <small class="text-muted">
-                        {% include portuguese-date.html date=third_post.date %}
+                        {{ third_post.date | date: "%d/%m/%Y" }}
                     </small>
                 </div>
             </div>
@@ -124,7 +124,7 @@ pagination:
                         </span>                   
                     </small>
                     <small class="text-muted">
-                        {% include portuguese-date.html date=fourth_post.date %}
+                        {{ fourth_post.date | date: "%d/%m/%Y" }}
                     </small>
                 </div>
             </div>
