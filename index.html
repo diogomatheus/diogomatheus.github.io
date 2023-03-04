@@ -167,12 +167,12 @@ pagination:
                 {% include publication-card.html %}
             {% endfor %}
             
+            <!-- Pagination -->
             <div class="mt-5">
-                <!-- Pagination links -->
                 {% if paginator.total_pages > 1 %}
                 <ul class="pagination"> 
                 {% if paginator.previous_page %}
-                    <li class="page-item"><a class="page-link" href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&laquo; Prev</a></li>
+                    <li class="page-item"><a class="page-link" href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&laquo; Anterior</a></li>
                 {% else %}
                     <li class="page-item disabled"><span class="prev page-link">&laquo;</span></li>
                 {% endif %}
@@ -188,7 +188,7 @@ pagination:
                 {% endfor %}
 
                 {% if paginator.next_page %}
-                    <li class="page-item"><a class="page-link" href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Next &raquo;</a></li>
+                    <li class="page-item"><a class="page-link" href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Próximo &raquo;</a></li>
                 {% else %}
                     <li class="page-item disabled"><span class="next page-link">&raquo;</span></li>
                 {% endif %}
