@@ -1,8 +1,10 @@
 ---
-tags: []
-categories: [ "Governança e gerenciamento" ]
-title: "Impacto da liderança sobre profissionais novatos"
 image: "assets/images/publication/preview.jpg"
+i18n: "Leadership impact on novice professionals"
+title: "Impacto da liderança sobre profissionais novatos"
+slug: "impacto-da-lideranca-sobre-profissionais-novatos"
+categories: [ "Governança e gerenciamento" ]
+tags: []
 redirect_from:
   - "/blog/gerenciamento-de-projetos/impacto-da-lideranca-sobre-profissionais-em-formacao/"
 ---

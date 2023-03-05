@@ -1,8 +1,10 @@
 ---
-tags: []
-categories: [ "Programação" ]
-title: "Introdução ao Node.js"
 image: "assets/images/publication/preview.jpg"
+i18n: "Getting started with Node.js"
+title: "Introdução ao Node.js"
+slug: "introducao-ao-nodejs"
+categories: [ "Programação" ]
+tags: []
 redirect_from:
   - "/blog/javascript/introducao-ao-node-js/"
 ---

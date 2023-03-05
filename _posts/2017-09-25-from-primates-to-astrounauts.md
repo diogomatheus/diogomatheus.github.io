@@ -1,8 +1,10 @@
 ---
-tags: []
-categories: [ "Referência" ]
-title: "De primatas a astronautas"
 image: "assets/images/publication/preview.jpg"
+i18n: "From primates to astronauts"
+title: "De primatas a astronautas"
+slug: "de-primatas-a-astronautas"
+categories: [ "Referência" ]
+tags: []
 redirect_from:
   - "/blog/resenha-de-livros/de-primatas-a-astronautas/"
 ---

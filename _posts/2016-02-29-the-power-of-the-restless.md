@@ -1,8 +1,10 @@
 ---
-tags: []
-categories: [ "Referência" ]
-title: "O poder dos inquietos"
 image: "assets/images/publication/preview.jpg"
+i18n: "The power of the restless"
+title: "O poder dos inquietos"
+slug: "o-poder-dos-inquietos"
+categories: [ "Referência" ]
+tags: []
 redirect_from:
   - "/blog/resenha-de-livros/o-poder-dos-inquietos/"
 ---

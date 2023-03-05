@@ -1,8 +1,10 @@
 ---
-tags: []
-categories: [ "Programação" ]
-title: "Produtividade na IDE Eclipse"
 image: "assets/images/publication/preview.jpg"
+i18n: "Productivity in Eclipse IDE"
+title: "Produtividade na IDE Eclipse"
+slug: "produtividade-na-ide-eclipse"
+categories: [ "Programação" ]
+tags: []
 redirect_from:
   - "/blog/ferramentas/produtividade-no-eclipse/"
 ---

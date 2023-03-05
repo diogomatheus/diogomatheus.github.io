@@ -1,8 +1,10 @@
 ---
-tags: []
-categories: [ "Referência" ]
-title: "Livros para programadores"
 image: "assets/images/publication/preview.jpg"
+i18n: "Books for programmers"
+title: "Livros para programadores"
+slug: "livros-para-programadores"
+categories: [ "Referência" ]
+tags: []
 redirect_from:
   - "/blog/resenha-de-livros/top-10-livros-para-programadores/"
 ---

@@ -1,8 +1,10 @@
 ---
-tags: []
-categories: [ "Engenharia de software" ]
-title: "Mestrado – Engenharia de Software"
 image: "assets/images/publication/preview.jpg"
+i18n: "Master's degree - Software Engineering"
+title: "Mestrado – Engenharia de Software"
+slug: "mestrado-engenharia-de-software"
+categories: [ "Engenharia de software" ]
+tags: []
 redirect_from:
   - "/blog/engenharia-de-software/mestrado-engenharia-de-software/"
 ---

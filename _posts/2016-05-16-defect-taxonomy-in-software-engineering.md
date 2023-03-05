@@ -1,8 +1,10 @@
 ---
-tags: []
-categories: [ "Engenharia de software" ]
-title: "Taxonomia de defeito na Engenharia de Software"
 image: "assets/images/publication/preview.jpg"
+i18n: "Defect taxonomy in Software Engineering"
+title: "Taxonomia de defeito na Engenharia de Software"
+slug: "taxonomia-de-defeito-na-engenharia-de-software"
+categories: [ "Engenharia de software" ]
+tags: []
 redirect_from:
   - "/blog/engenharia-de-software/taxonomia-de-defeitos-na-engenharia-de-software/"
 ---
