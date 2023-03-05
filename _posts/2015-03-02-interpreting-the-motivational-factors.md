@@ -1,5 +1,5 @@
 ---
-tags: []
+tags: [ "featured" ]
 categories: [ "Governança e gerenciamento" ]
 title: "Interpretando os fatores motivacionais"
 image: "assets/images/publication/preview.jpg"

@@ -1,5 +1,5 @@
 ---
-tags: []
+tags: [ "featured" ]
 categories: [ "Programação" ]
 title: "PHP - Abstraindo interações de banco de dados usando PDO"
 image: "assets/images/publication/preview.jpg"

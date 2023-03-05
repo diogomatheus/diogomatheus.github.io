@@ -1,5 +1,5 @@
 ---
-tags: []
+tags: [ "featured" ]
 categories: [ "Governança e gerenciamento" ]
 title: "Teoria da complexidade visível em tarefas"
 image: "assets/images/publication/preview.jpg"

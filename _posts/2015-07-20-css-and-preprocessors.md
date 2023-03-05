@@ -1,5 +1,5 @@
 ---
-tags: []
+tags: [ "featured" ]
 categories: [ "Programação" ]
 title: "CSS e pré-processadores"
 image: "assets/images/publication/preview.jpg"

@@ -1,5 +1,5 @@
 ---
-tags: []
+tags: [ "featured" ]
 categories: [ "Programação" ]
 title: "PHP - Expressões regulares"
 image: "assets/images/publication/preview.jpg"

@@ -1,5 +1,5 @@
 ---
-tags: []
+tags: [ "sticky" ]
 categories: [ "Governança e gerenciamento" ]
 title: "Efeito adverso de premiações individuais"
 image: "assets/images/publication/preview.jpg"
