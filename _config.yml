@@ -4,7 +4,7 @@ name: Diogo Matheus
 description: TO DO
 favicon: assets/images/favicon.ico
 logo: assets/images/diogomatheus-logo.png
-permalink: /:slugified_categories/:year/:month/:day/:title:output_ext
+permalink: /:year/:month/:day/:slug:output_ext
 disqus: diogomatheus
 include: [ _pages ]
 
