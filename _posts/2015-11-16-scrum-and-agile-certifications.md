@@ -1,8 +1,10 @@
 ---
-tags: []
-categories: [ "Governança e gerenciamento" ]
-title: "Scrum e certificações ágeis"
 image: "assets/images/publication/preview.jpg"
+i18n: "Scrum and agile certifications"
+title: "Scrum e certificações ágeis"
+slug: "scrum-e-certificacoes-ageis"
+categories: [ "Governança e gerenciamento" ]
+tags: []
 redirect_from:
   - "/blog/certificacoes/scrum-e-certificacoes-ageis/"
 ---

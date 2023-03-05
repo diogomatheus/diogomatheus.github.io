@@ -1,8 +1,10 @@
 ---
-tags: [ "sticky" ]
-categories: [ "Governança e gerenciamento" ]
-title: "Efeito adverso de premiações individuais"
 image: "assets/images/publication/preview.jpg"
+i18n: "Adverse effect of individual awards"
+title: "Efeito adverso de premiações individuais"
+slug: "efeito-adverso-de-premiacoes-individuais"
+categories: [ "Governança e gerenciamento" ]
+tags: [ "sticky" ]
 redirect_from:
   - "/blog/gerenciamento-de-projetos/efeito-adverso-de-premiacoes-individuais/"
 ---

@@ -1,8 +1,10 @@
 ---
-tags: []
-categories: [ "Geral" ]
-title: "Cartão de fórmula de certificação"
 image: "assets/images/publication/preview.jpg"
+i18n: "Certification formula card"
+title: "Cartão de fórmula de certificação"
+slug: "cartao-de-formula-de-certificacao"
+categories: [ "Geral" ]
+tags: []
 redirect_from:
   - "/blog/certificacoes/ficha-de-download-para-certificacoes/"
 ---

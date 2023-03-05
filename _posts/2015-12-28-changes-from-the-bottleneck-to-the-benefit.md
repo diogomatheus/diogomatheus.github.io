@@ -1,8 +1,10 @@
 ---
-tags: []
-categories: [ "Governança e gerenciamento" ]
-title: "Mudanças - Do gargalo ao benefício"
 image: "assets/images/publication/preview.jpg"
+i18n: "Changes - From the bottleneck to the benefit"
+title: "Mudanças - Do gargalo ao benefício"
+slug: "mudancas-do-gargalo-ao-beneficio"
+categories: [ "Governança e gerenciamento" ]
+tags: []
 redirect_from:
   - "/blog/gerenciamento-de-projetos/mudancas-do-gargalo-ao-beneficio/"
 ---

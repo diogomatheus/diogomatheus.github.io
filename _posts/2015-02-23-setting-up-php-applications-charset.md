@@ -1,8 +1,10 @@
 ---
-tags: []
-categories: [ "Programação" ]
-title: "Configurando charset de aplicações PHP"
 image: "assets/images/publication/preview.jpg"
+i18n: "Setting up PHP applications' charset"
+title: "Configurando charset de aplicações PHP"
+slug: "configurando-charset-de-aplicacoes-php"
+categories: [ "Programação" ]
+tags: []
 redirect_from:
   - "/blog/php/configurando-charset-de-uma-aplicacao-php/"
 ---

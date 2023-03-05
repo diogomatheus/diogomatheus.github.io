@@ -1,8 +1,10 @@
 ---
-tags: []
-categories: [ "Referência" ]
-title: "Desafio aos deuses"
 image: "assets/images/publication/preview.jpg"
+i18n: "Challenge to the gods"
+title: "Desafio aos deuses"
+slug: "desafio-aos-deuses"
+categories: [ "Referência" ]
+tags: []
 redirect_from:
   - "/blog/resenha-de-livros/desafio-aos-deuses/"
 ---

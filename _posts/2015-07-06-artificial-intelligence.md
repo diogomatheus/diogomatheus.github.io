@@ -1,8 +1,10 @@
 ---
-tags: []
-categories: [ "Referência" ]
-title: "Inteligência artificial"
 image: "assets/images/publication/preview.jpg"
+i18n: "Artificial intelligence"
+title: "Inteligência artificial"
+slug: "inteligencia-artificial"
+categories: [ "Referência" ]
+tags: []
 redirect_from:
   - "/blog/resenha-de-livros/inteligencia-artificial/"
 ---

@@ -1,8 +1,10 @@
 ---
-tags: []
-categories: [ "Referência" ]
-title: "Design de games"
 image: "assets/images/publication/preview.jpg"
+i18n: "Game design"
+title: "Design de games"
+slug: "design-de-games"
+categories: [ "Referência" ]
+tags: []
 redirect_from:
   - "/blog/resenha-de-livros/design-de-games/"
 ---

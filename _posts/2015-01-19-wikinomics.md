@@ -1,8 +1,10 @@
 ---
-tags: []
-categories: [ "Referência" ]
-title: "Wikinomics"
 image: "assets/images/publication/preview.jpg"
+i18n: "Wikinomics"
+title: "Wikinomics"
+slug: "wikinomics"
+categories: [ "Referência" ]
+tags: []
 redirect_from:
   - "/blog/resenha-de-livros/wikinomics/"
 ---

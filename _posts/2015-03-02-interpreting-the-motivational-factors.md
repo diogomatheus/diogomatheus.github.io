@@ -1,8 +1,10 @@
 ---
-tags: [ "featured" ]
-categories: [ "Governança e gerenciamento" ]
-title: "Interpretando os fatores motivacionais"
 image: "assets/images/publication/preview.jpg"
+i18n: "Interpreting the motivational factors"
+title: "Interpretando os fatores motivacionais"
+slug: "interpretando-os-fatores-motivacionais"
+categories: [ "Governança e gerenciamento" ]
+tags: [ "featured" ]
 redirect_from:
   - "/blog/gerenciamento-de-projetos/interpretando-os-fatores-da-motivacao/"
 ---

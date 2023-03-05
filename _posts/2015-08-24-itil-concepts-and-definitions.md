@@ -1,8 +1,10 @@
 ---
-tags: []
-categories: [ "Governança e gerenciamento" ]
-title: "ITIL – Conceitos e definições"
 image: "assets/images/publication/preview.jpg"
+i18n: "ITIL - Concepts and definitions"
+title: "ITIL – Conceitos e definições"
+slug: "itil-conceitos-e-definicoes"
+categories: [ "Governança e gerenciamento" ]
+tags: []
 redirect_from:
   - "/blog/gerenciamento-de-servicos/itil-conceitos-genericos-e-definicoes/"
 ---

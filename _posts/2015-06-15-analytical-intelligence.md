@@ -1,8 +1,10 @@
 ---
-tags: []
-categories: [ "Referência" ]
-title: "Inteligência analítica"
 image: "assets/images/publication/preview.jpg"
+i18n: "Analytical intelligence"
+title: "Inteligência analítica"
+slug: "inteligencia-analitica"
+categories: [ "Referência" ]
+tags: []
 redirect_from:
   - "/blog/resenha-de-livros/inteligencia-analitica/"
 ---

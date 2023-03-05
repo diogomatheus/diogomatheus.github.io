@@ -1,8 +1,10 @@
 ---
-tags: []
-categories: [ "Governança e gerenciamento" ]
-title: "Certified Project Management Professional - PMP"
 image: "assets/images/publication/preview.jpg"
+i18n: "Certified Project Management Professional - PMP"
+title: "Certified Project Management Professional - PMP"
+slug: "certified-project-management-professional-pmp"
+categories: [ "Governança e gerenciamento" ]
+tags: []
 redirect_from:
   - "/blog/certificacoes/project-management-professional-pmp/"
 ---

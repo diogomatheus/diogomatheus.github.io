@@ -1,8 +1,10 @@
 ---
-tags: []
-categories: [ "Governança e gerenciamento" ]
-title: "ITIL - Information Technology Infrastructure Library"
 image: "assets/images/publication/preview.jpg"
+i18n: "ITIL - Information Technology Infrastructure Library"
+title: "ITIL - Information Technology Infrastructure Library"
+slug: "itil-information-technology-infrastructure-library"
+categories: [ "Governança e gerenciamento" ]
+tags: []
 redirect_from:
   - "/blog/certificacoes/itil-biblioteca-para-servicos-de-ti/"
 ---

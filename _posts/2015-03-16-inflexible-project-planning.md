@@ -1,8 +1,10 @@
 ---
-tags: []
-categories: [ "Governança e gerenciamento" ]
-title: "Planejamento de projeto inflexível"
 image: "assets/images/publication/preview.jpg"
+i18n: "Inflexible project planning"
+title: "Planejamento de projeto inflexível"
+slug: "planejamento-de-projeto-inflexivel"
+categories: [ "Governança e gerenciamento" ]
+tags: []
 redirect_from:
   - "/blog/gerenciamento-de-projetos/planejamento-de-projeto-engessado/"
 ---

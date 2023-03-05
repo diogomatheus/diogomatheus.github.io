@@ -1,8 +1,10 @@
 ---
-tags: [ "featured" ]
-categories: [ "Programação" ]
-title: "CSS e pré-processadores"
 image: "assets/images/publication/preview.jpg"
+i18n: "CSS and preprocessors"
+title: "CSS e pré-processadores"
+slug: "css-e-pre-processadores"
+categories: [ "Programação" ]
+tags: [ "featured" ]
 redirect_from:
   - "/blog/xhtml-css/css-e-pre-processadores/"
 ---

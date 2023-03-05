@@ -1,8 +1,10 @@
 ---
-tags: []
-categories: [ "Programação" ]
-title: "PHP do jeito certo"
 image: "assets/images/publication/preview.jpg"
+i18n: "PHP the right way"
+title: "PHP do jeito certo"
+slug: "php-do-jeito-certo"
+categories: [ "Programação" ]
+tags: []
 redirect_from:
   - "/blog/php/php-do-jeito-certo/"
 ---

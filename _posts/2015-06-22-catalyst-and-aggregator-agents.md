@@ -1,8 +1,10 @@
 ---
-tags: []
-categories: [ "Governança e gerenciamento" ]
-title: "Agentes catalisadores e agregadores"
 image: "assets/images/publication/preview.jpg"
+i18n: "Catalyst and aggregator agents"
+title: "Agentes catalisadores e agregadores"
+slug: "agentes-catalisadores-e-agregadores"
+categories: [ "Governança e gerenciamento" ]
+tags: []
 redirect_from:
   - "/blog/gerenciamento-de-projetos/agentes-catalisadores-e-agregadores/"
 ---
