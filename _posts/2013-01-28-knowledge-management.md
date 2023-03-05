@@ -1,8 +1,10 @@
 ---
-tags: []
-categories: [ "Governança e gerenciamento" ]
-title: "Gestão do conhecimento"
 image: "assets/images/publication/preview.jpg"
+i18n: "Knowledge management"
+title: "Gestão do conhecimento"
+slug: "gestao-do-conhecimento"
+categories: [ "Governança e gerenciamento" ]
+tags: []
 redirect_from:
   - "/blog/gerenciamento-de-projetos/gestao-do-conhecimento/"
 ---

@@ -1,8 +1,10 @@
 ---
-tags: []
-categories: [ "Programação" ]
-title: "Requisições síncronas e assíncronas"
 image: "assets/images/publication/preview.jpg"
+i18n: "Synchronous and asynchronous requests"
+title: "Requisições síncronas e assíncronas"
+slug: "requisicoes-sincronas-e-assincronas"
+categories: [ "Programação" ]
+tags: []
 redirect_from:
   - "/blog/php/requisicoes-sincronas-e-assincronas/"
 ---

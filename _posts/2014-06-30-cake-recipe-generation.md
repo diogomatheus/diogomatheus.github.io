@@ -1,8 +1,10 @@
 ---
-tags: []
-categories: [ "Governança e gerenciamento" ]
-title: "Geração receita de bolo"
 image: "assets/images/publication/preview.jpg"
+i18n: "Cake recipe generation"
+title: "Geração receita de bolo"
+slug: "geracao-receita-de-bolo"
+categories: [ "Governança e gerenciamento" ]
+tags: []
 redirect_from:
   - "/blog/gerenciamento-de-projetos/geracao-receita-de-bolo/"
 ---

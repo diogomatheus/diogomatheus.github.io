@@ -1,8 +1,10 @@
 ---
-tags: []
-categories: [ "Programação" ]
-title: "Programação Orientada a Objetos"
 image: "assets/images/publication/preview.jpg"
+i18n: "Object-Oriented Programming"
+title: "Programação Orientada a Objetos"
+slug: "programacao-orientada-a-objetos"
+categories: [ "Programação" ]
+tags: []
 redirect_from:
   - "/blog/orientacao-a-objetos/entendendo-orientacao-a-objetos/"
 ---

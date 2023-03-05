@@ -1,8 +1,10 @@
 ---
-tags: []
-categories: [ "Governança e gerenciamento" ]
-title: "Certificação PMP – Tipos de questões"
 image: "assets/images/publication/preview.jpg"
+i18n: "PMP certification - Question types"
+title: "Certificação PMP – Tipos de questões"
+slug: "certificacao-pmp-tipos-de-questoes"
+categories: [ "Governança e gerenciamento" ]
+tags: []
 redirect_from:
   - "/blog/certificacoes/certificacao-pmp-tipos-de-questoes/"
 ---

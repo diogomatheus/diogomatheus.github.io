@@ -1,8 +1,10 @@
 ---
-tags: []
-categories: [ "Governança e gerenciamento" ]
-title: "Gerenciamento do valor agregado"
 image: "assets/images/publication/preview.jpg"
+i18n: "Earned value management"
+title: "Gerenciamento do valor agregado"
+slug: "gerenciamento-do-valor-agregado"
+categories: [ "Governança e gerenciamento" ]
+tags: []
 redirect_from:
   - "/blog/gerenciamento-de-projetos/gerenciamento-do-valor-agregado/"
 ---

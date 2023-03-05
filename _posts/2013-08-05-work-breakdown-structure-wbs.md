@@ -1,8 +1,10 @@
 ---
-tags: []
-categories: [ "Governança e gerenciamento" ]
-title: "Estrutura Analítica do Projeto (EAP)"
 image: "assets/images/publication/preview.jpg"
+i18n: "Work Breakdown Structure (WBS)"
+title: "Estrutura Analítica do Projeto (EAP)"
+slug: "estrutura-analitica-do-projeto-eap"
+categories: [ "Governança e gerenciamento" ]
+tags: []
 redirect_from:
   - "/blog/gerenciamento-de-projetos/estrutura-analitica-do-projeto-eap/"
 ---

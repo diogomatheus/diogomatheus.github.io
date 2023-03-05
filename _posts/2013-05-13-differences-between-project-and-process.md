@@ -1,8 +1,10 @@
 ---
-tags: []
-categories: [ "Governança e gerenciamento" ]
-title: "Diferenças entre projeto e processo"
 image: "assets/images/publication/preview.jpg"
+i18n: "Differences between project and process"
+title: "Diferenças entre projeto e processo"
+slug: "diferencas-entre-projeto-e-processo"
+categories: [ "Governança e gerenciamento" ]
+tags: []
 redirect_from:
   - "/blog/gerenciamento-de-projetos/diferencas-entre-projeto-e-processo/"
 ---

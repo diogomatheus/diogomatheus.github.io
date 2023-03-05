@@ -1,8 +1,10 @@
 ---
-tags: [ "featured" ]
-categories: [ "Governança e gerenciamento" ]
-title: "Teoria da complexidade visível em tarefas"
 image: "assets/images/publication/preview.jpg"
+i18n: "The theory of visible complexity in tasks"
+title: "Teoria da complexidade visível em tarefas"
+slug: "teoria-da-complexidade-visivel-em-tarefas"
+categories: [ "Governança e gerenciamento" ]
+tags: [ "featured" ]
 redirect_from:
   - "/blog/gerenciamento-de-projetos/teoria-da-complexidade-visivel-em-tarefas/"
 ---

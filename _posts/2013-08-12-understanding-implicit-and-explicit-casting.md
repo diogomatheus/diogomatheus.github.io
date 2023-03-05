@@ -1,8 +1,10 @@
 ---
-tags: []
-categories: [ "Programação" ]
-title: "Entendendo casting implícito e explícito"
 image: "assets/images/publication/preview.jpg"
+i18n: "Understanding implicit and explicit casting"
+title: "Entendendo casting implícito e explícito"
+slug: "entendendo-casting-implicito-e-explicito"
+categories: [ "Programação" ]
+tags: []
 redirect_from:
   - "/blog/orientacao-a-objetos/entendendo-casting-implicio-e-explicito/"
 ---

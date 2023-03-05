@@ -1,8 +1,10 @@
 ---
-tags: []
-categories: [ "Programação" ]
-title: "Configurando virtual hosts no Ubuntu com Apache"
 image: "assets/images/publication/preview.jpg"
+i18n: "Setting up virtual hosts on Ubuntu with Apache"
+title: "Configurando virtual hosts no Ubuntu com Apache"
+slug: "configurando-virtual-hosts-no-ubuntu-com-apache"
+categories: [ "Programação" ]
+tags: []
 redirect_from:
   - "/blog/ubuntu/virtual-hosts-no-ubuntu/"
 ---

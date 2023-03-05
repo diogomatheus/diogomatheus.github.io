@@ -1,8 +1,10 @@
 ---
-tags: []
-categories: [ "Governança e gerenciamento" ]
-title: "Organização de projetos de software pessoais"
 image: "assets/images/publication/preview.jpg"
+i18n: "Organization of personal software projects"
+title: "Organização de projetos de software pessoais"
+slug: "organizacao-de-projetos-de-software-pessoais"
+categories: [ "Governança e gerenciamento" ]
+tags: []
 redirect_from:
   - "/blog/gerenciamento-de-projetos/organizando-um-projeto-de-software/"
 ---

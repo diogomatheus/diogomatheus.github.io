@@ -1,8 +1,10 @@
 ---
-tags: []
-categories: [ "Referência" ]
-title: "Inovação como rotina"
 image: "assets/images/publication/preview.jpg"
+i18n: "Innovation as routine"
+title: "Inovação como rotina"
+slug: "inovacao-como-rotina"
+categories: [ "Referência" ]
+tags: []
 redirect_from:
   - "/blog/resenha-de-livros/inovacao-como-rotina/"
 ---

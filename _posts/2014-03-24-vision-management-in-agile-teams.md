@@ -1,8 +1,10 @@
 ---
-tags: []
-categories: [ "Governança e gerenciamento" ]
-title: "Gerenciamento da visão em equipes ágeis"
 image: "assets/images/publication/preview.jpg"
+i18n: "Vision management in agile teams"
+title: "Gerenciamento da visão em equipes ágeis"
+slug: "gerenciamento-da-visao-em-equipes-ageis"
+categories: [ "Governança e gerenciamento" ]
+tags: []
 redirect_from:
   - "/blog/gerenciamento-de-projetos/gerenciamento-da-visao-em-equipes-ageis/"
 ---

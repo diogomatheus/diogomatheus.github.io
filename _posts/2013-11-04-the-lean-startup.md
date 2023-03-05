@@ -1,8 +1,10 @@
 ---
-tags: []
-categories: [ "Referência" ]
-title: "A startup enxuta"
 image: "assets/images/publication/preview.jpg"
+i18n: "The lean startup"
+title: "A startup enxuta"
+slug: "a-startup-enxuta"
+categories: [ "Referência" ]
+tags: []
 redirect_from:
   - "/blog/resenha-de-livros/a-startup-enxuta/"
 ---

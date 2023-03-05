@@ -1,8 +1,10 @@
 ---
-tags: []
-categories: [ "Programação" ]
-title: "Programação baseada em interface"
 image: "assets/images/publication/preview.jpg"
+i18n: "Interface-based programming"
+title: "Programação baseada em interface"
+slug: "programacao-baseada-em-interface"
+categories: [ "Programação" ]
+tags: []
 redirect_from:
   - "/blog/orientacao-a-objetos/orientacao-a-interfaces/"
 ---

@@ -1,8 +1,10 @@
 ---
-tags: []
-categories: [ "Referência" ]
-title: "O ponto da virada"
 image: "assets/images/publication/preview.jpg"
+i18n: "The tipping point"
+title: "O ponto da virada"
+slug: "o-ponto-da-virada"
+categories: [ "Referência" ]
+tags: []
 redirect_from:
   - "/blog/resenha-de-livros/o-ponto-da-virada-the-tipping-point/"
 ---

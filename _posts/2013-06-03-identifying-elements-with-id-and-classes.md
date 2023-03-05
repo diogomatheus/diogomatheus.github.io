@@ -1,8 +1,10 @@
 ---
-tags: []
-categories: [ "Programação" ]
-title: "Identificando elementos com ID e Classes"
 image: "assets/images/publication/preview.jpg"
+i18n: "Identifying elements with ID and Classes"
+title: "Identificando elementos com ID e Classes"
+slug: "identificando-elementos-com-id-e-classes"
+categories: [ "Programação" ]
+tags: []
 redirect_from:
   - "/blog/xhtml-css/identificando-elementos-com-id-e-classes/"
 ---
