@@ -1,5 +1,5 @@
 ---
-image: "assets/images/publication/preview.jpg"
+image: "assets/images/publication/2014-03-24-vision-management-in-agile-teams.jpg"
 i18n: "Vision management in agile teams"
 title: "Gerenciamento da visão em equipes ágeis"
 slug: "gerenciamento-da-visao-em-equipes-ageis"

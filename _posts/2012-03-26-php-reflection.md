@@ -1,5 +1,5 @@
 ---
-image: "assets/images/publication/preview.jpg"
+image: "assets/images/publication/2012-03-26-php-reflection.jpg"
 i18n: "PHP - Reflection"
 title: "PHP - Reflexão"
 slug: "php-reflexao"

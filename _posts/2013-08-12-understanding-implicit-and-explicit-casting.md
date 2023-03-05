@@ -1,5 +1,5 @@
 ---
-image: "assets/images/publication/preview.jpg"
+image: "assets/images/publication/2013-08-12-understanding-implicit-and-explicit-casting.jpg"
 i18n: "Understanding implicit and explicit casting"
 title: "Entendendo casting implícito e explícito"
 slug: "entendendo-casting-implicito-e-explicito"

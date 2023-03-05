@@ -1,5 +1,5 @@
 ---
-image: "assets/images/publication/preview.jpg"
+image: "assets/images/publication/2015-07-06-artificial-intelligence.jpg"
 i18n: "Artificial intelligence"
 title: "Inteligência artificial"
 slug: "inteligencia-artificial"

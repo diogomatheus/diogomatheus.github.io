@@ -1,5 +1,5 @@
 ---
-image: "assets/images/publication/preview.jpg"
+image: "assets/images/publication/2014-09-29-earned-value-management.jpg"
 i18n: "Earned value management"
 title: "Gerenciamento do valor agregado"
 slug: "gerenciamento-do-valor-agregado"

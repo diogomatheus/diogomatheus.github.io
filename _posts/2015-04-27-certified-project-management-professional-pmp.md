@@ -1,5 +1,5 @@
 ---
-image: "assets/images/publication/preview.jpg"
+image: "assets/images/publication/2015-04-27-certified-project-management-professional-pmp.jpg"
 i18n: "Certified Project Management Professional - PMP"
 title: "Certified Project Management Professional - PMP"
 slug: "certified-project-management-professional-pmp"

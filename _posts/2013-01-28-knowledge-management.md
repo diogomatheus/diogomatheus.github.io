@@ -1,5 +1,5 @@
 ---
-image: "assets/images/publication/preview.jpg"
+image: "assets/images/publication/2013-01-28-knowledge-management.jpg"
 i18n: "Knowledge management"
 title: "Gestão do conhecimento"
 slug: "gestao-do-conhecimento"

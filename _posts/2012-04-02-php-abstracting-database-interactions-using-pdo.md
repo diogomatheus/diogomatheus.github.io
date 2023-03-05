@@ -1,5 +1,5 @@
 ---
-image: "assets/images/publication/preview.jpg"
+image: "assets/images/publication/2012-04-02-php-abstracting-database-interactions-using-pdo.jpg"
 i18n: "PHP - Abstracting database interactions using PDO"
 title: "PHP - Abstraindo interações de banco de dados usando PDO"
 slug: "php-abstraindo-interacoes-de-banco-de-dados-usando-pdo"

@@ -1,5 +1,5 @@
 ---
-image: "assets/images/publication/preview.jpg"
+image: "assets/images/publication/2012-06-18-php-date-manipulation-using-datetime.jpg"
 i18n: "PHP - Date manipulation using DateTime"
 title: "PHP - Manipulação de datas usando DateTime"
 slug: "php-manipulacao-de-datas-usando-datetime"

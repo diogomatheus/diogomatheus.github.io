@@ -1,5 +1,5 @@
 ---
-image: "assets/images/publication/preview.jpg"
+image: "assets/images/publication/2011-09-19-php-heredoc-and-nowdoc.jpg"
 i18n: "PHP - heredoc and nowdoc"
 title: "PHP - Heredoc e nowdoc"
 slug: "php-heredoc-e-nowdoc"

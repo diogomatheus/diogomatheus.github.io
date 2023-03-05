@@ -1,5 +1,5 @@
 ---
-image: "assets/images/publication/preview.jpg"
+image: "assets/images/publication/2015-08-24-itil-concepts-and-definitions.jpg"
 i18n: "ITIL - Concepts and definitions"
 title: "ITIL – Conceitos e definições"
 slug: "itil-conceitos-e-definicoes"

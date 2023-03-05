@@ -1,5 +1,5 @@
 ---
-image: "assets/images/publication/preview.jpg"
+image: "assets/images/publication/2016-02-29-the-power-of-the-restless.jpg"
 i18n: "The power of the restless"
 title: "O poder dos inquietos"
 slug: "o-poder-dos-inquietos"

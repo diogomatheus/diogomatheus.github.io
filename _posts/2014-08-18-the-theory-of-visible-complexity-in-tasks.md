@@ -1,5 +1,5 @@
 ---
-image: "assets/images/publication/preview.jpg"
+image: "assets/images/publication/2014-08-18-the-theory-of-visible-complexity-in-tasks.jpg"
 i18n: "The theory of visible complexity in tasks"
 title: "Teoria da complexidade visível em tarefas"
 slug: "teoria-da-complexidade-visivel-em-tarefas"

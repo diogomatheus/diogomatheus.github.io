@@ -1,5 +1,5 @@
 ---
-image: "assets/images/publication/preview.jpg"
+image: "assets/images/publication/2016-03-21-books-for-programmers.jpg"
 i18n: "Books for programmers"
 title: "Livros para programadores"
 slug: "livros-para-programadores"

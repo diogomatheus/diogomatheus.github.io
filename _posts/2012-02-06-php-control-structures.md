@@ -1,5 +1,5 @@
 ---
-image: "assets/images/publication/preview.jpg"
+image: "assets/images/publication/2012-02-06-php-control-structures.jpg"
 i18n: "PHP - Control structures"
 title: "PHP - Estruturas de controle"
 slug: "php-estruturas-de-controle"

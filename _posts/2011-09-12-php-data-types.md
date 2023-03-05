@@ -1,5 +1,5 @@
 ---
-image: "assets/images/publication/preview.jpg"
+image: "assets/images/publication/2011-09-12-php-data-types.jpg"
 i18n: "PHP - Data types"
 title: "PHP - Tipos de dados"
 slug: "php-tipos-de-dados"

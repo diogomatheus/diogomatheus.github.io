@@ -1,5 +1,5 @@
 ---
-image: "assets/images/publication/preview.jpg"
+image: "assets/images/publication/2015-11-23-php-the-right-way.jpg"
 i18n: "PHP the right way"
 title: "PHP do jeito certo"
 slug: "php-do-jeito-certo"

@@ -1,5 +1,5 @@
 ---
-image: "assets/images/publication/preview.jpg"
+image: "assets/images/publication/2014-11-24-innovation-as-routine.jpg"
 i18n: "Innovation as routine"
 title: "Inovação como rotina"
 slug: "inovacao-como-rotina"

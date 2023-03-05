@@ -1,5 +1,5 @@
 ---
-image: "assets/images/publication/preview.jpg"
+image: "assets/images/publication/2011-03-02-wamp-server-custom-urls.jpg"
 i18n: "WAMP server custom URLs"
 title: "URLs customizadas no servidor WAMP"
 slug: "urls-customizadas-no-servidor-wamp"

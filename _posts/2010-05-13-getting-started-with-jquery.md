@@ -1,5 +1,5 @@
 ---
-image: "assets/images/publication/preview.jpg"
+image: "assets/images/publication/2010-05-13-getting-started-with-jquery.jpg"
 i18n: "Getting started with jQuery"
 title: "Introdução ao jQuery"
 slug: "introducao-ao-jquery"

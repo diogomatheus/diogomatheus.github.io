@@ -1,5 +1,5 @@
 ---
-image: "assets/images/publication/preview.jpg"
+image: "assets/images/publication/2017-02-13-productivity-in-eclipse-ide.jpg"
 i18n: "Productivity in Eclipse IDE"
 title: "Produtividade na IDE Eclipse"
 slug: "produtividade-na-ide-eclipse"

@@ -1,5 +1,5 @@
 ---
-image: "assets/images/publication/preview.jpg"
+image: "assets/images/publication/2011-10-17-php-bitwise-operators.jpg"
 i18n: "PHP - bitwise operators"
 title: "PHP - Operadores bitwise"
 slug: "php-operadores-bitwise"

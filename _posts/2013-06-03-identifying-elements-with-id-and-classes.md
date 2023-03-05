@@ -1,5 +1,5 @@
 ---
-image: "assets/images/publication/preview.jpg"
+image: "assets/images/publication/2013-06-03-identifying-elements-with-id-and-classes.jpg"
 i18n: "Identifying elements with ID and Classes"
 title: "Identificando elementos com ID e Classes"
 slug: "identificando-elementos-com-id-e-classes"

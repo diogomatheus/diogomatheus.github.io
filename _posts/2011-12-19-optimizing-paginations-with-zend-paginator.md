@@ -1,5 +1,5 @@
 ---
-image: "assets/images/publication/preview.jpg"
+image: "assets/images/publication/2011-12-19-optimizing-paginations-with-zend-paginator.jpg"
 i18n: "Optimizing paginations with Zend_Paginator"
 title: "Otimizando paginações com Zend_Paginator"
 slug: "otimizando-paginacoes-com-zend-paginator"

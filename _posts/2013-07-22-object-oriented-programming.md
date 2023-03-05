@@ -1,5 +1,5 @@
 ---
-image: "assets/images/publication/preview.jpg"
+image: "assets/images/publication/2013-07-22-object-oriented-programming.jpg"
 i18n: "Object-Oriented Programming"
 title: "Programação Orientada a Objetos"
 slug: "programacao-orientada-a-objetos"

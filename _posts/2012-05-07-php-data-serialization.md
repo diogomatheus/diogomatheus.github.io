@@ -1,5 +1,5 @@
 ---
-image: "assets/images/publication/preview.jpg"
+image: "assets/images/publication/2012-05-07-php-data-serialization.jpg"
 i18n: "PHP - Data serialization"
 title: "PHP - Serialização de dados"
 slug: "php-serializacao-de-dados"

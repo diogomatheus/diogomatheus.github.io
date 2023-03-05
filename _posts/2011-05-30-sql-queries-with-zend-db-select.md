@@ -1,5 +1,5 @@
 ---
-image: "assets/images/publication/preview.jpg"
+image: "assets/images/publication/2011-05-30-sql-queries-with-zend-db-select.jpg"
 i18n: "SQL queries with Zend_Db_Select"
 title: "SQL queries com Zend_Db_Select"
 slug: "sql-queries-com-zend-db-select"

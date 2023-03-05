@@ -1,5 +1,5 @@
 ---
-image: "assets/images/publication/preview.jpg"
+image: "assets/images/publication/2011-06-06-sql-joins-with-zend-db-select.jpg"
 i18n: "SQL joins with Zend_Db_Select"
 title: "SQL joins com Zend_Db_Select"
 slug: "sql-joins-com-zend-db-select"

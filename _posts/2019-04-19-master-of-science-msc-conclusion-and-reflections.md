@@ -1,5 +1,5 @@
 ---
-image: "assets/images/publication/preview.jpg"
+image: "assets/images/publication/2019-04-19-master-of-science-msc-conclusion-and-reflections.jpg"
 i18n: "Master of Science (M.Sc.) - Conclusion and reflections"
 title: "Mestre em Ciências (M.Sc.) - Conclusão e reflexões"
 slug: "mestre-em-ciencias-msc-conclusao-e-reflexoes"

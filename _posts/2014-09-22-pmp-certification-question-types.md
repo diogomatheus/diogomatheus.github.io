@@ -1,5 +1,5 @@
 ---
-image: "assets/images/publication/preview.jpg"
+image: "assets/images/publication/2014-09-22-pmp-certification-question-types.jpg"
 i18n: "PMP certification - Question types"
 title: "Certificação PMP – Tipos de questões"
 slug: "certificacao-pmp-tipos-de-questoes"

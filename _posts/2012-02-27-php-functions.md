@@ -1,5 +1,5 @@
 ---
-image: "assets/images/publication/preview.jpg"
+image: "assets/images/publication/2012-02-27-php-functions.jpg"
 i18n: "PHP - Functions"
 title: "PHP - Funções"
 slug: "php-funcoes"

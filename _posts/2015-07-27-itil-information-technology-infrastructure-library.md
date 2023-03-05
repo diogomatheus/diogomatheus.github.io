@@ -1,5 +1,5 @@
 ---
-image: "assets/images/publication/preview.jpg"
+image: "assets/images/publication/2015-07-27-itil-information-technology-infrastructure-library.jpg"
 i18n: "ITIL - Information Technology Infrastructure Library"
 title: "ITIL - Information Technology Infrastructure Library"
 slug: "itil-information-technology-infrastructure-library"

@@ -1,5 +1,5 @@
 ---
-image: "assets/images/publication/preview.jpg"
+image: "assets/images/publication/2011-05-02-understanding-zend-framework-helpers.jpg"
 i18n: "Understanding Zend Framework helpers"
 title: "Entendendo os helpers do Zend Framework"
 slug: "entendendo-os-helpers-do-zend-framework"

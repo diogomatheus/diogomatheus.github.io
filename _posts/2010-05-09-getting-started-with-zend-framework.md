@@ -1,5 +1,5 @@
 ---
-image: "assets/images/publication/preview.jpg"
+image: "assets/images/publication/2010-05-09-getting-started-with-zend-framework.jpg"
 i18n: "Getting started with Zend Framework"
 title: "Introdução ao Zend Framework"
 slug: "introducao-ao-zend-framework"
