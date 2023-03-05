@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: "default"
 ---
 {% assign author = site.authors[page.author] %}
 <div class="container">
@@ -10,7 +10,7 @@ layout: default
 					<p class="text-uppercase font-weight-bold">
                         <span class="catlist">
 						{% for category in page.categories %}
-                          <a class="sscroll text-danger" href="{{site.baseurl}}/categorias.html#{{ category | downcase | url_decode }}">{{ category | downcase }}</a><span class="sep">, </span>
+                          <a class="sscroll text-danger" href="{{site.baseurl}}/categorias.html#{{ category | slugify: 'latin' }}">{{ category | downcase }}</a><span class="sep">, </span>
                         {% endfor %}
                         </span>
 					</p>

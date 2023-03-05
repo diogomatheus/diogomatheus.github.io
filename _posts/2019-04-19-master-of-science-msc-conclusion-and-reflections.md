@@ -2,6 +2,7 @@
 tags: []
 categories: [ "Engenharia de software" ]
 title: "Mestre em Ciências (M.Sc.) - Conclusão e reflexões"
+slug: "mestre-em-ciencias-msc-conclusao-e-reflexoes"
 image: "assets/images/publication/preview.jpg"
 redirect_from:
   - "/blog/engenharia-de-software/doutorado-engenharia-de-software/"

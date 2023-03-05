@@ -11,7 +11,7 @@
           Em 
           <span class="catlist">
             {% for category in post.categories %}
-            <a class="text-muted smoothscroll" href="{{site.baseurl}}/categorias.html#{{ category | downcase | url_decode }}">{{ category }}</a><span class="sep">, </span>
+            <a class="text-muted smoothscroll" href="{{site.baseurl}}/categorias.html#{{ category | slugify: 'latin' }}">{{ category }}</a><span class="sep">, </span>
             {% endfor %}
           </span>
         </span>
