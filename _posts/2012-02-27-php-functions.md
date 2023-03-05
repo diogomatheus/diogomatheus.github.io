@@ -1,8 +1,10 @@
 ---
-tags: []
-categories: [ "Programação" ]
-title: "PHP - Funções"
 image: "assets/images/publication/preview.jpg"
+i18n: "PHP - Functions"
+title: "PHP - Funções"
+slug: "php-funcoes"
+categories: [ "Programação" ]
+tags: []
 redirect_from:
   - "/blog/php/trabalhando-com-funcoes-no-php/"
 ---

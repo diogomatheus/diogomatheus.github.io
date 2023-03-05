@@ -1,8 +1,10 @@
 ---
-tags: []
-categories: [ "Programação" ]
-title: "Standard PHP Library (SPL)"
 image: "assets/images/publication/preview.jpg"
+i18n: "Standard PHP Library (SPL)"
+title: "Standard PHP Library (SPL)"
+slug: "standard-php-library-spl"
+categories: [ "Programação" ]
+tags: []
 redirect_from:
   - "/blog/php/standard-php-library-spl/"
 ---

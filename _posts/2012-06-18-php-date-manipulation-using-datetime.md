@@ -1,8 +1,10 @@
 ---
-tags: []
-categories: [ "Programação" ]
-title: "PHP - Manipulação de datas usando DateTime"
 image: "assets/images/publication/preview.jpg"
+i18n: "PHP - Date manipulation using DateTime"
+title: "PHP - Manipulação de datas usando DateTime"
+slug: "php-manipulacao-de-datas-usando-datetime"
+categories: [ "Programação" ]
+tags: []
 redirect_from:
   - "/blog/php/trabalhando-com-datas-no-php/"
 ---

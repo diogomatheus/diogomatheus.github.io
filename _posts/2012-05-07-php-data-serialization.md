@@ -1,8 +1,10 @@
 ---
-tags: []
-categories: [ "Programação" ]
-title: "PHP - Serialização de dados"
 image: "assets/images/publication/preview.jpg"
+i18n: "PHP - Data serialization"
+title: "PHP - Serialização de dados"
+slug: "php-serializacao-de-dados"
+categories: [ "Programação" ]
+tags: []
 redirect_from:
   - "/blog/php/serializacao-de-dados-no-php/"
 ---

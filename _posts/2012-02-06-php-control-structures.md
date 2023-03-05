@@ -1,8 +1,10 @@
 ---
-tags: []
-categories: [ "Programação" ]
-title: "PHP - Estruturas de controle"
 image: "assets/images/publication/preview.jpg"
+i18n: "PHP - Control structures"
+title: "PHP - Estruturas de controle"
+slug: "php-estruturas-de-controle"
+categories: [ "Programação" ]
+tags: []
 redirect_from:
   - "/blog/php/estruturas-de-controle-no-php/"
 ---

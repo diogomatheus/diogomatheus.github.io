@@ -1,8 +1,10 @@
 ---
-tags: [ "featured" ]
-categories: [ "Programação" ]
-title: "PHP - Expressões regulares"
 image: "assets/images/publication/preview.jpg"
+i18n: "PHP - Regular expressions"
+title: "PHP - Expressões regulares"
+slug: "php-expressoes-regulares"
+categories: [ "Programação" ]
+tags: [ "featured" ]
 redirect_from:
   - "/blog/php/expressoes-regulares-no-php/"
 ---

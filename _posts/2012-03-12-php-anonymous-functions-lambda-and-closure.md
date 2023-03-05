@@ -1,8 +1,10 @@
 ---
-tags: []
-categories: [ "Programação" ]
-title: "PHP - Funções anônimas (lambda e closure)"
 image: "assets/images/publication/preview.jpg"
+i18n: "PHP - Anonymous functions (lambda and closure)"
+title: "PHP - Funções anônimas (lambda e closure)"
+slug: "php-funcoes-anonimas-lambda-e-closure"
+categories: [ "Programação" ]
+tags: []
 redirect_from:
   - "/blog/php/funcoes-anonimas-lambda-e-closure-no-php/"
 ---

@@ -1,8 +1,10 @@
 ---
-tags: [ "featured" ]
-categories: [ "Programação" ]
-title: "PHP - Abstraindo interações de banco de dados usando PDO"
 image: "assets/images/publication/preview.jpg"
+i18n: "PHP - Abstracting database interactions using PDO"
+title: "PHP - Abstraindo interações de banco de dados usando PDO"
+slug: "php-abstraindo-interacoes-de-banco-de-dados-usando-pdo"
+categories: [ "Programação" ]
+tags: [ "featured" ]
 redirect_from:
   - "/blog/php/trabalhando-com-pdo-no-php/"
 ---

@@ -1,8 +1,10 @@
 ---
-tags: []
-categories: [ "Programação" ]
-title: "PHP - Reflexão"
 image: "assets/images/publication/preview.jpg"
+i18n: "PHP - Reflection"
+title: "PHP - Reflexão"
+slug: "php-reflexao"
+categories: [ "Programação" ]
+tags: []
 redirect_from:
   - "/blog/php/entendendo-reflection-no-php/"
 ---

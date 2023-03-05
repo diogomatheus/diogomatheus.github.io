@@ -1,8 +1,10 @@
 ---
-tags: []
-categories: [ "Programação" ]
-title: "Zend Certified Engineer - PHP"
 image: "assets/images/publication/preview.jpg"
+i18n: "Zend Certified Engineer - PHP"
+title: "Zend Certified Engineer - PHP"
+slug: "zend-certified-engineer-php"
+categories: [ "Programação" ]
+tags: []
 redirect_from:
   - "/blog/certificacoes/zend-certified-engineer-php-5-3/"
 ---

@@ -1,8 +1,10 @@
 ---
-tags: []
-categories: [ "Programação" ]
-title: "PHP - Codificando e decodificando JSON"
 image: "assets/images/publication/preview.jpg"
+i18n: "PHP - Encoding and decoding JSON"
+title: "PHP - Codificando e decodificando JSON"
+slug: "php-codificando-e-decodificando-json"
+categories: [ "Programação" ]
+tags: []
 redirect_from:
   - "/blog/php/trabalhando-com-json-no-php/"
 ---

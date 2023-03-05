@@ -1,8 +1,10 @@
 ---
-tags: []
-categories: [ "Referência" ]
-title: "Código limpo"
 image: "assets/images/publication/preview.jpg"
+i18n: "Clean code"
+title: "Código limpo"
+slug: "codigo-limpo"
+categories: [ "Referência" ]
+tags: []
 redirect_from:
   - "/blog/resenha-de-livros/codigo-limpo/"
 ---

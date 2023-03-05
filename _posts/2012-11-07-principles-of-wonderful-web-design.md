@@ -1,8 +1,10 @@
 ---
-tags: []
-categories: [ "Referência" ]
-title: "Princípios do web design maravilhoso"
 image: "assets/images/publication/preview.jpg"
+i18n: "Principles of wonderful web design"
+title: "Princípios do web design maravilhoso"
+slug: "principios-do-web-design-maravilhoso"
+categories: [ "Referência" ]
+tags: []
 redirect_from:
   - "/blog/resenha-de-livros/principios-do-web-design-maravilhoso/"
 ---

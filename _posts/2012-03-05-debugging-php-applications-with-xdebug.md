@@ -1,8 +1,10 @@
 ---
-tags: []
-categories: [ "Programação" ]
-title: "Depuração de aplicações PHP com XDebug"
 image: "assets/images/publication/preview.jpg"
+i18n: "Debugging PHP applications with XDebug"
+title: "Depuração de aplicações PHP com XDebug"
+slug: "depuracao-de-aplicacoes-php-com-xdebug"
+categories: [ "Programação" ]
+tags: []
 redirect_from:
   - "/blog/php/depuracao-de-aplicacoes-php-com-xdebug/"
 ---
