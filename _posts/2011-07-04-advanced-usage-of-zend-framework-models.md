@@ -1,8 +1,10 @@
 ---
-tags: []
-categories: [ "Programação" ]
-title: "Uso avançado de modelos do Zend Framework"
 image: "assets/images/publication/preview.jpg"
+i18n: "Advanced usage of Zend Framework models"
+title: "Uso avançado de modelos do Zend Framework"
+slug: "uso-avancado-de-modelos-do-zend-framework"
+categories: [ "Programação" ]
+tags: []
 redirect_from:
   - "/blog/zend-framework/uso-avancado-de-modelos-no-zend-framework/"
 ---

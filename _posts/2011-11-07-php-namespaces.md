@@ -1,8 +1,10 @@
 ---
-tags: []
-categories: [ "Programação" ]
-title: "PHP - Namespaces"
 image: "assets/images/publication/preview.jpg"
+i18n: "PHP - Namespaces"
+title: "PHP - Namespaces"
+slug: "php-namespaces"
+categories: [ "Programação" ]
+tags: []
 redirect_from:
   - "/blog/php/entendendo-namespaces-no-php/"
 ---

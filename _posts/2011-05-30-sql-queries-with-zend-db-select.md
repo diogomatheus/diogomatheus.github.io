@@ -1,8 +1,10 @@
 ---
-tags: []
-categories: [ "Programação" ]
-title: "SQL queries com Zend_Db_Select"
 image: "assets/images/publication/preview.jpg"
+i18n: "SQL queries with Zend_Db_Select"
+title: "SQL queries com Zend_Db_Select"
+slug: "sql-queries-com-zend-db-select"
+categories: [ "Programação" ]
+tags: []
 redirect_from:
   - "/blog/zend-framework/consultas-personalizadas-com-zend_db_select/"
 ---

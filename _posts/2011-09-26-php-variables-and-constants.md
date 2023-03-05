@@ -1,8 +1,10 @@
 ---
-tags: []
-categories: [ "Programação" ]
-title: "PHP - Variáveis e constantes"
 image: "assets/images/publication/preview.jpg"
+i18n: "PHP - Variables and constants"
+title: "PHP - Variáveis e constantes"
+slug: "php-variaveis-e-constantes"
+categories: [ "Programação" ]
+tags: []
 redirect_from:
   - "/blog/php/variaveis-e-constantes-no-php/"
 ---

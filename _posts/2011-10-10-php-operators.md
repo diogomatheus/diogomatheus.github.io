@@ -1,8 +1,10 @@
 ---
-tags: []
-categories: [ "Programação" ]
-title: "PHP - Operadores"
 image: "assets/images/publication/preview.jpg"
+i18n: "PHP - operators"
+title: "PHP - Operadores"
+slug: "php-operadores"
+categories: [ "Programação" ]
+tags: []
 redirect_from:
   - "/blog/php/trabalhando-com-operadores-no-php/"
 ---

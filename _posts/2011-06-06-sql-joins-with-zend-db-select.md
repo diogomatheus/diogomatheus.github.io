@@ -1,8 +1,10 @@
 ---
-tags: []
-categories: [ "Programação" ]
-title: "SQL joins com Zend_Db_Select"
 image: "assets/images/publication/preview.jpg"
+i18n: "SQL joins with Zend_Db_Select"
+title: "SQL joins com Zend_Db_Select"
+slug: "sql-joins-com-zend-db-select"
+categories: [ "Programação" ]
+tags: []
 redirect_from:
   - "/blog/zend-framework/realizando-joins-no-zend-framework/"
 ---

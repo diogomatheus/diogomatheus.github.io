@@ -1,8 +1,10 @@
 ---
-tags: []
-categories: [ "Programação" ]
-title: "Mapeando relacionamentos de modelos do Zend Framework"
 image: "assets/images/publication/preview.jpg"
+i18n: "Mapping Zend Framework models relationships"
+title: "Mapeando relacionamentos de modelos do Zend Framework"
+slug: "mapeando-relacionamentos-de-modelos-do-zend-framework"
+categories: [ "Programação" ]
+tags: []
 redirect_from:
   - "/blog/zend-framework/mapeando-relacionamentos-os-modelos/"
 ---

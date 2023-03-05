@@ -1,8 +1,10 @@
 ---
-tags: []
-categories: [ "Programação" ]
-title: "Entendendo paginação com Zend_Paginator"
 image: "assets/images/publication/preview.jpg"
+i18n: "Understanding pagination with Zend_Paginator"
+title: "Entendendo paginação com Zend_Paginator"
+slug: "entendendo-paginacao-com-zend-paginator"
+categories: [ "Programação" ]
+tags: []
 redirect_from:
   - "/blog/zend-framework/trabalhando-com-paginacao-usando-zend_paginator/"
 ---

@@ -1,8 +1,10 @@
 ---
-tags: []
-categories: [ "Programação" ]
-title: "PHP - Operadores bitwise"
 image: "assets/images/publication/preview.jpg"
+i18n: "PHP - bitwise operators"
+title: "PHP - Operadores bitwise"
+slug: "php-operadores-bitwise"
+categories: [ "Programação" ]
+tags: []
 redirect_from:
   - "/blog/php/operadores-bitwise-bit-a-bit/"
 ---

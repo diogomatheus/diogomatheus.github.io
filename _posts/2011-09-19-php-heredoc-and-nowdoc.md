@@ -1,8 +1,10 @@
 ---
-tags: []
-categories: [ "Programação" ]
-title: "PHP - Heredoc e nowdoc"
 image: "assets/images/publication/preview.jpg"
+i18n: "PHP - heredoc and nowdoc"
+title: "PHP - Heredoc e nowdoc"
+slug: "php-heredoc-e-nowdoc"
+categories: [ "Programação" ]
+tags: []
 redirect_from:
   - "/blog/php/heredoc-e-nowdoc/"
 ---

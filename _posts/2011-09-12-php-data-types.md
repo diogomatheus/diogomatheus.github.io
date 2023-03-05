@@ -1,8 +1,10 @@
 ---
-tags: []
-categories: [ "Programação" ]
-title: "PHP - Tipos de dados"
 image: "assets/images/publication/preview.jpg"
+i18n: "PHP - Data types"
+title: "PHP - Tipos de dados"
+slug: "php-tipos-de-dados"
+categories: [ "Programação" ]
+tags: []
 redirect_from:
   - "/blog/php/tipos-de-dados-no-php/"
 ---

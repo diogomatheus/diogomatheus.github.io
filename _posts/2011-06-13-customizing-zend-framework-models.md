@@ -1,8 +1,10 @@
 ---
-tags: []
-categories: [ "Programação" ]
-title: "Customizando os modelos do Zend Framework"
 image: "assets/images/publication/preview.jpg"
+i18n: "Customizing Zend Framework models"
+title: "Customizando os modelos do Zend Framework"
+slug: "customizando-os-modelos-do-zend-framework"
+categories: [ "Programação" ]
+tags: []
 redirect_from:
   - "/blog/zend-framework/customizando-modelos-no-zend-framework/"
 ---
