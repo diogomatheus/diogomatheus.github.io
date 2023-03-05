@@ -1,14 +1,29 @@
-# Website
-baseurl: ''
+lang: pt_BR
 name: Diogo Matheus
-description: TO DO
+description: Publicações sobre tecnologia, abordando tópicos como programação, engenharia de de software, arquitetura de software, governança, gerenciamento de projetos e serviços, etc.
 favicon: assets/images/favicon.ico
 logo: assets/images/diogomatheus-logo.png
-permalink: /:year/:month/:day/:slug:output_ext
 disqus: diogomatheus
-include: [ _pages ]
+paginate: 10
+paginate_path: /page/:num/
+permalink: /:year/:month/:day/:title:output_ext
 
-# Plugins
+authors:
+  diogomatheus:
+    name: Diogo Matheus
+    avatar: assets/images/diogomatheus-profile.jpg
+    twitter: https://twitter.com/diogomatheus_
+
+defaults:
+  - scope:
+      path: _posts
+    values:
+      layout: post
+      author: diogomatheus
+
+include: [ _pages ]
+exclude: [README.markdown, package.json, grunt.js, Gruntfile.js, Gruntfile.coffee, node_modules]
+
 plugins: 
   - jekyll-feed
   - jekyll-sitemap
@@ -18,25 +33,3 @@ plugins:
 
 whitelist:
   - jekyll-redirect-from
-
-# Authors
-authors:
-    diogomatheus:
-      name: Diogo Matheus
-      avatar: assets/images/diogomatheus-profile.jpg
-      twitter: https://twitter.com/diogomatheus_
- 
-# Defaults
-defaults:
-  - scope:
-      path: _posts
-    values:
-      layout: post
-      author: diogomatheus
-
-# Pagination
-paginate: 10
-paginate_path: /page/:num/
-
-# Exclude
-exclude: [README.markdown, package.json, grunt.js, Gruntfile.js, Gruntfile.coffee, node_modules]
