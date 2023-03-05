@@ -1,8 +1,10 @@
 ---
-tags: []
-categories: [ "Programação" ]
-title: "Criando feeds RSS com PHP"
 image: "assets/images/publication/preview.jpg"
+i18n: "Creating RSS feeds with PHP"
+title: "Criando feeds RSS com PHP"
+slug: "criando-feeds-rss-com-php"
+categories: [ "Programação" ]
+tags: []
 redirect_from:
   - "/blog/php/criando-feeds-rss-com-php/"
 ---

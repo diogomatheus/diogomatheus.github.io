@@ -1,8 +1,10 @@
 ---
-tags: []
-categories: [ "Programação" ]
-title: "URLs customizadas no servidor WAMP"
 image: "assets/images/publication/preview.jpg"
+i18n: "WAMP server custom URLs"
+title: "URLs customizadas no servidor WAMP"
+slug: "urls-customizadas-no-servidor-wamp"
+categories: [ "Programação" ]
+tags: []
 redirect_from:
   - "/blog/zend-framework/personalizando-urls-locais-no-wamp-server/"
 ---

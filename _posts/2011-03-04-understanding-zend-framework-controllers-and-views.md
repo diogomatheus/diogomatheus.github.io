@@ -1,8 +1,10 @@
 ---
-tags: []
-categories: [ "Programação" ]
-title: "Entendendo os controllers e views do Zend Framework"
 image: "assets/images/publication/preview.jpg"
+i18n: "Understanding Zend Framework controllers and views"
+title: "Entendendo os controllers e views do Zend Framework"
+slug: "entendendo-os-controllers-e-views-do-zend-framework"
+categories: [ "Programação" ]
+tags: []
 redirect_from:
   - "/blog/zend-framework/zend-controller-e-zend-view-entendendo-controllers-e-views-no-zend-framework/"
 ---

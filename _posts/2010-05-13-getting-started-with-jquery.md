@@ -1,8 +1,10 @@
 ---
-tags: []
-categories: [ "Programação" ]
-title: "Introdução ao jQuery"
 image: "assets/images/publication/preview.jpg"
+i18n: "Getting started with jQuery"
+title: "Introdução ao jQuery"
+slug: "introducao-ao-jquery"
+categories: [ "Programação" ]
+tags: []
 redirect_from:
   - "/blog/jquery/introducao-ao-jquery/"
 ---

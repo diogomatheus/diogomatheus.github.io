@@ -1,8 +1,10 @@
 ---
-tags: []
-categories: [ "Programação" ]
-title: "Introdução ao PHP"
 image: "assets/images/publication/preview.jpg"
+i18n: "Getting started with PHP"
+title: "Introdução ao PHP"
+slug: "introducao-ao-php"
+categories: [ "Programação" ]
+tags: []
 redirect_from:
   - "/blog/php/introducao-ao-php/"
 ---

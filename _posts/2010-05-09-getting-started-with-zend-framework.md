@@ -1,8 +1,10 @@
 ---
-tags: []
-categories: [ "Programação" ]
-title: "Introdução ao Zend Framework"
 image: "assets/images/publication/preview.jpg"
+i18n: "Getting started with Zend Framework"
+title: "Introdução ao Zend Framework"
+slug: "introducao-ao-zend-framework"
+categories: [ "Programação" ]
+tags: []
 redirect_from:
   - "/blog/zend-framework/introducao-ao-zend-framework/"
 ---

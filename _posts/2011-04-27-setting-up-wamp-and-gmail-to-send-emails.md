@@ -1,8 +1,10 @@
 ---
-tags: []
-categories: [ "Programação" ]
-title: "Configurando o WAMP e Gmail para enviar emails"
 image: "assets/images/publication/preview.jpg"
+i18n: "Setting up WAMP and Gmail to send emails"
+title: "Configurando o WAMP e Gmail para enviar emails"
+slug: "configurando-o-wamp-e-gmail-para-enviar-emails"
+categories: [ "Programação" ]
+tags: []
 redirect_from:
   - "/blog/php/configurando-o-php-para-enviar-email-no-windows-atraves-do-gmail/"
 ---

@@ -1,8 +1,10 @@
 ---
-tags: []
-categories: [ "Programação" ]
-title: "Entendendo os helpers do Zend Framework"
 image: "assets/images/publication/preview.jpg"
+i18n: "Understanding Zend Framework helpers"
+title: "Entendendo os helpers do Zend Framework"
+slug: "entendendo-os-helpers-do-zend-framework"
+categories: [ "Programação" ]
+tags: []
 redirect_from:
   - "/blog/zend-framework/zend-view-helpers-e-zend-action-helpers/"
 ---

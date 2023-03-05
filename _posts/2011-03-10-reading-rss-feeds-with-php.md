@@ -1,8 +1,10 @@
 ---
-tags: []
-categories: [ "Programação" ]
-title: "Lendo feeds RSS com PHP"
 image: "assets/images/publication/preview.jpg"
+i18n: "Reading RSS feeds with PHP"
+title: "Lendo feeds RSS com PHP"
+slug: "lendo-feeds-rss-com-php"
+categories: [ "Programação" ]
+tags: []
 redirect_from:
   - "/blog/php/lendo-feeds-rss-com-php/"
 ---

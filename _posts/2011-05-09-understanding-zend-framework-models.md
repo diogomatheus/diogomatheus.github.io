@@ -1,8 +1,10 @@
 ---
-tags: []
-categories: [ "Programação" ]
-title: "Entendendo os modelos do Zend Framework"
 image: "assets/images/publication/preview.jpg"
+i18n: "Understanding Zend Framework models"
+title: "Entendendo os modelos do Zend Framework"
+slug: "entendendo-os-modelos-do-zend-framework"
+categories: [ "Programação" ]
+tags: []
 redirect_from:
   - "/blog/zend-framework/entendendo-modelos-no-zend-framework/"
 ---

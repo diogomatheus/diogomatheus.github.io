@@ -1,8 +1,10 @@
 ---
-tags: []
-categories: [ "Programação" ]
-title: "Configurando o ambiente de desenvolvimento do Zend Framework"
 image: "assets/images/publication/preview.jpg"
+i18n: "Setting up Zend Framework development environment"
+title: "Configurando o ambiente de desenvolvimento do Zend Framework"
+slug: "configurando-o-ambiente-de-desenvolvimento-do-zend-framework"
+categories: [ "Programação" ]
+tags: []
 redirect_from:
   - "/blog/zend-framework/preparando-o-ambiente-para-desenvolvimento-com-zend-framework/"
 ---
