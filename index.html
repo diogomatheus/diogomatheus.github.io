@@ -174,9 +174,9 @@ redirect_from:
                 {% if paginator.total_pages > 1 %}
                 <ul class="pagination"> 
                     {% if paginator.previous_page %}
-                    <li class="page-item"><a class="page-link" href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&laquo;</a></li>
+                    <li class="page-item"><a class="page-link" href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&laquo; <span class="d-none">Anterior</span></a></li>
                     {% else %}
-                    <li class="page-item disabled"><span class="prev page-link">&laquo;</span></li>
+                    <li class="page-item disabled"><span class="prev page-link">&laquo; <span class="d-none">Anterior</span></span></li>
                     {% endif %}
 
                     {% assign abstraction_previous = paginator.page | minus: 2 %}
@@ -193,12 +193,16 @@ redirect_from:
                     <li class="page-item"><a class="page-link" href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a></li>
                     {% else %}
 
-                    {% if page < abstraction_previous and abstracted_previous == false  %}
+                    {% if page < abstraction_previous %}
+                    {% if abstracted_previous == false %}
                     <li class="page-item disabled"><span class="webjeda page-link">...</span></li>
                     {% assign abstracted_previous = true %}
-                    {% elsif page > abstraction_next and abstracted_next == false %}
+                    {% endif %}
+                    {% elsif page > abstraction_next %}
+                    {% if abstracted_next == false %}
                     <li class="page-item disabled"><span class="webjeda page-link">...</span></li>
                     {% assign abstracted_next = true %}
+                    {% endif %}
                     {% else %}
                     <li class="page-item"><a class="page-link" href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a></li>
                     {% endif %}
@@ -207,9 +211,9 @@ redirect_from:
                     {% endfor %}
 
                     {% if paginator.next_page %}
-                    <li class="page-item"><a class="page-link" href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">&raquo;</a></li>
+                    <li class="page-item"><a class="page-link" href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}"><span class="d-none">Próximo</span> &raquo;</a></li>
                     {% else %}
-                    <li class="page-item disabled"><span class="next page-link">&raquo;</span></li>
+                    <li class="page-item disabled"><span class="next page-link"><span class="d-none">Próximo</span> &raquo;</span></li>
                     {% endif %}
                 </ul>
                 {% endif %}      

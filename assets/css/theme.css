@@ -324,6 +324,22 @@ a.text-dark:hover {
         line-height: 1.1;
     }
 }
+ul.pagination li.page-item .page-link {
+	padding: 0.4rem .4rem;
+}
+@media (min-width: 576px) {
+	ul.pagination li.page-item .page-link {
+		padding: 0.6rem .6rem;
+	}
+}
+@media (min-width:768px) {
+	ul.pagination li.page-item .page-link {
+		padding: 0.6rem .8rem;
+	}
+	ul.pagination li.page-item .page-link .page-link-label {
+		display: initial !important;
+	}
+}
 .bg-black {
 	background-color:#000;
 }
