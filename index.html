@@ -184,7 +184,7 @@ redirect_from:
 
                     {% for page in (1..paginator.total_pages) %}
                     {% if page == paginator.page %}
-                    <li class="page-item disabled"><span class="webjeda page-link">{{ page }}</span></li>
+                    <li class="page-item disabled"><span class="webjeda page-link">{{ page }} {{abstract_previous}} {{abstract_next}}</span></li>
                     {% elsif page == 1 %}
                     <li class="page-item"><a class="page-link" href="{{site.baseurl}}/">{{ page }}</a></li>
                     {% elsif page == paginator.total_pages %}
