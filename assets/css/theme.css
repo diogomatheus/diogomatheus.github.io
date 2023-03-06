@@ -333,11 +333,13 @@ ul.pagination li.page-item .page-link {
 	}
 }
 @media (min-width:768px) {
-	ul.pagination li.page-item .page-link {
-		padding: 0.6rem .8rem;
-	}
 	ul.pagination li.page-item .page-link .page-link-label {
 		display: initial !important;
+	}
+}
+@media (min-width:992px) {
+	ul.pagination li.page-item .page-link {
+		padding: 0.8rem .8rem;
 	}
 }
 .bg-black {
