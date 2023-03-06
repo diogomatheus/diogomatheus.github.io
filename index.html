@@ -179,6 +179,9 @@ redirect_from:
                     <li class="page-item disabled"><span class="prev page-link">&laquo;</span></li>
                     {% endif %}
 
+                    {% assign abstract_previous = paginator.page - 2 %}
+                    {% assign abstract_next = paginator.page + 2 %}
+
                     {% for page in (1..paginator.total_pages) %}
                     {% if page == paginator.page %}
                     <li class="page-item disabled"><span class="webjeda page-link">{{ page }}</span></li>
@@ -188,9 +191,10 @@ redirect_from:
                     <li class="page-item"><a class="page-link" href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a></li>
                     {% else %}
                     
-                    {% if page < paginator.page - 2 %}
+                    
+                    {% if page < abstract_previous %}
                     <li class="page-item disabled"><span class="webjeda page-link">...</span></li>
-                    {% elsif page > paginator.page + 2 %}
+                    {% elsif page > abstract_next %}
                     <li class="page-item disabled"><span class="webjeda page-link">...</span></li>
                     {% else %}
                     <li class="page-item"><a class="page-link" href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a></li>
