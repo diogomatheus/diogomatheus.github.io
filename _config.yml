@@ -4,8 +4,10 @@ description: Publicações sobre tecnologia, abordando tópicos como programaç�
 favicon: assets/images/favicon.ico
 logo: assets/images/diogomatheus-logo.png
 disqus: diogomatheus
+
 paginate: 10
-paginate_path: /page/:num/
+paginate_path: /pagina/:num/
+seo_paginator_message: "Página %{current} de %{total} para "
 permalink: /:year/:month/:day/:title:output_ext
 
 authors:
