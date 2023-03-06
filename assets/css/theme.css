@@ -329,7 +329,7 @@ ul.pagination li.page-item .page-link {
 }
 @media (min-width: 576px) {
 	ul.pagination li.page-item .page-link {
-		padding: 0.6rem .6rem;
+		padding: 0.55rem .55rem;
 	}
 }
 @media (min-width:768px) {
