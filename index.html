@@ -184,12 +184,16 @@ redirect_from:
                     <li class="page-item disabled"><span class="webjeda page-link">{{ page }}</span></li>
                     {% elsif page == 1 %}
                     <li class="page-item"><a class="page-link" href="{{site.baseurl}}/">{{ page }}</a></li>
-                    {% else %}
-                    
-                    {% if page >= paginator.page - 2 and page <= paginator.page + 2 %}
+                    {% elsif page == paginator.total_pages %}
                     <li class="page-item"><a class="page-link" href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a></li>
                     {% else %}
+                    
+                    {% if page < paginator.page - 2 %}
                     <li class="page-item disabled"><span class="webjeda page-link">...</span></li>
+                    {% elsif page > paginator.page + 2 %}
+                    <li class="page-item disabled"><span class="webjeda page-link">...</span></li>
+                    {% else %}
+                    <li class="page-item"><a class="page-link" href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a></li>
                     {% endif %}
 
                     {% endif %}
