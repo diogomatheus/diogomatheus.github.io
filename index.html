@@ -186,7 +186,7 @@ redirect_from:
                     <li class="page-item"><a class="page-link" href="{{site.baseurl}}/">{{ page }}</a></li>
                     {% else %}
                     
-                    {% if page >= paginator.total_pages - 2 or page <= paginator.total_pages + 2 %}
+                    {% if page >= paginator.total_pages - 2 and page <= paginator.total_pages + 2 %}
                     <li class="page-item"><a class="page-link" href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a></li>
                     {% else %}
                     <li class="page-item disabled"><span class="webjeda page-link">...</span></li>
