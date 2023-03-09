@@ -40,22 +40,22 @@ O interpretador identifica o código PHP por meio de TAGs, dentre essas, as mais
 </ul>
 <div class="tab-content">
   <div class="tab-pane active" id="standard" role="tabpanel" aria-labelledby="standard-tab">
-{% highlight %}
+{% highlight php %}
 <?php echo 'Hello WorldA'; ?>
 {% endhighlight %}
   </div>
   <div class="tab-pane" id="short" role="tabpanel" aria-labelledby="short-tab">
-{% highlight %}
+{% highlight php %}
 <?php echo 'Hello WorldB'; ?>
 {% endhighlight %}
   </div>
   <div class="tab-pane" id="script" role="tabpanel" aria-labelledby="script-tab">
-{% highlight %}
+{% highlight php %}
 <?php echo 'Hello WorldC'; ?>
 {% endhighlight %}
   </div>
   <div class="tab-pane" id="asp" role="tabpanel" aria-labelledby="asp-tab">
-{% highlight %}
+{% highlight php %}
 <?php echo 'Hello WorldD'; ?>
 {% endhighlight %}
   </div>
@@ -81,7 +81,7 @@ Existem dois tipos de comentários no PHP, o comentário de linha única e o com
 </ul>
 <div class="tab-content">
   <div class="tab-pane active" id="single" role="tabpanel" aria-labelledby="single-tab">
-{% highlight %}
+{% highlight php %}
 <?php echo 'Hello WorldA'; ?>
 {% endhighlight %}
   </div>
