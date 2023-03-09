@@ -90,12 +90,12 @@ Existem dois tipos de comentários no PHP, o comentário de linha única e o com
   </div>
   <div class="tab-pane" id="multiple" role="tabpanel" aria-labelledby="multiple-tab">
 
-<pre><code class="language-php"><?php
+<?php
 /*
 * Primeira linha do comentário.
 * Segunda linha do comentário.
 */
-?></code></pre>
+?>
 
   </div>
 </div>
@@ -104,11 +104,9 @@ Existem dois tipos de comentários no PHP, o comentário de linha única e o com
 
 Para não perder o costume da área, o primeiro texto do site precisa do famigerado exemplo de "Hello World".
 
-<pre>
-<code class="language-php">
+```php
 <?php echo 'Hello World'; ?>
-</code>
-</pre>
+```
 
 Como resultado da execução do código, o texto "Hello World" será apresentado.
 
