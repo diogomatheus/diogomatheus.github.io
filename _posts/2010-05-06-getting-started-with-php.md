@@ -40,32 +40,40 @@ O interpretador identifica o código PHP por meio de TAGs, dentre essas, as mais
 </ul>
 <div class="tab-content">
 <div class="tab-pane active" id="standard" role="tabpanel" aria-labelledby="standard-tab">
+
 ```php
 <?php
 // Código
 ?>
 ```
+
 </div>
 <div class="tab-pane" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+
 ```php
 <?
 // Código
 ?>
 ```
+
 </div>
 <div class="tab-pane" id="messages" role="tabpanel" aria-labelledby="messages-tab">
+
 ```php
 <script language="php">
 // Código
 </script>
 ```
+
 </div>
 <div class="tab-pane" id="settings" role="tabpanel" aria-labelledby="settings-tab">
+
 ```php
 <%
 // Código
 %>
 ```
+
 </div>
 </div>
 
@@ -89,14 +97,17 @@ Existem dois tipos de comentários no PHP, o comentário de linha única e o com
 </ul>
 <div class="tab-content">
   <div class="tab-pane active" id="single" role="tabpanel" aria-labelledby="single-tab">
+
     ```php
     <?php
     # Comentário
     // Comentário
     ?>
     ```
+
   </div>
   <div class="tab-pane" id="multiple" role="tabpanel" aria-labelledby="multiple-tab">
+
     ```php
     <?php
     /*
@@ -105,6 +116,7 @@ Existem dois tipos de comentários no PHP, o comentário de linha única e o com
     */
     ?>
     ```
+
   </div>
 </div>
 
