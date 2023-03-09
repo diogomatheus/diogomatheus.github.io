@@ -179,6 +179,9 @@
   /* no need background color */
   /*background-color: #272822;*/
 }
+.highlight pre {
+  background: inherit;
+}
 .highlight {
   color: #ffffff;
   background-color: #272822;
