@@ -39,26 +39,10 @@ O interpretador identifica o código PHP por meio de TAGs, dentre essas, as mais
   </li>
 </ul>
 <div class="tab-content">
-<div class="tab-pane active" id="standard" role="tabpanel" aria-labelledby="standard-tab">
-<pre><code class="language-php"><?php
-// Código
-?></code></pre>
-</div>
-<div class="tab-pane" id="profile" role="tabpanel" aria-labelledby="profile-tab">
-<pre><code class="language-php"><?
-// Código
-?></code></pre>
-</div>
-<div class="tab-pane" id="messages" role="tabpanel" aria-labelledby="messages-tab">
-<pre><code class="language-php"><script language="php">
-// Código
-</script></code></pre>
-</div>
-<div class="tab-pane" id="settings" role="tabpanel" aria-labelledby="settings-tab">
-<pre><code class="language-php"><%
-// Código
-%></code></pre>
-</div>
+<div class="tab-pane active" id="standard" role="tabpanel" aria-labelledby="standard-tab">A</div>
+<div class="tab-pane" id="profile" role="tabpanel" aria-labelledby="profile-tab">B</div>
+<div class="tab-pane" id="messages" role="tabpanel" aria-labelledby="messages-tab">C</div>
+<div class="tab-pane" id="settings" role="tabpanel" aria-labelledby="settings-tab">D</div>
 </div>
 
 Geralmente, os arquivos que armazenam código PHP usam as extensões (a) .php; e (b) .phtml. Porém, códigos antigos podem possuir extensões (I) .php3 e (II) .php4.
@@ -80,24 +64,8 @@ Existem dois tipos de comentários no PHP, o comentário de linha única e o com
   </li>
 </ul>
 <div class="tab-content">
-  <div class="tab-pane active" id="single" role="tabpanel" aria-labelledby="single-tab">
-
-<pre><code class="language-php"><?php
-# Comentário
-// Comentário
-?></code></pre>
-
-  </div>
-  <div class="tab-pane" id="multiple" role="tabpanel" aria-labelledby="multiple-tab">
-
-<?php
-/*
-* Primeira linha do comentário.
-* Segunda linha do comentário.
-*/
-?>
-
-  </div>
+  <div class="tab-pane active" id="single" role="tabpanel" aria-labelledby="single-tab">A</div>
+  <div class="tab-pane" id="multiple" role="tabpanel" aria-labelledby="multiple-tab">B</div>
 </div>
 
 ## Hello World
