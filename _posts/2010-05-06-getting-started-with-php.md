@@ -40,40 +40,24 @@ O interpretador identifica o código PHP por meio de TAGs, dentre essas, as mais
 </ul>
 <div class="tab-content">
 <div class="tab-pane active" id="standard" role="tabpanel" aria-labelledby="standard-tab">
-
-```
-<?php
+<pre><code class="language-php"><?php
 // Código
-?>
-```
-
+?></code></pre>
 </div>
 <div class="tab-pane" id="profile" role="tabpanel" aria-labelledby="profile-tab">
-
-```
-<?
+<pre><code class="language-php"><?
 // Código
-?>
-```
-
+?></code></pre>
 </div>
 <div class="tab-pane" id="messages" role="tabpanel" aria-labelledby="messages-tab">
-
-```
-<script language="php">
+<pre><code class="language-php"><script language="php">
 // Código
-</script>
-```
-
+</script></code></pre>
 </div>
 <div class="tab-pane" id="settings" role="tabpanel" aria-labelledby="settings-tab">
-
-```
-<%
+<pre><code class="language-php"><%
 // Código
-%>
-```
-
+%></code></pre>
 </div>
 </div>
 
@@ -98,24 +82,20 @@ Existem dois tipos de comentários no PHP, o comentário de linha única e o com
 <div class="tab-content">
   <div class="tab-pane active" id="single" role="tabpanel" aria-labelledby="single-tab">
 
-    ```
-    <?php
-    # Comentário
-    // Comentário
-    ?>
-    ```
+<pre><code class="language-php"><?php
+# Comentário
+// Comentário
+?></code></pre>
 
   </div>
   <div class="tab-pane" id="multiple" role="tabpanel" aria-labelledby="multiple-tab">
 
-{% highlight php %}
-<?php
+<pre><code class="language-php"><?php
 /*
 * Primeira linha do comentário.
 * Segunda linha do comentário.
 */
-?>
-{% endhighlight %}
+?></code></pre>
 
   </div>
 </div>
@@ -124,9 +104,11 @@ Existem dois tipos de comentários no PHP, o comentário de linha única e o com
 
 Para não perder o costume da área, o primeiro texto do site precisa do famigerado exemplo de "Hello World".
 
-{% highlight php %}
+<pre>
+<code class="language-php">
 <?php echo 'Hello World'; ?>
-{% endhighlight %}
+</code>
+</pre>
 
 Como resultado da execução do código, o texto "Hello World" será apresentado.
 
