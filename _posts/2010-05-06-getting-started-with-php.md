@@ -22,27 +22,91 @@ Embora seja uma linguagem de programação de propósito geral, o PHP está mais
 
 ## Sintaxe
 
-TO DO
+O interpretador identifica o código PHP por meio de TAGs, dentre essas, as mais comuns são Standard e Short. Confira as TAGs disponíveis.
 
-## Extensão de arquivos
+<ul class="nav nav-tabs" role="tablist">
+  <li class="nav-item" role="presentation">
+    <button class="nav-link active" id="standard-tab" data-toggle="tab" data-target="#standard" type="button" role="tab" aria-controls="standard" aria-selected="true">Standard</button>
+  </li>
+  <li class="nav-item" role="presentation">
+    <button class="nav-link" id="short-tab" data-toggle="tab" data-target="#short" type="button" role="tab" aria-controls="short" aria-selected="false">Short</button>
+  </li>
+  <li class="nav-item" role="presentation">
+    <button class="nav-link" id="script-tab" data-toggle="tab" data-target="#script" type="button" role="tab" aria-controls="script" aria-selected="false">Script</button>
+  </li>
+  <li class="nav-item" role="presentation">
+    <button class="nav-link" id="asp-tab" data-toggle="tab" data-target="#asp" type="button" role="tab" aria-controls="asp" aria-selected="false">ASP</button>
+  </li>
+</ul>
+<div class="tab-content">
+<div class="tab-pane active" id="standard" role="tabpanel" aria-labelledby="standard-tab">
+```php
+<?php
+// Código
+?>
+```
+</div>
+<div class="tab-pane" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+```php
+<?
+// Código
+?>
+```
+</div>
+<div class="tab-pane" id="messages" role="tabpanel" aria-labelledby="messages-tab">
+```php
+<script language="php">
+// Código
+</script>
+```
+</div>
+<div class="tab-pane" id="settings" role="tabpanel" aria-labelledby="settings-tab">
+```php
+<%
+// Código
+%>
+```
+</div>
+</div>
 
-TO DO
-
-## Comandos de saída (output)
-
-TO DO
+Geralmente, os arquivos que armazenam código PHP usam as extensões (a) .php; e (b) .phtml. Porém, códigos antigos podem possuir extensões (I) .php3 e (II) .php4.
 
 ## Separador de instruções
 
-TO DO
-
-## Variáveis
-
-TO DO
+O separador de instruções do PHP é o ponto e vírgula. Embora seja possível, não é recomendado colocar múltiplas instruções em apenas uma linha pois dificulta o entendimento do código, i.e., leitura.
 
 ## Comentários
 
-TO DO
+Existem dois tipos de comentários no PHP, o comentário de linha única e o comentário de múltiplas linhas, conforme pode ser observado nos exemplos a seguir.
+
+<ul class="nav nav-tabs" role="tablist">
+  <li class="nav-item" role="presentation">
+    <button class="nav-link active" id="single-tab" data-toggle="tab" data-target="#single" type="button" role="tab" aria-controls="single" aria-selected="true">Linha única</button>
+  </li>
+  <li class="nav-item" role="presentation">
+    <button class="nav-link" id="multiple-tab" data-toggle="tab" data-target="#multiple" type="button" role="tab" aria-controls="multiple" aria-selected="false">Múltiplas linhas</button>
+  </li>
+</ul>
+<div class="tab-content">
+  <div class="tab-pane active" id="single" role="tabpanel" aria-labelledby="single-tab">
+    ```php
+    <?php
+    # Comentário
+    // Comentário
+    ?>
+    ```
+  </div>
+  <div class="tab-pane" id="multiple" role="tabpanel" aria-labelledby="multiple-tab">
+    ```php
+    <?php
+    /*
+    * Primeira linha do comentário.
+    * Segunda linha do comentário.
+    */
+    ?>
+    ```
+  </div>
+</div>
 
 ## Hello World
 
