@@ -81,14 +81,12 @@ Existem dois tipos de comentários no PHP, o comentário de linha única e o com
 </ul>
 <div class="tab-content">
   <div class="tab-pane active" id="single" role="tabpanel" aria-labelledby="single-tab">
-    {% highlight php %}
-    <?php echo 'Hello WorldA'; ?>
-    {% endhighlight %}
+    {% highlight php %}<?php echo 'Hello WorldA'; ?>{% endhighlight %}
   </div>
   <div class="tab-pane" id="multiple" role="tabpanel" aria-labelledby="multiple-tab">
-    ```php
-    <?php echo 'Hello WorldB'; ?>
-    ```
+{% highlight php %}
+<?php echo 'Hello WorldB'; ?>
+{% endhighlight %}
   </div>
 </div>
 
