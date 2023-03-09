@@ -120,4 +120,4 @@ Como resultado da execução do código, o texto "Hello World" será apresentado
 
 ## Documentação oficial
 
-A [documentação oficial](https://www.php.net/) do PHP é um dos seus principais pontos positivos, principalmente por se preocupar em ensinar de fato, algo que não era comum em documentações de linguagens de programação. Dessa forma, pela popularidade do PHP na internet, acredito que sua documentação influenciou bastante o ecossistema de software, e.g., linguagens de programação, frameworks, etc.
+A [documentação oficial](https://www.php.net/) do PHP é um dos seus pontos positivos, principalmente por se preocupar em ensinar de fato, algo que não era comum em documentações de linguagens de programação, frameworks, etc. Dessa forma, pela popularidade do PHP na internet, acredito que sua documentação influenciou positivamente o ecossistema de software.
