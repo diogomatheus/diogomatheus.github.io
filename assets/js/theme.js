@@ -67,6 +67,7 @@ function loadSearch(){
  
         // Put the data into the window global so it can be used later
         window.searchData = data
+        console.log(data);
  
         // Loop through each entry and add it to the index
         $.each(data, function(index, entry){
