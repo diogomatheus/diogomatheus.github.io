@@ -86,9 +86,9 @@ Existem dois tipos de comentários no PHP, o comentário de linha única e o com
 {% endhighlight %}
   </div>
   <div class="tab-pane" id="multiple" role="tabpanel" aria-labelledby="multiple-tab">
-```php
-<?php echo 'Hello World'; ?>
-```
+{% highlight php %}
+<?php echo 'Hello WorldB'; ?>
+{% endhighlight %}
   </div>
 </div>
 
