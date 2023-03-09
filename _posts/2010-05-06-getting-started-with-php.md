@@ -8,13 +8,13 @@ tags: []
 redirect_from:
   - "/blog/php/introducao-ao-php/"
 ---
-PHP é o acrônimo de "Hypertext Preprocessor", uma linguagem de programação de script, ou seja, o código desenvolvido em PHP não precisa ser compilado antes de ser executado. Geralmente, esse tipo de linguagem de programação é referenciada como linguagem interpretada, pois o código desenvolvido nessas linguagens são "interpretados" no momento da execução.
+PHP é o acrônimo de "Hypertext Preprocessor", uma linguagem de programação de script, ou seja, o código desenvolvido com PHP não precisa ser compilado antes de ser executado. Geralmente, esse tipo de linguagem de programação é referenciado como linguagem interpretada, pois o código desenvolvido nessas linguagens são "interpretados" no momento da execução.
 
 ## Linguagens compiladas x interpretadas
 
-Linguagens de programação compiladas (e.g., C#, Java) são caracterizadas pela etapa de compilação, onde o código desenvolvido é transformado para código de máquina (i.e., binário). Como benefício desse tipo de linguagem de programação, podemos destacar sua velocidade de execução. Por outro lado, sua desvantagem está relacionada com o tempo de compilação prévio exigido, além da dependência da plataforma de de máquina (i.e., binário) para o qual foi compilado.
+Linguagens de programação compiladas (e.g., C#, Java) são caracterizadas pela etapa de compilação, onde o código desenvolvido é transformado para código de máquina (i.e., binário). Como benefício, podemos destacar sua velocidade de execução. Por outro lado, sua desvantagem está relacionada com o tempo de compilação prévio exigido, além da dependência da plataforma de máquina (i.e., binário) para o qual foi compilado.
 
-Linguagens de programação interpretada (e.g., Ruby, JavaScript) são caracterizadas por não precisar da etapa de compilação, onde o código desenvolvido é interpretado no formato em que foi produzido no momento da execução. Como benefício desse tipo de linguagem de programação, podemos destacar sua flexibilidade e independência de plataforma. Por outro lado, sua desvantagem está na velocidade de execução, quando comparada com linguagens de programação compiladas.
+Linguagens de programação interpretada (e.g., Ruby, JavaScript) são caracterizadas por não precisar da etapa de compilação, onde o código desenvolvido é interpretado na forma original no momento da execução. Como benefício, podemos destacar sua flexibilidade e independência de plataforma. Por outro lado, sua desvantagem está na velocidade de execução quando comparada com linguagens compiladas.
 
 ## Propósito da linguagem
 
@@ -48,10 +48,12 @@ TO DO
 
 Para não perder o costume da área, o primeiro texto do site precisa do famigerado exemplo de "Hello World".
 
-<pre><code class="language-php"><?php echo 'Hello World'; ?></code></pre>
+```php
+<?php echo 'Hello World'; ?>
+```
 
 Como resultado da execução do código, o texto "Hello World" será apresentado.
 
 ## Documentação oficial
 
-A [documentação oficial](https://www.php.net/) do PHP é um dos seus principais pontos positivos. Não era algo comum encontrar documentações preocupadas em ensinar de fato. Dessa forma, pela popularidade do PHP na internet, acredito que sua documentação influenciou o ecossistema de software como um todo, e.g., linguagens de programação, frameworks, etc.
+A [documentação oficial](https://www.php.net/) do PHP é um dos seus principais pontos positivos. Não era algo comum encontrar documentações de linguagens de programação preocupadas em ensinar de fato. Dessa forma, pela popularidade do PHP na internet, acredito que sua documentação influenciou o ecossistema de software como um todo, e.g., linguagens de programação, frameworks, etc.
