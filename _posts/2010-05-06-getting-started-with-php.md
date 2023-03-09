@@ -41,7 +41,7 @@ O interpretador identifica o código PHP por meio de TAGs, dentre essas, as mais
 <div class="tab-content">
 <div class="tab-pane active" id="standard" role="tabpanel" aria-labelledby="standard-tab">
 
-```php
+```
 <?php
 // Código
 ?>
@@ -50,7 +50,7 @@ O interpretador identifica o código PHP por meio de TAGs, dentre essas, as mais
 </div>
 <div class="tab-pane" id="profile" role="tabpanel" aria-labelledby="profile-tab">
 
-```php
+```
 <?
 // Código
 ?>
@@ -59,7 +59,7 @@ O interpretador identifica o código PHP por meio de TAGs, dentre essas, as mais
 </div>
 <div class="tab-pane" id="messages" role="tabpanel" aria-labelledby="messages-tab">
 
-```php
+```
 <script language="php">
 // Código
 </script>
@@ -68,7 +68,7 @@ O interpretador identifica o código PHP por meio de TAGs, dentre essas, as mais
 </div>
 <div class="tab-pane" id="settings" role="tabpanel" aria-labelledby="settings-tab">
 
-```php
+```
 <%
 // Código
 %>
@@ -98,7 +98,7 @@ Existem dois tipos de comentários no PHP, o comentário de linha única e o com
 <div class="tab-content">
   <div class="tab-pane active" id="single" role="tabpanel" aria-labelledby="single-tab">
 
-    ```php
+    ```
     <?php
     # Comentário
     // Comentário
@@ -108,14 +108,14 @@ Existem dois tipos de comentários no PHP, o comentário de linha única e o com
   </div>
   <div class="tab-pane" id="multiple" role="tabpanel" aria-labelledby="multiple-tab">
 
-    ```php
-    <?php
-    /*
-    * Primeira linha do comentário.
-    * Segunda linha do comentário.
-    */
-    ?>
-    ```
+{% highlight php %}
+<?php
+/*
+* Primeira linha do comentário.
+* Segunda linha do comentário.
+*/
+?>
+{% endhighlight %}
 
   </div>
 </div>
@@ -124,9 +124,9 @@ Existem dois tipos de comentários no PHP, o comentário de linha única e o com
 
 Para não perder o costume da área, o primeiro texto do site precisa do famigerado exemplo de "Hello World".
 
-```php
+{% highlight php %}
 <?php echo 'Hello World'; ?>
-```
+{% endhighlight %}
 
 Como resultado da execução do código, o texto "Hello World" será apresentado.
 
