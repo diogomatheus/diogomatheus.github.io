@@ -8,14 +8,50 @@ tags: []
 redirect_from:
   - "/blog/php/introducao-ao-php/"
 ---
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+PHP é o acrônimo de "Hypertext Preprocessor", uma linguagem de programação de script, ou seja, o código desenvolvido em PHP não precisa ser compilado antes de ser executado. Geralmente, esse tipo de linguagem de programação é referenciada como linguagem interpretada, pois o código desenvolvido nessas linguagens são "interpretados" no momento da execução.
 
-## Where does it come from?
+## Linguagens compiladas x interpretadas
 
-Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
+Linguagens de programação compiladas (e.g., C#, Java) são caracterizadas pela etapa de compilação, onde o código desenvolvido é transformado para código de máquina (i.e., binário). Como benefício desse tipo de linguagem de programação, podemos destacar sua velocidade de execução. Por outro lado, sua desvantagem está relacionada com o tempo de compilação prévio exigido, além da dependência da plataforma de de máquina (i.e., binário) para o qual foi compilado.
 
-The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.
+Linguagens de programação interpretada (e.g., Ruby, JavaScript) são caracterizadas por não precisar da etapa de compilação, onde o código desenvolvido é interpretado no formato em que foi produzido no momento da execução. Como benefício desse tipo de linguagem de programação, podemos destacar sua flexibilidade e independência de plataforma. Por outro lado, sua desvantagem está na velocidade de execução, quando comparada com linguagens de programação compiladas.
 
-## Why do we use it?
+## Propósito da linguagem
 
-It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+Embora seja uma linguagem de programação de propósito geral, o PHP está mais relacionado ao desenvolvimento web, ou seja, sistemas para internet visando ofertar conteúdo dinâmico. Neste cenário, conteúdo dinâmico significa ir além de servir textos e imagens estáticas na internet, sendo capaz também de executar ações específicas como interagir com banco de dados, etc.
+
+## Sintaxe
+
+TO DO
+
+## Extensão de arquivos
+
+TO DO
+
+## Comandos de saída (output)
+
+TO DO
+
+## Separador de instruções
+
+TO DO
+
+## Variáveis
+
+TO DO
+
+## Comentários
+
+TO DO
+
+## Hello World
+
+Para não perder o costume da área, o primeiro texto do site precisa do famigerado exemplo de "Hello World".
+
+<pre><code class="language-php"><?php echo 'Hello World'; ?></code></pre>
+
+Como resultado da execução do código, o texto "Hello World" será apresentado.
+
+## Documentação oficial
+
+A [documentação oficial](https://www.php.net/) do PHP é um dos seus principais pontos positivos. Não era algo comum encontrar documentações preocupadas em ensinar de fato. Dessa forma, pela popularidade do PHP na internet, acredito que sua documentação influenciou o ecossistema de software como um todo, e.g., linguagens de programação, frameworks, etc.
