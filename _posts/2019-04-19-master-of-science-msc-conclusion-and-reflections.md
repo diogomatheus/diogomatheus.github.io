@@ -6,14 +6,36 @@ slug: "mestre-em-ciencias-msc-conclusao-e-reflexoes"
 categories: [ "Engenharia de software" ]
 tags: []
 ---
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+No dia 21/03/2019 defendi minha dissertação de mestrado no PESC/COPPE/UFRJ, finalizando uma jornada que iniciou em março de 2016 (artigo). Com o diploma garantido, o que fazer em seguida? Nesse artigo irei falar um pouco da experiência do mestrado e discutir o que me fez optar por participar do processo de seleção do doutorado, também na área de Engenharia de Software.
 
-## Where does it come from?
+## Experiência no mestrado
 
-Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
+Tempo: O tempo é limitado, logo, esse desafio existe para todos. Porém, o escopo de cada pesquisa é variável, o que pode representar um problema. Dessa forma, pense bem no escopo de sua pesquisa para mitigar esse problema e mantenha seu orientador alinhado. Por fim, realizar atividades paralelas ao mestrado é possível (e.g., trabalho), porém, exige organização e gestão do tempo, pois extrapola o problema de duração do curso e desafia o equilíbrio entre pesquisa, trabalho e vida pessoal.
 
-The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.
+Relação Pesquisa e Trabalho: O principal desafio da relação pesquisa e trabalho é a disponibilidade para os compromissos relacionados ao mestrado/doutorado (e.g., aulas, reunião de grupo, reunião de orientação, conferências). Nesse ponto, por participar de projetos da fundação COPPETEC, iniciativa da própria COPPE/UFRJ, não tive problemas pois esse tipo de iniciativa compreende esse tipo de compromisso.
 
-## Why do we use it?
+Publicações: Embora não exista exigência formal de publicação para obter o título de mestre, existe o incentivo/cobrança por parte dos orientadores para que os resultados obtidos na pesquisa sejam divulgados. Porém, é importante compreender que as publicações representam um retorno para universidade, para o(s) orientador(es), além de contribuir para o currículo do próprio pesquisador. Neste ponto, minha única crítica é em relação ao cenário das publicações científicas, e.g., valores para participação de conferências, direitos autorais, cobrança para acessar publicações de terceiros, etc. Por fim, vale destacar que os prazos de entrega de publicação acabam impactando os itens anteriores.
 
-It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+Finanças:  O principal objetivo de quem decide fazer uma pós-graduação stricto sensu não é o retorno financeiro imediato, porém, ninguém quer passar dificuldade, principalmente conhecendo o valor das bolsas de mestrado/doutorado (quando disponível). Dessa forma, o mais importante é não ter prejuízo, mantendo e se possível, aumentando os ganhos em atividades paralelas (e.g., trabalho). Parece simples, mas muitos alunos não residem ou trabalham próximo da universidade por diferentes motivos (e.g., mudança de estado, baixa de empregos na área de estudo, etc).
+
+Considero minha experiência no mestrado positiva. Neste cenário, estudar sobre metodologia científica, colocar em prática e entender seus desafios muda nossa forma de pensar. Acredito que reduzimos nossas certezas e aumentamos nossa desconfiança, questionar e responder de forma científica é bastante interessante.
+
+## O que me fez optar pelo doutorado?
+
+Realizar uma pesquisa de longo prazo não é trivial e isso ficou evidente no mestrado, porém, quanto mais pesquisamos mais oportunidades de pesquisa identificamos. Particularmente, o grande motivador para participar do processo de seleção do doutorado foi o desafio de conduzir uma pesquisa de longo prazo de forma mais independente. Neste ponto, mesmo com ofertas para voltar para indústria, acredito que existe uma direção de aprendizado interessante que pode me fazer crescer, principalmente, como pesquisador.
+
+Por outro lado, com o passar dos anos o lado financeiro fica cada vez mais importante, mas esse ponto pode ser mitigado por meio de bolsas de estudo, bem como por projetos como da fundação COPPETEC, que possibilita o exercício da função de maneira equilibrada e com bolsas de pesquisa melhores/complementares. Por fim, sempre existe a opção de migrar para o regime parcial, ou seja, trabalhar na indústria, sem bolsa de estudo/pesquisa. Inicialmente, estou optando pela primeira opção, porém, não descarto migrar par ao regime parcial após finalizar os cursos obrigatórios e formalizar uma proposta de pesquisa.
+
+## Processo de seleção do doutorado
+
+O processo de seleção para o doutorado no Programa de Engenharia de Sistemas e Computação (PESC) da COPPE/UFRJ não é muito diferente do processo de seleção de mestrado (artigo). Porém, na seleção do doutorado é obrigatório apresentar um plano de pesquisa por escrito. O principal ponto deste plano de pesquisa é avaliar se o candidato consegue elaborar um plano coerente visando uma linha de pesquisa específica.
+
+No término do processo de seleção, os candidatos aprovados são classificados e as bolsas de estudo são distribuídas para aqueles que optaram (restrito aos alunos de regime integral). No mestrado obtive suporte da CAPES, no doutorado obtive suporte do CNPq.
+
+Obs: No mestrado, além do suporte da CAPES, após finalizar as disciplinas obrigatórias, obtive suporte complementar da FAPERJ, por meio da Bolsa Nota 10, relacionado ao rendimento acadêmico do aluno no contexto de cada programa considerado de excelência na visão da avaliação da CAPES.
+
+## Próximos passos
+
+O próximo passo dessa jornada é realizar as disciplinas obrigatórias do doutorado, pois preciso atingir o número obrigatório de disciplinas. Para obter o título de mestre no PESC/COPPE/UFRJ é necessário realizar oito disciplinas, no doutorado é necessário realizar doze disciplinas. Porém, como as disciplinas realizadas no mestrado são contabilizadas, preciso fazer quatro disciplinas.
+
+Em seguida, o desafio será pivotar e/ou detalhar o plano de pesquisa apresentado no processo de seleção para realizar o processo de qualificação, onde formalizamos o tema da pesquisa de longo prazo que será conduzida no doutorado. Por fim, o maior desafio do doutorado é planejar e executar uma pesquisa de longo prazo, obtendo resultados inovadores e comprovados por meio de métodos científicos.
