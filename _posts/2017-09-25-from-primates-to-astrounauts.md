@@ -8,14 +8,39 @@ tags: []
 redirect_from:
   - "/blog/resenha-de-livros/de-primatas-a-astronautas/"
 ---
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+De primatas a astronautas do autor Leonard Mlodinow apresenta um odisseia com várias descobertas e personagens que conduziram nossa espécie, desde suas origens na savana africana até os dias de hoje. Através de uma narrativa agradável, Mlodinow apresenta uma visão compilada dos desafios e conquistas, que motivados pela sede de conhecimento, possibilitaram nosso cenário atual.
 
-## Where does it come from?
+## Sumário
 
-Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
+Nossa vontade de saber
+Curiosidade
+Cultura
+Civilização
+Razão
+Uma nova maneira de pensar
+O universo mecânico
+De que são feitas as coisas
+O mundo animado
+Os limites da experiência humana
+O reino invisível
+A revolução quântica
 
-The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.
+Os capítulos são apresentados em três partes: I. Quando nos erguemos; II. As ciências; e III. Além dos sentidos humanos.
 
-## Why do we use it?
+## Capítulo 2 – Curiosidade
 
-It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+No segundo capítulo do livro, Mlodinow afirma que o que diferencia os homens de outras espécies é sua capacidade e desejo de entender a si mesmo e o mundo. O desejo de compreender, refletir e criar direcionou um longo caminho que possibilitou nossa sobrevivência e a construção de um nicho ecológico único.
+
+Neste ponto, o autor apresenta as definições de todo o gênero homo (habilis, erectus, sapiens e sapiens sapiens), além da nossa localização na árvore genealógica, que inicia em pequenos mamíferos semelhantes aos ratos, passando pelos símios até chegar no gênero homo. O autor apresenta um experimento realizado com chimpanzés e crianças entre três e cinco anos, onde uma tarefa específica foi ensinada para ambos os grupos, quando essa tarefa era finalizada uma recompensa era fornecida. Quando uma modificação foi realizada nos recursos disponíveis para realização da tarefa, tornando esta impossível de ser finalizada, observou-se que após tentativas iniciais os chimpanzés desistiram rapidamente da tarefa e consequentemente da recompensa. Por outro lado, as crianças após tentativas iniciais frustradas, mudaram seu foco para análise dos recursos disponíveis, tentando compreender o que estava errado.
+
+Essa característica que perturba todos os pais na infância, os milhões de “Por quê?”, deve ser valorizada, pois é o que nos diferencia das outras espécies, tentar compreender e modificar nosso ambiente.
+
+## Capítulo 8 – De que são feitas as coisas
+
+Neste capítulo, o autor explora o surgimento da química como uma ciência. Essa jornada se inicia com o surgimento do embalsamento no Egito, literalmente uma indústria gerada pela cultura local, através do que se acredita ter ocorrido através de uma longa sequência de tentativas e erros, que resultaram na identificação de conservantes que protegiam os corpos da decomposição. Neste período, as descobertas eram tratadas como receitas.
+
+O capítulo avança passando pelo surgimento da alquimia, que embora seja referenciada muitas vezes de forma negativa, teve seu papel na história mesmo que em algum momento tenha distraído muitos estudiosos. Alguns personagens importantes para química são apresentados ao longo do capítulo, traçando uma compilação que se aproxima da química que conhecemos, como: I. Aristóteles e suas teorias, base para críticas de muitas das descobertas seguintes em diferentes ramos, cumprindo seu papel de forma semelhante à alquimia; III. Lavoisier e seu método científico, observado na física; e III. Mendeleiev e o desafio de compreender os elementos até então conhecidos e organizá-los com suas cartas de forma que um padrão fosse identificado, essa organização / classificação é o que chamamos hoje de tabela periódica.
+
+## Conclusão
+
+Particularmente, gosto bastante dos livros do Mlodinow pela sua narrativa, mais uma vez essa característica é presente em sua obra. Os admiradores da busca pelo conhecimento, método científico, personagens históricos e cenários onde ocorreram as principais colaborações visando evoluir a ciência ao estado que conhecemos hoje, ainda em evolução, irão gostar da leitura. Acredito que este tipo de material é bastante interessante para fomentar o interesse pela ciência independente da idade, bem como Cosmos (Carl Sagan / Neil deGrasse Tyson) e outros, despertando a curiosidade nos leitores e retirando o mito sobre genialidade, alguns personagens do livro deixam isso claro.

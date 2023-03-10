@@ -18,90 +18,17 @@ Com base nesse pensamento, confira o TOP 10 – Livros para programadores.
   <table class="table table-hover">
     <thead class="thead-light">
       <tr>
-        <th scope="col">#</th>
-        <th scope="col">Ilustração</th>
+        <th scope="col" width="180px">Ilustração</th>
         <th scope="col">Título</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <th scope="row">1</th>
         <td>Image</td>
         <td>
-          <p class="lead">Book title</p>
-          <p><small>Author</small></p>
-        </td>
-      </tr>
-      <tr>
-        <th scope="row">2</th>
-        <td>Image</td>
-        <td>
-          <h4>Title</h4>
-          <p>Description</p>
-        </td>
-      </tr>
-      <tr>
-        <th scope="row">3</th>
-        <td>Image</td>
-        <td>
-          <h4>Title</h4>
-          <p>Description</p>
-        </td>
-      </tr>
-      <tr>
-        <th scope="row">4</th>
-        <td>Image</td>
-        <td>
-          <h4>Title</h4>
-          <p>Description</p>
-        </td>
-      </tr>
-      <tr>
-        <th scope="row">5</th>
-        <td>Image</td>
-        <td>
-          <h4>Title</h4>
-          <p>Description</p>
-        </td>
-      </tr>
-      <tr>
-        <th scope="row">6</th>
-        <td>Image</td>
-        <td>
-          <h4>Title</h4>
-          <p>Description</p>
-        </td>
-      </tr>
-      <tr>
-        <th scope="row">7</th>
-        <td>Image</td>
-        <td>
-          <h4>Title</h4>
-          <p>Description</p>
-        </td>
-      </tr>
-      <tr>
-        <th scope="row">8</th>
-        <td>Image</td>
-        <td>
-          <h4>Title</h4>
-          <p>Description</p>
-        </td>
-      </tr>
-      <tr>
-        <th scope="row">9</th>
-        <td>Image</td>
-        <td>
-          <h4>Title</h4>
-          <p>Description</p>
-        </td>
-      </tr>
-      <tr>
-        <th scope="row">10</th>
-        <td>Image</td>
-        <td>
-          <h4>Title</h4>
-          <p>Description</p>
+          Book Title
+          <br />
+          <small>Author</small>
         </td>
       </tr>
     </tbody>

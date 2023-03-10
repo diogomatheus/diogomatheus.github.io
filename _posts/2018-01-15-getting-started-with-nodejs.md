@@ -8,9 +8,11 @@ tags: []
 redirect_from:
   - "/blog/javascript/introducao-ao-node-js/"
 ---
-Node.js é um runtime (i.e., ambiente) para execução de aplicações JavaScript. Neste cenário, além de ser multiplataforma, ou seja, compatível com diferentes sistemas operacionais, o próprio Node.js oferece recursos para apoiar na implementação de aplicações, confira na documentação oficial.
+Node.js é um runtime (i.e., ambiente de execução) específico para aplicações escritas na linguagem de programação JavaScript. Além de oferecer um ambiente de execução compatível com diferentes sistemas operacionais (i.e., multiplataforma), o Node.js disponibiliza recursos para apoiar o desenvolvimento de aplicações.
 
-Criado por Ryan Dahl (2009), o Node.js é baseado no V8, implementado pelo Google e utilizado no Google Chrome. Dessa forma, enquanto o V8 foca na interpretação do código JavaScript, o Node.js se preocupa em ofertar um ambiente multiplataforma com recursos de apoio.
+Criado por [Ryan Dahl](https://tinyclouds.org/), o Node.js é baseado no V8, interpretador JavaScript criado pelo Google e usado pelo navegador Google Chrome. Neste cenário, enquanto o V8 é focado na interpretação de código JavaScript, o Node.js se preocupa em oferecer um ambiente de execução multiplataforma.
+
+## JavaScript & ECMAScript (ES)
 
 Para compreender o Node.js é interessante conhecer a relação entre JavaScript e ECMAScript (ES). ECMAScript é uma especificação de linguagem de script, utilizada por diferentes linguagens, por exemplo JavaScript e ActionScript (Flash). Dessa forma, JavaScript é uma linguagem de programação baseada na especificação ECMAScript. Porém, existem diferentes versões da especificação ECMAScript. Consequentemente, diferentes engines (e.g., V8) são baseadas em diferentes versões da ECMAScript.
 
