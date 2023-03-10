@@ -33,7 +33,7 @@ De forma geral, jQuery contribui para:
 
 Além disso, diferentes plugins são disponibilizados no website oficial da biblioteca jQuery. Com base nesses plugins, podemos adicionar funcionalidades, efeitos visuais ou animações prontas, implementadas por terceiros em nossa página.
 
-Confira os plugins disponíveis: http://plugins.jquery.com/
+Confira os plugins disponíveis: [http://plugins.jquery.com/](http://plugins.jquery.com/)
 
 ## Principais características da biblioteca?
 
@@ -77,4 +77,4 @@ Observação: Para economizar o consumo de banda, recomenda-se o uso da versão 
 
 ## Documentação oficial
 
-https://api.jquery.com/
+[https://api.jquery.com/](https://api.jquery.com/)

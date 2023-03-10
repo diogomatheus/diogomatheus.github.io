@@ -181,6 +181,7 @@
 }
 .highlight pre {
   background: inherit;
+  color: inherit;
 }
 .highlight {
   color: #ffffff;
