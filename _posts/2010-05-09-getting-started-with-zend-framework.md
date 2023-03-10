@@ -8,20 +8,51 @@ tags: []
 redirect_from:
   - "/blog/zend-framework/introducao-ao-zend-framework/"
 ---
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+Framework de desenvolvimento é uma base de onde se pode desenvolver algo maior ou mais específico. É uma coleção de códigos-fontes, classes, funções, técnicas e metodologias que facilitam o desenvolvimento de nossos softwares.
 
-## Where does it come from?
+A decisão por usar um framework de desenvolvimento reside na necessidade de estruturar os projetos de software, devido à grande complexidade que os mesmos alcançaram. Um projeto estruturado reduz custos, aumenta a qualidade e reduz o tempo de desenvolvimento do mesmo.
 
-Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
+## Características de um framework
 
-The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.
+- Reutilizável
+- Extensível
+- Seguro
+- Eficiente
 
-## Why do we use it?
+## Diferenças entre framework e biblioteca de classes
 
-It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+Biblioteca de classes
 
-<pre><code class="language-ruby">def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.</code></pre>
+- Em uma biblioteca de classes, cada classe é única e independente das outras.
+- Aplicação chama uma determinada classe da biblioteca.
+
+Framework
+
+- Em um framework as dependências/colaborações estão embutidas.
+- O framework chama o código desenvolvido por você (“Don´t call us, we’ll call you”, Hollywood Principle).
+
+## Zend Framework
+
+Foi lançado no dia 4 de março de 2006 e inclui diferentes tipos de componentes desenvolvidos em PHP 5 para prover alta qualidade no desenvolvimento de aplicações web, é um projeto open source(código-fonte disponível) que segue o padrão de projeto MVC, para desenvolver aplicações em 3 camadas.
+
+## O que é MVC?
+
+Model-View-Controller (MVC) é um padrão de arquitetura de software que visa separar a lógica de aplicação da interface de apresentação, permitindo o desenvolvimento, teste e manutenção separadamente de cada parte.
+
+![Zend Framework MVC]({{site.baseurl}}/assets/images/zend-framework-mvc.jpg){:class="img-responsive"}
+
+Model
+
+Esta camada contém toda a parte de negócio, ou seja, programação pesada da aplicação, regras de negócio, acesso ao banco de dados, etc.
+
+View
+
+Camada responsável pela apresentação, interface que será exibida para o usuário ao término do processamento feito pelo controller.
+
+Controller
+
+Processa e responde a eventos, geralmente ações do usuário, invocando se necessário models, forms, helpers e etc.
+
+## Componentes
+
+Todo framework conta com uma coleção de componentes, alguns destes precisam ser estendidos para que tenham utilidade na aplicação, outros basta utilizar. O zend framework possui uma grande variedade de componentes, sendo assim vale a pena conferir todos os componentes disponíveis no manual do framework.

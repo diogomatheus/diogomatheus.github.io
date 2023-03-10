@@ -35,7 +35,7 @@ Além disso, diferentes plugins são disponibilizados no website oficial da bibl
 
 Confira os plugins disponíveis: [http://plugins.jquery.com/](http://plugins.jquery.com/)
 
-## Principais características da biblioteca?
+## Principais características da biblioteca
 
 - Extensível para implementação / instalação de plugins;
 - Baseado em seletores CSS para identificar elementos da página;
