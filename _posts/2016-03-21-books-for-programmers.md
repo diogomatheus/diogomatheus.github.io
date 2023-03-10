@@ -28,10 +28,8 @@ Com base nesse pensamento, confira o TOP 10 – Livros para programadores.
         <th scope="row">1</th>
         <td>Image</td>
         <td>
-          <blockquote class="blockquote">
-            <p class="mb-0">Book title</p>
-            <footer class="blockquote-footer">Author</footer>
-          </blockquote>
+          <p class="lead">Book title</p>
+          <p><small>Author</small></p>
         </td>
       </tr>
       <tr>
