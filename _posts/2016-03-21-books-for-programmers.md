@@ -25,7 +25,7 @@ Com base nesse pensamento, confira o TOP 10 – Livros para programadores.
     <tbody>
       <tr>
         <td>
-          ![book-title]({{site.baseurl}}/assets/images/posts/general/IMAGE)
+          
         </td>
         <td>
           Book Title
@@ -35,7 +35,7 @@ Com base nesse pensamento, confira o TOP 10 – Livros para programadores.
       </tr>
       <tr>
         <td>
-          ![book-title]({{site.baseurl}}/assets/images/posts/general/IMAGE)
+          
         </td>
         <td>
           Book Title
@@ -45,7 +45,7 @@ Com base nesse pensamento, confira o TOP 10 – Livros para programadores.
       </tr>
       <tr>
         <td>
-          ![book-title]({{site.baseurl}}/assets/images/posts/general/IMAGE)
+          
         </td>
         <td>
           Book Title
@@ -55,7 +55,7 @@ Com base nesse pensamento, confira o TOP 10 – Livros para programadores.
       </tr>
       <tr>
         <td>
-          ![book-title]({{site.baseurl}}/assets/images/posts/general/IMAGE)
+          
         </td>
         <td>
           Book Title
@@ -65,7 +65,7 @@ Com base nesse pensamento, confira o TOP 10 – Livros para programadores.
       </tr>
       <tr>
         <td>
-          ![book-title]({{site.baseurl}}/assets/images/posts/general/IMAGE)
+          
         </td>
         <td>
           Book Title
@@ -75,7 +75,7 @@ Com base nesse pensamento, confira o TOP 10 – Livros para programadores.
       </tr>
       <tr>
         <td>
-          ![book-title]({{site.baseurl}}/assets/images/posts/general/IMAGE)
+          
         </td>
         <td>
           Book Title
@@ -85,7 +85,7 @@ Com base nesse pensamento, confira o TOP 10 – Livros para programadores.
       </tr>
       <tr>
         <td>
-          ![book-title]({{site.baseurl}}/assets/images/posts/general/IMAGE)
+          
         </td>
         <td>
           Book Title
@@ -95,7 +95,7 @@ Com base nesse pensamento, confira o TOP 10 – Livros para programadores.
       </tr>
       <tr>
         <td>
-          ![book-title]({{site.baseurl}}/assets/images/posts/general/IMAGE)
+          
         </td>
         <td>
           Book Title
@@ -105,7 +105,7 @@ Com base nesse pensamento, confira o TOP 10 – Livros para programadores.
       </tr>
       <tr>
         <td>
-          ![book-title]({{site.baseurl}}/assets/images/posts/general/IMAGE)
+          
         </td>
         <td>
           Book Title
@@ -115,7 +115,7 @@ Com base nesse pensamento, confira o TOP 10 – Livros para programadores.
       </tr>
       <tr>
         <td>
-          ![book-title]({{site.baseurl}}/assets/images/posts/general/2016-03-21-the-pragmatic-programmer.jpg)
+          <img src="{{site.baseurl}}/assets/images/posts/general/2016-03-21-the-pragmatic-programmer.jpg" class="img-responsive mx-auto d-block">
         </td>
         <td>
           O programador pragmático
