@@ -8,22 +8,28 @@ tags: []
 redirect_from:
   - "/blog/resenha-de-livros/top-10-livros-para-programadores/"
 ---
-Recentemente um amigo e antigo companheiro de trabalho me solicitou algumas recomendações de leitura com foco no crescimento profissional de programadores, ou seja, livros para programadores. Neste cenário, aprender os recursos de linguagens de programação não é o foco das recomendações, mas sim as preocupações e pensamentos relacionados com essa atividade.
+Recentemente no tradicional café após o almoço no centro da cidade do Rio de Janeiro, um companheiro de trabalho me solicitou algumas recomendações de leitura para programadores em nível júnior e pleno, ou seja, leituras com potencial para o crescimento profissional de pessoas programadoras já inseridas no mercado de trabalho.
 
-Particurlarmente acredito que um programador eficaz cria soluções computacionais legíveis, bem como reutilizáveis sempre que fizer sentido. Em caso de problema indefinido, leia-se mal especificado, um bom programador deve ter condições de reenquadrar o problema para confirmar se o que está sendo criado está resolvendo de fato uma necessidade específica e relevante. Pode-se perceber que não se trata de decorar recursos de uma linguagem, mas sim entender o contexto do problema, solucionar e pensar no futuro levando em conta manutenção e evolução do software criado.
+Dessa forma, ficou combinado que eu iria separar algumas recomendações de leitura focadas em inserir preocupações e apresentar diferentes abordagens de resolução de problema relacionado com desenvolvimento de software. Com esse objetivo em mente, não irei abordar leituras de introdução de linguagens de programação, etc.
 
-Com base nesse pensamento, confira o TOP 10 – Livros para programadores.
+## Programador eficaz
+
+Na minha visão de mundo, um programador eficaz consegue escrever soluções legíveis e reutilizáveis. Porém, antes de escrever soluções, precisamos definir o problema que será resolvido. Em caso de problema indefinido ou especificado de maneira confusa, o programador precisa colaborar com os analistas funcionais para que o problema seja enquadrado ou reenquadrado, esse ponto é essencial para gerar valor agregado ao negócio. Percebe-se então, que não se trata apenas de dominar os recursos de linguagens de programação, mas também ser capaz de entender o contexto do problema e especificar soluções, considerando aspectos como manutenção e evolução.
+
+## Recomendação de leitura
 
 <div class="table-responsive">
   <table class="table table-hover">
     <thead class="thead-light">
       <tr>
+        <th scope="col" width="80px">#</th>
         <th scope="col" width="180px">Ilustração</th>
         <th scope="col">Título</th>
       </tr>
     </thead>
     <tbody>
       <tr>
+        <td class="text-center">10</td>
         <td>
           <img src="{{site.baseurl}}/assets/images/posts/general/2016-03-21-regular-expressions.jpg" class="img-responsive m-0 p-0">
         </td>
@@ -33,6 +39,7 @@ Com base nesse pensamento, confira o TOP 10 – Livros para programadores.
         </td>
       </tr>
       <tr>
+        <td class="text-center">9</td>
         <td>
           <img src="{{site.baseurl}}/assets/images/posts/general/2016-03-21-implementing-lean-software-development.jpg" class="img-responsive m-0 p-0">
         </td>
@@ -42,6 +49,7 @@ Com base nesse pensamento, confira o TOP 10 – Livros para programadores.
         </td>
       </tr>
       <tr>
+        <td class="text-center">8</td>
         <td>
           <img src="{{site.baseurl}}/assets/images/posts/general/2016-03-21-applying-uml-and-patterns.jpg" class="img-responsive m-0 p-0">
         </td>
@@ -51,6 +59,7 @@ Com base nesse pensamento, confira o TOP 10 – Livros para programadores.
         </td>
       </tr>
       <tr>
+        <td class="text-center">7</td>
         <td>
           <img src="{{site.baseurl}}/assets/images/posts/general/2016-03-21-the-mythical-man-month.jpg" class="img-responsive m-0 p-0">
         </td>
@@ -60,6 +69,7 @@ Com base nesse pensamento, confira o TOP 10 – Livros para programadores.
         </td>
       </tr>
       <tr>
+        <td class="text-center">6</td>
         <td>
           <img src="{{site.baseurl}}/assets/images/posts/general/2016-03-21-refactoring-to-patterns.jpg" class="img-responsive m-0 p-0">
         </td>
@@ -69,6 +79,7 @@ Com base nesse pensamento, confira o TOP 10 – Livros para programadores.
         </td>
       </tr>
       <tr>
+        <td class="text-center">5</td>
         <td>
           <img src="{{site.baseurl}}/assets/images/posts/general/2016-03-21-the-clean-coder.jpg" class="img-responsive m-0 p-0">
         </td>
@@ -78,6 +89,7 @@ Com base nesse pensamento, confira o TOP 10 – Livros para programadores.
         </td>
       </tr>
       <tr>
+        <td class="text-center">4</td>
         <td>
           <img src="{{site.baseurl}}/assets/images/posts/general/2016-03-21-refactoring.jpg" class="img-responsive m-0 p-0">
         </td>
@@ -87,6 +99,7 @@ Com base nesse pensamento, confira o TOP 10 – Livros para programadores.
         </td>
       </tr>
       <tr>
+        <td class="text-center">3</td>
         <td>
           <img src="{{site.baseurl}}/assets/images/posts/general/2016-03-21-design-patterns.jpg" class="img-responsive m-0 p-0">
         </td>
@@ -96,6 +109,7 @@ Com base nesse pensamento, confira o TOP 10 – Livros para programadores.
         </td>
       </tr>
       <tr>
+        <td class="text-center">2</td>
         <td>
           <img src="{{site.baseurl}}/assets/images/posts/general/2016-03-21-clean-code.jpg" class="img-responsive m-0 p-0">
         </td>
@@ -105,6 +119,7 @@ Com base nesse pensamento, confira o TOP 10 – Livros para programadores.
         </td>
       </tr>
       <tr>
+        <td class="text-center">1</td>
         <td>
           <img src="{{site.baseurl}}/assets/images/posts/general/2016-03-21-the-pragmatic-programmer.jpg" class="img-responsive m-0 p-0">
         </td>
@@ -117,6 +132,6 @@ Com base nesse pensamento, confira o TOP 10 – Livros para programadores.
   </table>
 </div>
 
-## Conclusão
+## Reflexão
 
-O mais interessante nesses livros é a reflexão exigida. Além disso, tente aplicar os conceitos aprendidos em cada leitura aos poucos em sua rotina, mas sem cobrança em excesso. Não veja esses livros como decoração de estante, muito menos espere se tornar um especialista da noite para o dia, use cada livro como fonte de consulta para criar soluções mais simples e flexíveis.
+Gostou de alguma recomendação? Não esquece da etapa de reflexão, tente pensar em como pode aplicar os conceitos aprendidos em suas atividades diárias, lembrando que você sempre poderá usar essas leituras como consulta, não precisa decorar, ninguém se torna especialista do dia para noite.
