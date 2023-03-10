@@ -39,7 +39,7 @@ Foi lançado no dia 4 de março de 2006 e inclui diferentes tipos de componentes
 
 Model-View-Controller (MVC) é um padrão de arquitetura de software que visa separar a lógica de aplicação da interface de apresentação, permitindo o desenvolvimento, teste e manutenção separadamente de cada parte.
 
-![Zend Framework MVC]({{site.baseurl}}/assets/images/zend-framework-mvc.jpg){:class="img-responsive" style="display:block; margin-left:auto; margin-right:auto;"}
+![Zend Framework MVC]({{site.baseurl}}/assets/images/zend-framework-mvc.jpg){:class="img-responsive mx-auto d-block"}
 
 Model
 

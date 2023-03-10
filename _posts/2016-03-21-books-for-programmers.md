@@ -16,7 +16,7 @@ Com base nesse pensamento, confira o TOP 10 – Livros para programadores.
 
 <div class="table-responsive">
   <table class="table table-hover">
-    <thead>
+    <thead class="thead-light">
       <tr>
         <th scope="col">#</th>
         <th scope="col">Ilustração</th>
@@ -28,8 +28,10 @@ Com base nesse pensamento, confira o TOP 10 – Livros para programadores.
         <th scope="row">1</th>
         <td>Image</td>
         <td>
-          <h4>Title</h4>
-          <p>Description</p>
+          <blockquote class="blockquote">
+            <p class="mb-0">Book title</p>
+            <footer class="blockquote-footer">Author</footer>
+          </blockquote>
         </td>
       </tr>
       <tr>
