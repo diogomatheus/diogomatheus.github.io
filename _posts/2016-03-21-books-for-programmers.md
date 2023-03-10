@@ -8,14 +8,106 @@ tags: []
 redirect_from:
   - "/blog/resenha-de-livros/top-10-livros-para-programadores/"
 ---
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+Recentemente um amigo e antigo companheiro de trabalho me solicitou algumas recomendações de leitura com foco no crescimento profissional de programadores, ou seja, livros para programadores. Neste cenário, aprender os recursos de linguagens de programação não é o foco das recomendações, mas sim as preocupações e pensamentos relacionados com essa atividade.
 
-## Where does it come from?
+Particurlarmente acredito que um programador eficaz cria soluções computacionais legíveis, bem como reutilizáveis sempre que fizer sentido. Em caso de problema indefinido, leia-se mal especificado, um bom programador deve ter condições de reenquadrar o problema para confirmar se o que está sendo criado está resolvendo de fato uma necessidade específica e relevante. Pode-se perceber que não se trata de decorar recursos de uma linguagem, mas sim entender o contexto do problema, solucionar e pensar no futuro levando em conta manutenção e evolução do software criado.
 
-Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
+Com base nesse pensamento, confira o TOP 10 – Livros para programadores.
 
-The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.
+<div class="table-responsive">
+  <table class="table table-hover">
+    <thead>
+      <tr>
+        <th scope="col">#</th>
+        <th scope="col">Ilustração</th>
+        <th scope="col">Título</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th scope="row">1</th>
+        <td>Image</td>
+        <td>
+          <h4>Title</h4>
+          <p>Description</p>
+        </td>
+      </tr>
+      <tr>
+        <th scope="row">2</th>
+        <td>Image</td>
+        <td>
+          <h4>Title</h4>
+          <p>Description</p>
+        </td>
+      </tr>
+      <tr>
+        <th scope="row">3</th>
+        <td>Image</td>
+        <td>
+          <h4>Title</h4>
+          <p>Description</p>
+        </td>
+      </tr>
+      <tr>
+        <th scope="row">4</th>
+        <td>Image</td>
+        <td>
+          <h4>Title</h4>
+          <p>Description</p>
+        </td>
+      </tr>
+      <tr>
+        <th scope="row">5</th>
+        <td>Image</td>
+        <td>
+          <h4>Title</h4>
+          <p>Description</p>
+        </td>
+      </tr>
+      <tr>
+        <th scope="row">6</th>
+        <td>Image</td>
+        <td>
+          <h4>Title</h4>
+          <p>Description</p>
+        </td>
+      </tr>
+      <tr>
+        <th scope="row">7</th>
+        <td>Image</td>
+        <td>
+          <h4>Title</h4>
+          <p>Description</p>
+        </td>
+      </tr>
+      <tr>
+        <th scope="row">8</th>
+        <td>Image</td>
+        <td>
+          <h4>Title</h4>
+          <p>Description</p>
+        </td>
+      </tr>
+      <tr>
+        <th scope="row">9</th>
+        <td>Image</td>
+        <td>
+          <h4>Title</h4>
+          <p>Description</p>
+        </td>
+      </tr>
+      <tr>
+        <th scope="row">10</th>
+        <td>Image</td>
+        <td>
+          <h4>Title</h4>
+          <p>Description</p>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
 
-## Why do we use it?
+## Conclusão
 
-It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+O mais interessante nesses livros é a reflexão exigida. Além disso, tente aplicar os conceitos aprendidos em cada leitura aos poucos em sua rotina, mas sem cobrança em excesso. Não veja esses livros como decoração de estante, muito menos espere se tornar um especialista da noite para o dia, use cada livro como fonte de consulta para criar soluções mais simples e flexíveis.
