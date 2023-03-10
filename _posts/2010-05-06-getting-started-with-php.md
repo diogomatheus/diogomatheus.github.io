@@ -110,13 +110,13 @@ Existem dois tipos de comentários no PHP, o comentário de linha única e o com
 
 ## Hello World
 
-Para não perder o costume da área, o primeiro texto publicado no site precisa do famigerado exemplo de "Hello World".
+Para não perder o costume da área, segue o famigerado exemplo de "Hello World".
 
 {% highlight php %}
 <?php echo 'Hello World'; ?>
 {% endhighlight %}
 
-Como resultado da execução do código, o texto "Hello World" será apresentado.
+Como resultado da execução, o texto "Hello World" será apresentado.
 
 ## Documentação oficial
 
