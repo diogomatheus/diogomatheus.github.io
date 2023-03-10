@@ -18,17 +18,109 @@ Com base nesse pensamento, confira o TOP 10 – Livros para programadores.
   <table class="table table-hover">
     <thead class="thead-light">
       <tr>
-        <th scope="col" width="180px">Ilustração</th>
+        <th scope="col" width="200px">Ilustração</th>
         <th scope="col">Título</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td>Image</td>
+        <td>
+          ![book-title]({{site.baseurl}}/assets/images/posts/general/IMAGE)
+        </td>
         <td>
           Book Title
           <br />
           <small>Author</small>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          ![book-title]({{site.baseurl}}/assets/images/posts/general/IMAGE)
+        </td>
+        <td>
+          Book Title
+          <br />
+          <small>Author</small>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          ![book-title]({{site.baseurl}}/assets/images/posts/general/IMAGE)
+        </td>
+        <td>
+          Book Title
+          <br />
+          <small>Author</small>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          ![book-title]({{site.baseurl}}/assets/images/posts/general/IMAGE)
+        </td>
+        <td>
+          Book Title
+          <br />
+          <small>Author</small>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          ![book-title]({{site.baseurl}}/assets/images/posts/general/IMAGE)
+        </td>
+        <td>
+          Book Title
+          <br />
+          <small>Author</small>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          ![book-title]({{site.baseurl}}/assets/images/posts/general/IMAGE)
+        </td>
+        <td>
+          Book Title
+          <br />
+          <small>Author</small>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          ![book-title]({{site.baseurl}}/assets/images/posts/general/IMAGE)
+        </td>
+        <td>
+          Book Title
+          <br />
+          <small>Author</small>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          ![book-title]({{site.baseurl}}/assets/images/posts/general/IMAGE)
+        </td>
+        <td>
+          Book Title
+          <br />
+          <small>Author</small>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          ![book-title]({{site.baseurl}}/assets/images/posts/general/IMAGE)
+        </td>
+        <td>
+          Book Title
+          <br />
+          <small>Author</small>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          ![book-title]({{site.baseurl}}/assets/images/posts/general/2016-03-21-the-pragmatic-programmer.jpg)
+        </td>
+        <td>
+          O programador pragmático
+          <br />
+          <small>Andrew Hunt e David Thomas</small>
         </td>
       </tr>
     </tbody>
