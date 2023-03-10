@@ -18,106 +18,16 @@ Com base nesse pensamento, confira o TOP 10 – Livros para programadores.
   <table class="table table-hover">
     <thead class="thead-light">
       <tr>
-        <th scope="col" width="200px">Ilustração</th>
+        <th scope="col" width="180px">Ilustração</th>
         <th scope="col">Título</th>
       </tr>
     </thead>
     <tbody>
       <tr>
         <td>
-          
+          <img src="{{site.baseurl}}/assets/images/posts/general/2016-03-21-the-pragmatic-programmer.jpg" class="img-responsive m-0 p-0">
         </td>
-        <td>
-          Book Title
-          <br />
-          <small>Author</small>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          
-        </td>
-        <td>
-          Book Title
-          <br />
-          <small>Author</small>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          
-        </td>
-        <td>
-          Book Title
-          <br />
-          <small>Author</small>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          
-        </td>
-        <td>
-          Book Title
-          <br />
-          <small>Author</small>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          
-        </td>
-        <td>
-          Book Title
-          <br />
-          <small>Author</small>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          
-        </td>
-        <td>
-          Book Title
-          <br />
-          <small>Author</small>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          
-        </td>
-        <td>
-          Book Title
-          <br />
-          <small>Author</small>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          
-        </td>
-        <td>
-          Book Title
-          <br />
-          <small>Author</small>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          
-        </td>
-        <td>
-          Book Title
-          <br />
-          <small>Author</small>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <img src="{{site.baseurl}}/assets/images/posts/general/2016-03-21-the-pragmatic-programmer.jpg" class="img-responsive mx-auto d-block">
-        </td>
-        <td>
+        <td class="align-middle">
           O programador pragmático
           <br />
           <small>Andrew Hunt e David Thomas</small>
