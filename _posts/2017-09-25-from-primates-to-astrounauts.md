@@ -1,5 +1,5 @@
 ---
-image: "assets/images/publication/2017-09-25-from-primates-to-astrounauts.jpg"
+image: "assets/images/posts/shared-image/2017-09-25-from-primates-to-astrounauts.jpg"
 i18n: "From primates to astronauts"
 title: "De primatas a astronautas"
 slug: "de-primatas-a-astronautas"

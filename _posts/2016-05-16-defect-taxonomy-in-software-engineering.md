@@ -1,5 +1,5 @@
 ---
-image: "assets/images/publication/2016-05-16-defect-taxonomy-in-software-engineering.jpg"
+image: "assets/images/posts/shared-image/2016-05-16-defect-taxonomy-in-software-engineering.jpg"
 i18n: "Defect taxonomy in Software Engineering"
 title: "Taxonomia de defeito na Engenharia de Software"
 slug: "taxonomia-de-defeito-na-engenharia-de-software"

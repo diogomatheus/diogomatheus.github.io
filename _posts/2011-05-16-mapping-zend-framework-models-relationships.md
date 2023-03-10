@@ -1,5 +1,5 @@
 ---
-image: "assets/images/publication/2011-05-16-mapping-zend-framework-models-relationships.jpg"
+image: "assets/images/posts/shared-image/2011-05-16-mapping-zend-framework-models-relationships.jpg"
 i18n: "Mapping Zend Framework models relationships"
 title: "Mapeando relacionamentos de modelos do Zend Framework"
 slug: "mapeando-relacionamentos-de-modelos-do-zend-framework"

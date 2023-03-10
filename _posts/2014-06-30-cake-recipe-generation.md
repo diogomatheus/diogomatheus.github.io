@@ -1,5 +1,5 @@
 ---
-image: "assets/images/publication/2014-06-30-cake-recipe-generation.jpg"
+image: "assets/images/posts/shared-image/2014-06-30-cake-recipe-generation.jpg"
 i18n: "Cake recipe generation"
 title: "Geração receita de bolo"
 slug: "geracao-receita-de-bolo"

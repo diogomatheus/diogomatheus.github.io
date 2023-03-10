@@ -1,5 +1,5 @@
 ---
-image: "assets/images/publication/2013-11-11-setting-up-virtual-hosts-on-ubuntu-with-apache.jpg"
+image: "assets/images/posts/shared-image/2013-11-11-setting-up-virtual-hosts-on-ubuntu-with-apache.jpg"
 i18n: "Setting up virtual hosts on Ubuntu with Apache"
 title: "Configurando virtual hosts no Ubuntu com Apache"
 slug: "configurando-virtual-hosts-no-ubuntu-com-apache"

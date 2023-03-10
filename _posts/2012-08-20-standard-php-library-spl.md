@@ -1,5 +1,5 @@
 ---
-image: "assets/images/publication/2012-08-20-standard-php-library-spl.jpg"
+image: "assets/images/posts/shared-image/2012-08-20-standard-php-library-spl.jpg"
 i18n: "Standard PHP Library (SPL)"
 title: "Standard PHP Library (SPL)"
 slug: "standard-php-library-spl"

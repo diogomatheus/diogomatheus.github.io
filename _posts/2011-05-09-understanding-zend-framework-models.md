@@ -1,5 +1,5 @@
 ---
-image: "assets/images/publication/2011-05-09-understanding-zend-framework-models.jpg"
+image: "assets/images/posts/shared-image/2011-05-09-understanding-zend-framework-models.jpg"
 i18n: "Understanding Zend Framework models"
 title: "Entendendo os modelos do Zend Framework"
 slug: "entendendo-os-modelos-do-zend-framework"

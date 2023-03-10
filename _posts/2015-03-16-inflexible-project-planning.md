@@ -1,5 +1,5 @@
 ---
-image: "assets/images/publication/2015-03-16-inflexible-project-planning.jpg"
+image: "assets/images/posts/shared-image/2015-03-16-inflexible-project-planning.jpg"
 i18n: "Inflexible project planning"
 title: "Planejamento de projeto inflexível"
 slug: "planejamento-de-projeto-inflexivel"

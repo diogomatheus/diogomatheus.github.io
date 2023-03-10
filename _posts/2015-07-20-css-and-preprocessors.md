@@ -1,5 +1,5 @@
 ---
-image: "assets/images/publication/2015-07-20-css-and-preprocessors.jpg"
+image: "assets/images/posts/shared-image/2015-07-20-css-and-preprocessors.jpg"
 i18n: "CSS and preprocessors"
 title: "CSS e pré-processadores"
 slug: "css-e-pre-processadores"

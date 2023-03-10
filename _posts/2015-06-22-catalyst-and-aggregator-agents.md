@@ -1,5 +1,5 @@
 ---
-image: "assets/images/publication/2015-06-22-catalyst-and-aggregator-agents.jpg"
+image: "assets/images/posts/shared-image/2015-06-22-catalyst-and-aggregator-agents.jpg"
 i18n: "Catalyst and aggregator agents"
 title: "Agentes catalisadores e agregadores"
 slug: "agentes-catalisadores-e-agregadores"

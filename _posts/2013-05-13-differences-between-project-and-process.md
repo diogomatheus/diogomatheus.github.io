@@ -1,5 +1,5 @@
 ---
-image: "assets/images/publication/2013-05-13-differences-between-project-and-process.jpg"
+image: "assets/images/posts/shared-image/2013-05-13-differences-between-project-and-process.jpg"
 i18n: "Differences between project and process"
 title: "Diferenças entre projeto e processo"
 slug: "diferencas-entre-projeto-e-processo"

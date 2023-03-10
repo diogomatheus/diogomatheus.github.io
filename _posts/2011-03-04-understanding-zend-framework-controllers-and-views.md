@@ -1,5 +1,5 @@
 ---
-image: "assets/images/publication/2011-03-04-understanding-zend-framework-controllers-and-views.jpg"
+image: "assets/images/posts/shared-image/2011-03-04-understanding-zend-framework-controllers-and-views.jpg"
 i18n: "Understanding Zend Framework controllers and views"
 title: "Entendendo os controllers e views do Zend Framework"
 slug: "entendendo-os-controllers-e-views-do-zend-framework"

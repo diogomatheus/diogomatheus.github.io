@@ -1,5 +1,5 @@
 ---
-image: "assets/images/publication/2015-08-17-game-design.jpg"
+image: "assets/images/posts/shared-image/2015-08-17-game-design.jpg"
 i18n: "Game design"
 title: "Design de games"
 slug: "design-de-games"

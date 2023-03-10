@@ -1,5 +1,5 @@
 ---
-image: "assets/images/publication/2013-04-22-organization-of-personal-software-projects.jpg"
+image: "assets/images/posts/shared-image/2013-04-22-organization-of-personal-software-projects.jpg"
 i18n: "Organization of personal software projects"
 title: "Organização de projetos de software pessoais"
 slug: "organizacao-de-projetos-de-software-pessoais"

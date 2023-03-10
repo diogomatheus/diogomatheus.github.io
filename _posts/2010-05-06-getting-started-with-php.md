@@ -1,5 +1,5 @@
 ---
-image: "assets/images/publication/2010-05-06-getting-started-with-php.jpg"
+image: "assets/images/posts/shared-image/2010-05-06-getting-started-with-php.jpg"
 i18n: "Getting started with PHP"
 title: "Introdução ao PHP"
 slug: "introducao-ao-php"

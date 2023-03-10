@@ -1,5 +1,5 @@
 ---
-image: "assets/images/publication/2011-03-16-creating-rss-feeds-with-php.jpg"
+image: "assets/images/posts/shared-image/2011-03-16-creating-rss-feeds-with-php.jpg"
 i18n: "Creating RSS feeds with PHP"
 title: "Criando feeds RSS com PHP"
 slug: "criando-feeds-rss-com-php"

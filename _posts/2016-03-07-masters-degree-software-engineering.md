@@ -1,5 +1,5 @@
 ---
-image: "assets/images/publication/2016-03-07-masters-degree-software-engineering.jpg"
+image: "assets/images/posts/shared-image/2016-03-07-masters-degree-software-engineering.jpg"
 i18n: "Master's degree - Software Engineering"
 title: "Mestrado – Engenharia de Software"
 slug: "mestrado-engenharia-de-software"

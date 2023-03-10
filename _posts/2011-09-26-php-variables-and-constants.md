@@ -1,5 +1,5 @@
 ---
-image: "assets/images/publication/2011-09-26-php-variables-and-constants.jpg"
+image: "assets/images/posts/shared-image/2011-09-26-php-variables-and-constants.jpg"
 i18n: "PHP - Variables and constants"
 title: "PHP - Variáveis e constantes"
 slug: "php-variaveis-e-constantes"

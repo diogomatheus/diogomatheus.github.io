@@ -1,5 +1,5 @@
 ---
-image: "assets/images/publication/2015-03-02-interpreting-the-motivational-factors.jpg"
+image: "assets/images/posts/shared-image/2015-03-02-interpreting-the-motivational-factors.jpg"
 i18n: "Interpreting the motivational factors"
 title: "Interpretando os fatores motivacionais"
 slug: "interpretando-os-fatores-motivacionais"

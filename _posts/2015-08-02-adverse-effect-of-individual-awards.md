@@ -1,5 +1,5 @@
 ---
-image: "assets/images/publication/2015-08-02-adverse-effect-of-individual-awards.jpg"
+image: "assets/images/posts/shared-image/2015-08-02-adverse-effect-of-individual-awards.jpg"
 i18n: "Adverse effect of individual awards"
 title: "Efeito adverso de premiações individuais"
 slug: "efeito-adverso-de-premiacoes-individuais"

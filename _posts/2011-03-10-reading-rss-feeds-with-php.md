@@ -1,5 +1,5 @@
 ---
-image: "assets/images/publication/2011-03-10-reading-rss-feeds-with-php.jpg"
+image: "assets/images/posts/shared-image/2011-03-10-reading-rss-feeds-with-php.jpg"
 i18n: "Reading RSS feeds with PHP"
 title: "Lendo feeds RSS com PHP"
 slug: "lendo-feeds-rss-com-php"

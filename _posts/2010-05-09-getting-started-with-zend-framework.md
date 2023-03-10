@@ -1,5 +1,5 @@
 ---
-image: "assets/images/publication/2010-05-09-getting-started-with-zend-framework.jpg"
+image: "assets/images/posts/shared-image/2010-05-09-getting-started-with-zend-framework.jpg"
 i18n: "Getting started with Zend Framework"
 title: "Introdução ao Zend Framework"
 slug: "introducao-ao-zend-framework"
@@ -39,7 +39,10 @@ Foi lançado no dia 4 de março de 2006 e inclui diferentes tipos de componentes
 
 Model-View-Controller (MVC) é um padrão de arquitetura de software que visa separar a lógica de aplicação da interface de apresentação, permitindo o desenvolvimento, teste e manutenção separadamente de cada parte.
 
-![Zend Framework MVC]({{site.baseurl}}/assets/images/zend-framework-mvc.jpg){:class="img-responsive mx-auto d-block"}
+<figure class="figure mx-auto d-block">
+  <img src="{site.baseurl}}/assets/images/posts/general/2010-05-09-zend-framework-mvc-overview.jpg" class="figure-img mx-auto d-block">
+  <figcaption class="figure-caption text-center">Zend Framework - MVC</figcaption>
+</figure>
 
 Model
 

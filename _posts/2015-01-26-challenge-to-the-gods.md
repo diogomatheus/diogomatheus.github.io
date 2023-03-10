@@ -1,5 +1,5 @@
 ---
-image: "assets/images/publication/2015-01-26-challenge-to-the-gods.jpg"
+image: "assets/images/posts/shared-image/2015-01-26-challenge-to-the-gods.jpg"
 i18n: "Challenge to the gods"
 title: "Desafio aos deuses"
 slug: "desafio-aos-deuses"

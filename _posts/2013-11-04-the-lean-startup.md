@@ -1,5 +1,5 @@
 ---
-image: "assets/images/publication/2013-11-04-the-lean-startup.jpg"
+image: "assets/images/posts/shared-image/2013-11-04-the-lean-startup.jpg"
 i18n: "The lean startup"
 title: "A startup enxuta"
 slug: "a-startup-enxuta"

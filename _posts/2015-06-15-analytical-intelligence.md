@@ -1,5 +1,5 @@
 ---
-image: "assets/images/publication/2015-06-15-analytical-intelligence.jpg"
+image: "assets/images/posts/shared-image/2015-06-15-analytical-intelligence.jpg"
 i18n: "Analytical intelligence"
 title: "Inteligência analítica"
 slug: "inteligencia-analitica"

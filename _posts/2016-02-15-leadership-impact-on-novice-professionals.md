@@ -1,5 +1,5 @@
 ---
-image: "assets/images/publication/2016-02-15-leadership-impact-on-novice-professionals.jpg"
+image: "assets/images/posts/shared-image/2016-02-15-leadership-impact-on-novice-professionals.jpg"
 i18n: "Leadership impact on novice professionals"
 title: "Impacto da liderança sobre profissionais novatos"
 slug: "impacto-da-lideranca-sobre-profissionais-novatos"

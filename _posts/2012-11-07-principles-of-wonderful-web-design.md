@@ -1,5 +1,5 @@
 ---
-image: "assets/images/publication/2012-11-07-principles-of-wonderful-web-design.jpg"
+image: "assets/images/posts/shared-image/2012-11-07-principles-of-wonderful-web-design.jpg"
 i18n: "Principles of wonderful web design"
 title: "Princípios do web design maravilhoso"
 slug: "principios-do-web-design-maravilhoso"

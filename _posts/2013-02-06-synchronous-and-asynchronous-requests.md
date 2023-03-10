@@ -1,5 +1,5 @@
 ---
-image: "assets/images/publication/2013-02-06-synchronous-and-asynchronous-requests.jpg"
+image: "assets/images/posts/shared-image/2013-02-06-synchronous-and-asynchronous-requests.jpg"
 i18n: "Synchronous and asynchronous requests"
 title: "Requisições síncronas e assíncronas"
 slug: "requisicoes-sincronas-e-assincronas"

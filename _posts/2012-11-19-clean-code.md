@@ -1,5 +1,5 @@
 ---
-image: "assets/images/publication/2012-11-19-clean-code.jpg"
+image: "assets/images/posts/shared-image/2012-11-19-clean-code.jpg"
 i18n: "Clean code"
 title: "Código limpo"
 slug: "codigo-limpo"

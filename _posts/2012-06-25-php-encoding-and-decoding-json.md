@@ -1,5 +1,5 @@
 ---
-image: "assets/images/publication/2012-06-25-php-encoding-and-decoding-json.jpg"
+image: "assets/images/posts/shared-image/2012-06-25-php-encoding-and-decoding-json.jpg"
 i18n: "PHP - Encoding and decoding JSON"
 title: "PHP - Codificando e decodificando JSON"
 slug: "php-codificando-e-decodificando-json"

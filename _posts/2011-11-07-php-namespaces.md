@@ -1,5 +1,5 @@
 ---
-image: "assets/images/publication/2011-11-07-php-namespaces.jpg"
+image: "assets/images/posts/shared-image/2011-11-07-php-namespaces.jpg"
 i18n: "PHP - Namespaces"
 title: "PHP - Namespaces"
 slug: "php-namespaces"

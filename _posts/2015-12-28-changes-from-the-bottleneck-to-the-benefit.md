@@ -1,5 +1,5 @@
 ---
-image: "assets/images/publication/2015-12-28-changes-from-the-bottleneck-to-the-benefit.jpg"
+image: "assets/images/posts/shared-image/2015-12-28-changes-from-the-bottleneck-to-the-benefit.jpg"
 i18n: "Changes - From the bottleneck to the benefit"
 title: "Mudanças - Do gargalo ao benefício"
 slug: "mudancas-do-gargalo-ao-beneficio"

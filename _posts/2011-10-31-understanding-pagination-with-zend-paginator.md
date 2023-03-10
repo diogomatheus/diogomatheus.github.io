@@ -1,5 +1,5 @@
 ---
-image: "assets/images/publication/2011-10-31-understanding-pagination-with-zend-paginator.jpg"
+image: "assets/images/posts/shared-image/2011-10-31-understanding-pagination-with-zend-paginator.jpg"
 i18n: "Understanding pagination with Zend_Paginator"
 title: "Entendendo paginação com Zend_Paginator"
 slug: "entendendo-paginacao-com-zend-paginator"

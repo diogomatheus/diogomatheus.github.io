@@ -1,5 +1,5 @@
 ---
-image: "assets/images/publication/2015-01-19-wikinomics.jpg"
+image: "assets/images/posts/shared-image/2015-01-19-wikinomics.jpg"
 i18n: "Wikinomics"
 title: "Wikinomics"
 slug: "wikinomics"

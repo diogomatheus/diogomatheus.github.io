@@ -1,5 +1,5 @@
 ---
-image: "assets/images/publication/2012-08-01-zend-certified-engineer-php.jpg"
+image: "assets/images/posts/shared-image/2012-08-01-zend-certified-engineer-php.jpg"
 i18n: "Zend Certified Engineer - PHP"
 title: "Zend Certified Engineer - PHP"
 slug: "zend-certified-engineer-php"

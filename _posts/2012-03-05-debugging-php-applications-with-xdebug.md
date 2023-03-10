@@ -1,5 +1,5 @@
 ---
-image: "assets/images/publication/2012-03-05-debugging-php-applications-with-xdebug.jpg"
+image: "assets/images/posts/shared-image/2012-03-05-debugging-php-applications-with-xdebug.jpg"
 i18n: "Debugging PHP applications with XDebug"
 title: "Depuração de aplicações PHP com XDebug"
 slug: "depuracao-de-aplicacoes-php-com-xdebug"

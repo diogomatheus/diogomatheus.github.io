@@ -1,5 +1,5 @@
 ---
-image: "assets/images/publication/2012-03-19-php-regular-expressions.jpg"
+image: "assets/images/posts/shared-image/2012-03-19-php-regular-expressions.jpg"
 i18n: "PHP - Regular expressions"
 title: "PHP - Expressões regulares"
 slug: "php-expressoes-regulares"

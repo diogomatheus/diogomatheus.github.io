@@ -1,5 +1,5 @@
 ---
-image: "assets/images/publication/2015-11-09-certification-formula-card.jpg"
+image: "assets/images/posts/shared-image/2015-11-09-certification-formula-card.jpg"
 i18n: "Certification formula card"
 title: "Cartão de fórmula de certificação"
 slug: "cartao-de-formula-de-certificacao"

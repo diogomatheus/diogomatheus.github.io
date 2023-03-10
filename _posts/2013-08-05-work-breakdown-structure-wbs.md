@@ -1,5 +1,5 @@
 ---
-image: "assets/images/publication/2013-08-05-work-breakdown-structure-wbs.jpg"
+image: "assets/images/posts/shared-image/2013-08-05-work-breakdown-structure-wbs.jpg"
 i18n: "Work Breakdown Structure (WBS)"
 title: "Estrutura Analítica do Projeto (EAP)"
 slug: "estrutura-analitica-do-projeto-eap"

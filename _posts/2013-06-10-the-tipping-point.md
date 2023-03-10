@@ -1,5 +1,5 @@
 ---
-image: "assets/images/publication/2013-06-10-the-tipping-point.jpg"
+image: "assets/images/posts/shared-image/2013-06-10-the-tipping-point.jpg"
 i18n: "The tipping point"
 title: "O ponto da virada"
 slug: "o-ponto-da-virada"

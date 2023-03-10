@@ -1,5 +1,5 @@
 ---
-image: "assets/images/publication/2013-07-29-interface-based-programming.jpg"
+image: "assets/images/posts/shared-image/2013-07-29-interface-based-programming.jpg"
 i18n: "Interface-based programming"
 title: "Programação baseada em interface"
 slug: "programacao-baseada-em-interface"

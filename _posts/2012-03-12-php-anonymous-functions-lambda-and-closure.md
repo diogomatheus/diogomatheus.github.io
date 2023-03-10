@@ -1,5 +1,5 @@
 ---
-image: "assets/images/publication/2012-03-12-php-anonymous-functions-lambda-and-closure.jpg"
+image: "assets/images/posts/shared-image/2012-03-12-php-anonymous-functions-lambda-and-closure.jpg"
 i18n: "PHP - Anonymous functions (lambda and closure)"
 title: "PHP - Funções anônimas (lambda e closure)"
 slug: "php-funcoes-anonimas-lambda-e-closure"

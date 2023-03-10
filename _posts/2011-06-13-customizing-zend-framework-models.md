@@ -1,5 +1,5 @@
 ---
-image: "assets/images/publication/2011-06-13-customizing-zend-framework-models.jpg"
+image: "assets/images/posts/shared-image/2011-06-13-customizing-zend-framework-models.jpg"
 i18n: "Customizing Zend Framework models"
 title: "Customizando os modelos do Zend Framework"
 slug: "customizando-os-modelos-do-zend-framework"

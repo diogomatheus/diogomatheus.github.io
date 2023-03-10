@@ -1,5 +1,5 @@
 ---
-image: "assets/images/publication/2011-04-27-setting-up-wamp-and-gmail-to-send-emails.jpg"
+image: "assets/images/posts/shared-image/2011-04-27-setting-up-wamp-and-gmail-to-send-emails.jpg"
 i18n: "Setting up WAMP and Gmail to send emails"
 title: "Configurando o WAMP e Gmail para enviar emails"
 slug: "configurando-o-wamp-e-gmail-para-enviar-emails"

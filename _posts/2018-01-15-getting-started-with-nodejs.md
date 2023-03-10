@@ -1,5 +1,5 @@
 ---
-image: "assets/images/publication/2018-01-15-getting-started-with-nodejs.jpg"
+image: "assets/images/posts/shared-image/2018-01-15-getting-started-with-nodejs.jpg"
 i18n: "Getting started with Node.js"
 title: "Introdução ao Node.js"
 slug: "introducao-ao-nodejs"

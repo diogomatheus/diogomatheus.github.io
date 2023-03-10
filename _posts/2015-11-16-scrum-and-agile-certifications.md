@@ -1,5 +1,5 @@
 ---
-image: "assets/images/publication/2015-11-16-scrum-and-agile-certifications.jpg"
+image: "assets/images/posts/shared-image/2015-11-16-scrum-and-agile-certifications.jpg"
 i18n: "Scrum and agile certifications"
 title: "Scrum e certificações ágeis"
 slug: "scrum-e-certificacoes-ageis"

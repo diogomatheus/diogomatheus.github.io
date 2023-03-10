@@ -1,5 +1,5 @@
 ---
-image: "assets/images/publication/2015-02-23-setting-up-php-applications-charset.jpg"
+image: "assets/images/posts/shared-image/2015-02-23-setting-up-php-applications-charset.jpg"
 i18n: "Setting up PHP applications' charset"
 title: "Configurando charset de aplicações PHP"
 slug: "configurando-charset-de-aplicacoes-php"

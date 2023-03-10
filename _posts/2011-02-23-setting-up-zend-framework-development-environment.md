@@ -1,5 +1,5 @@
 ---
-image: "assets/images/publication/2011-02-23-setting-up-zend-framework-development-environment.jpg"
+image: "assets/images/posts/shared-image/2011-02-23-setting-up-zend-framework-development-environment.jpg"
 i18n: "Setting up Zend Framework development environment"
 title: "Configurando o ambiente de desenvolvimento do Zend Framework"
 slug: "configurando-o-ambiente-de-desenvolvimento-do-zend-framework"

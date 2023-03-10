@@ -1,5 +1,5 @@
 ---
-image: "assets/images/publication/2011-07-04-advanced-usage-of-zend-framework-models.jpg"
+image: "assets/images/posts/shared-image/2011-07-04-advanced-usage-of-zend-framework-models.jpg"
 i18n: "Advanced usage of Zend Framework models"
 title: "Uso avançado de modelos do Zend Framework"
 slug: "uso-avancado-de-modelos-do-zend-framework"

@@ -1,5 +1,5 @@
 ---
-image: "assets/images/publication/2011-10-10-php-operators.jpg"
+image: "assets/images/posts/shared-image/2011-10-10-php-operators.jpg"
 i18n: "PHP - operators"
 title: "PHP - Operadores"
 slug: "php-operadores"
