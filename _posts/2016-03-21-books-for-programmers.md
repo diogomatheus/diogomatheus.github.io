@@ -25,12 +25,92 @@ Com base nesse pensamento, confira o TOP 10 – Livros para programadores.
     <tbody>
       <tr>
         <td>
+          <img src="{{site.baseurl}}/assets/images/posts/general/2016-03-21-regular-expressions.jpg" class="img-responsive m-0 p-0">
+        </td>
+        <td class="align-middle">
+          Expressões regulares<br />
+          <small><em>Aurelio Marinho Jargas</em></small>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <img src="{{site.baseurl}}/assets/images/posts/general/2016-03-21-implementing-lean-software-development.jpg" class="img-responsive m-0 p-0">
+        </td>
+        <td class="align-middle">
+          Implementando o desenvolvimento lean de software<br />
+          <small><em>Mary Poppendieck et al.</em></small>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <img src="{{site.baseurl}}/assets/images/posts/general/2016-03-21-applying-uml-and-patterns.jpg" class="img-responsive m-0 p-0">
+        </td>
+        <td class="align-middle">
+          Utilizando UML e Padrões<br />
+          <small><em>Craig Larman</em></small>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <img src="{{site.baseurl}}/assets/images/posts/general/2016-03-21-the-mythical-man-month.jpg" class="img-responsive m-0 p-0">
+        </td>
+        <td class="align-middle">
+          O mítico homem-mês<br />
+          <small><em>Frederick P. Brooks Jr.</em></small>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <img src="{{site.baseurl}}/assets/images/posts/general/2016-03-21-refactoring-to-patterns.jpg" class="img-responsive m-0 p-0">
+        </td>
+        <td class="align-middle">
+          Refatoração para padrões<br />
+          <small><em>Joshua Kerievsky</em></small>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <img src="{{site.baseurl}}/assets/images/posts/general/2016-03-21-the-clean-coder.jpg" class="img-responsive m-0 p-0">
+        </td>
+        <td class="align-middle">
+          O codificador limpo<br />
+          <small><em>Robert C. Martin</em></small>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <img src="{{site.baseurl}}/assets/images/posts/general/2016-03-21-refactoring.jpg" class="img-responsive m-0 p-0">
+        </td>
+        <td class="align-middle">
+          Refatoração<br />
+          <small><em>Martin Fowler</em></small>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <img src="{{site.baseurl}}/assets/images/posts/general/2016-03-21-design-patterns.jpg" class="img-responsive m-0 p-0">
+        </td>
+        <td class="align-middle">
+          Padrões de projeto<br />
+          <small><em>Erich Gamma et al.</em></small>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <img src="{{site.baseurl}}/assets/images/posts/general/2016-03-21-clean-code.jpg" class="img-responsive m-0 p-0">
+        </td>
+        <td class="align-middle">
+          Código limpo<br />
+          <small><em>Robert C. Martin</em></small>
+        </td>
+      </tr>
+      <tr>
+        <td>
           <img src="{{site.baseurl}}/assets/images/posts/general/2016-03-21-the-pragmatic-programmer.jpg" class="img-responsive m-0 p-0">
         </td>
         <td class="align-middle">
-          O programador pragmático
-          <br />
-          <small>Andrew Hunt e David Thomas</small>
+          O programador pragmático<br />
+          <small><em>Andrew Hunt e David Thomas</em></small>
         </td>
       </tr>
     </tbody>
