@@ -22,14 +22,14 @@ Na minha visão de mundo, um programador eficaz consegue escrever soluções leg
   <table class="table table-hover">
     <thead class="thead-light">
       <tr>
-        <th scope="col" width="80px">#</th>
-        <th scope="col" width="180px">Ilustração</th>
+        <th scope="col" width="50px">#</th>
+        <th scope="col" width="200px">Ilustração</th>
         <th scope="col">Título</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td class="text-center">10</td>
+        <td>10</td>
         <td>
           <img src="{{site.baseurl}}/assets/images/posts/general/2016-03-21-regular-expressions.jpg" class="img-responsive m-0 p-0">
         </td>
@@ -39,7 +39,7 @@ Na minha visão de mundo, um programador eficaz consegue escrever soluções leg
         </td>
       </tr>
       <tr>
-        <td class="text-center">9</td>
+        <td>9</td>
         <td>
           <img src="{{site.baseurl}}/assets/images/posts/general/2016-03-21-implementing-lean-software-development.jpg" class="img-responsive m-0 p-0">
         </td>
@@ -49,7 +49,7 @@ Na minha visão de mundo, um programador eficaz consegue escrever soluções leg
         </td>
       </tr>
       <tr>
-        <td class="text-center">8</td>
+        <td>8</td>
         <td>
           <img src="{{site.baseurl}}/assets/images/posts/general/2016-03-21-applying-uml-and-patterns.jpg" class="img-responsive m-0 p-0">
         </td>
@@ -59,7 +59,7 @@ Na minha visão de mundo, um programador eficaz consegue escrever soluções leg
         </td>
       </tr>
       <tr>
-        <td class="text-center">7</td>
+        <td>7</td>
         <td>
           <img src="{{site.baseurl}}/assets/images/posts/general/2016-03-21-the-mythical-man-month.jpg" class="img-responsive m-0 p-0">
         </td>
@@ -69,7 +69,7 @@ Na minha visão de mundo, um programador eficaz consegue escrever soluções leg
         </td>
       </tr>
       <tr>
-        <td class="text-center">6</td>
+        <td>6</td>
         <td>
           <img src="{{site.baseurl}}/assets/images/posts/general/2016-03-21-refactoring-to-patterns.jpg" class="img-responsive m-0 p-0">
         </td>
@@ -79,7 +79,7 @@ Na minha visão de mundo, um programador eficaz consegue escrever soluções leg
         </td>
       </tr>
       <tr>
-        <td class="text-center">5</td>
+        <td>5</td>
         <td>
           <img src="{{site.baseurl}}/assets/images/posts/general/2016-03-21-the-clean-coder.jpg" class="img-responsive m-0 p-0">
         </td>
@@ -89,7 +89,7 @@ Na minha visão de mundo, um programador eficaz consegue escrever soluções leg
         </td>
       </tr>
       <tr>
-        <td class="text-center">4</td>
+        <td>4</td>
         <td>
           <img src="{{site.baseurl}}/assets/images/posts/general/2016-03-21-refactoring.jpg" class="img-responsive m-0 p-0">
         </td>
@@ -99,7 +99,7 @@ Na minha visão de mundo, um programador eficaz consegue escrever soluções leg
         </td>
       </tr>
       <tr>
-        <td class="text-center">3</td>
+        <td>3</td>
         <td>
           <img src="{{site.baseurl}}/assets/images/posts/general/2016-03-21-design-patterns.jpg" class="img-responsive m-0 p-0">
         </td>
@@ -109,7 +109,7 @@ Na minha visão de mundo, um programador eficaz consegue escrever soluções leg
         </td>
       </tr>
       <tr>
-        <td class="text-center">2</td>
+        <td>2</td>
         <td>
           <img src="{{site.baseurl}}/assets/images/posts/general/2016-03-21-clean-code.jpg" class="img-responsive m-0 p-0">
         </td>
@@ -119,7 +119,7 @@ Na minha visão de mundo, um programador eficaz consegue escrever soluções leg
         </td>
       </tr>
       <tr>
-        <td class="text-center">1</td>
+        <td>1</td>
         <td>
           <img src="{{site.baseurl}}/assets/images/posts/general/2016-03-21-the-pragmatic-programmer.jpg" class="img-responsive m-0 p-0">
         </td>

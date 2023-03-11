@@ -12,18 +12,18 @@ De primatas a astronautas do autor Leonard Mlodinow apresenta um odisseia com v�
 
 ## Sumário
 
-Nossa vontade de saber
-Curiosidade
-Cultura
-Civilização
-Razão
-Uma nova maneira de pensar
-O universo mecânico
-De que são feitas as coisas
-O mundo animado
-Os limites da experiência humana
-O reino invisível
-A revolução quântica
+1. Nossa vontade de saber
+2. Curiosidade
+3. Cultura
+4. Civilização
+5. Razão
+6. Uma nova maneira de pensar
+7. O universo mecânico
+8. De que são feitas as coisas
+9. O mundo animado
+10. Os limites da experiência humana
+11. O reino invisível
+12. A revolução quântica
 
 Os capítulos são apresentados em três partes: I. Quando nos erguemos; II. As ciências; e III. Além dos sentidos humanos.
 
