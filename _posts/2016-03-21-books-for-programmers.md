@@ -10,7 +10,7 @@ redirect_from:
 ---
 Recentemente no tradicional café após o almoço no centro da cidade do Rio de Janeiro, um companheiro de trabalho me solicitou algumas recomendações de leitura para programadores em nível júnior e pleno, ou seja, leituras com potencial para o crescimento profissional de pessoas programadoras já inseridas no mercado de trabalho.
 
-Dessa forma, ficou combinado que eu iria separar algumas recomendações de leitura focadas em inserir preocupações e apresentar diferentes abordagens de resolução de problema relacionado com desenvolvimento de software. Com esse objetivo em mente, não irei abordar leituras de introdução de linguagens de programação, etc.
+Dessa forma, ficou combinado que eu iria separar algumas recomendações de leitura focadas em inserir preocupações e apresentar diferentes abordagens de resolução de problema relacionadas com desenvolvimento de software. Com esse objetivo em mente, não irei abordar leituras de introdução de linguagens de programação, etc.
 
 ## Programador eficaz
 

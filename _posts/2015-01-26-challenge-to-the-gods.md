@@ -8,14 +8,48 @@ tags: []
 redirect_from:
   - "/blog/resenha-de-livros/desafio-aos-deuses/"
 ---
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+Desafio aos deuses do autor Peter Bernstein apresenta uma análise sobre o papel do risco em nossa sociedade, contada através de uma narrativa rica em detalhes, que aborda desde filósofos gregos até matemáticos, cientistas e jogadores, visando métodos de pôr o futuro a serviço do presente, que resultou na administração de riscos como conhecida hoje.
 
-## Where does it come from?
+## Sumário
 
-Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
+1. O vento dos gregos e o papel dos dados
+2. Fácil como I, II, III
+3. O jogador do renascimento
+4. A conexão francesa
+5. As noções notáveis do homem das noções notáveis
+6. Considerando a natureza do homem
+7. A busca da certeza moral
+8. A lei suprema da irracionalidade
+9. O homem com cérebro torcido
+10. Ervilhas e riscos
+11. A estrutura da felicidade
+12. A medida de nossa ignorância
+13. A noção radicalmente distinta
+14. O homem que contava tudo, exceto calorias
+15. O estranho caso do corretor anônimo
+16. A falta de invariância
+17. A polícia da teoria
+18. O sistema fantástico de apostas laterais
+19. A espera da turbulência
 
-The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.
+## Capítulo – Fácil como I, II, III
 
-## Why do we use it?
+Neste capítulo o autor explora o sistema de numeração indo-arábico, introdução do zero na matemática e o liber abaci, livro do ábaco de Leonardo Pisano, conhecido como Fibonacci, que apresentou os números como conhecemos hoje ao ocidente, após viagens pelo Egito, síria, Grécia, Sicília e Provença. Em uma das passagens do liber abaci, Fibonacci descobriu uma espécie de milagre matemático, uma sequencia numérica no qual cada número sucessor é a soma dos dois precedentes, que hoje é conhecida como sequencia fibonacci, que desde sua descoberta foi assunto para diversos artigos.
 
-It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+Embora seja difícil imaginar, ainda neste capítulo é apresentado um histórico de como os cálculos eram realizados com números romanos ou palavras gregas. Os números como conhecemos hoje são os pilares para muitas das descobertas e evoluções recentes.
+
+## Capítulo – O homem com cérebro torcido
+
+Francis Galton, primo de Charles Darwin, apesar de nunca ter trabalhado na vida, fez diversas contribuições durante suas pesquisas e medições, sua obsessão, “Sempre que puder, conte”, costumava dizer. Galton tomava nota do tamanho de cabeças, narizes, etc. Certa vez criou um mapa da beleza da Grã-Bretanha, onde as moças de Londres foram eleitas as mais bonitas.
+
+Em 1893 após estudar a natureza do corpo humano, Galton publicou um livro de duzentas páginas sobre as impressões digitais, que ao contrário das outras partes do corpo não muda sua configuração a medida que a pessoa envelhece. Logo após sua publicação as impressões digitais foram adotadas pela polícia.
+
+Porém sua maior contribuição para administração dos riscos ocorreu após estudar as características da hereditariedade, tentando descobrir como o talento persiste geração após geração, procurando identificar “naturezas proeminentemente nobres”, nomeando esse campo de estudo de “eugenia”. Depois de ler a obra de Quetelet sobre aplicabilidade da distribuição normal, Galton propôs um princípio que passou a ser conhecido como regressão à média.
+
+“Regressão à média é a tendência do tipo filial médio ideal de afastar-se do tipo paterno, revertendo ao que podemos grosseiramente e talvez justamente descrever como o tipo ancestral médio”.
+
+O princípio da regressão à média revolucionou diversas áreas, principalmente a economia e o mercado de ações, além de servir como fonte filosófica, sendo classificada pelo próprio Galton como equilibrada, onde os sucessores dos indivíduos atípicos estão predestinados a aderir à multidão no centro.
+
+## Conclusão
+
+Trata-se de um livro de leitura leve, ideal para quem gosta de conhecer não só as descobertas que levaram aos métodos que usamos hoje na administração de riscos, mas também as pessoas envolvidas, suas histórias e motivações. Os personagens apresentados no livro são muito semelhantes aos abordados em O Andar do Bêbado, de Leonard Mlodinow, porém através de um foco diferente.

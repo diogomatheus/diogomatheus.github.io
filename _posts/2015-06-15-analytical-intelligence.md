@@ -8,14 +8,34 @@ tags: []
 redirect_from:
   - "/blog/resenha-de-livros/inteligencia-analitica/"
 ---
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+Inteligência analítica do autor Carlos André Reis Pinheiro apresenta conceitos e casos de uso visando mineração de dados e descoberta de conhecimento, abordando o ciclo de inteligência competitiva que envolve dados, informação, conhecimento, inteligência e experiência, definindo inteligência como uso do conhecimento em determinado cenário ou problema, além de analisar as principais técnicas de mineração de dados, demonstrando seus benefícios.
 
-## Where does it come from?
+## Sumário
 
-Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
+1. Introdução ao clico de inteligência competitiva
+2. Sistemas transacionais
+3. Sistemas de suporte à decisão
+4. Arquitetura tecnológica para ambientes analíticos
+5. Descoberta de conhecimento
+6. Técnicas de mineração de dados
+7. Preparação dos dados
+8. Construção de modelos de agrupamento
+9. Análise de modelos de agrupamento
+10. Construção de modelos de predição
+11. Utilização conjunta de modelos de agrupamento e predição
+12. Aplicações do conhecimento
+13. Persistência do conhecimento
 
-The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.
+O autor adicionou dois capítulos em anexo, sendo o primeiro sobre o cenário de inteligência de negócios e o segundo sobre redes neurais artificiais.
 
-## Why do we use it?
+## Capítulo: Técnicas de mineração de dados
 
-It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+Neste capítulo o autor apresenta algumas técnicas da área de inteligência artificial  usadas para mineração de dados, sendo essas árvores de decisão, redes neurais e algoritmos genéticos, explicando seus principais conceitos e etapas visando resolução de problemas e otimização de configurações. O objetivo deste capítulo é reforçar o entendimento sobre cada técnica antes de entrar nos casos de uso para agrupamento, classificação e predição.
+
+## Capítulo: Construção de modelos de agrupamento
+
+No capítulo sobre modelos de agrupamento o autor cria um exemplo visando definição dos perfis de clientes em uma empresa de telecomunicações, usando como técnica os mapas auto-ajustáveis de kohonen, que são considerados como uma derivação das redes neurais. Essa técnica é útil para identificar padrões em grandes volumes de dados, um modelo não supervisionado, gerando grupos através de características marcantes. O exemplo foi gerado no ambiente da ferramenta SAS Enterprise Miner.
+
+## Conclusão
+
+O objetivo da leitura é gerar uma compreensão sobre o que está envolvido no cenário de mineração de dados e descoberta de conhecimento através da aplicação de técnicas de inteligência artificial, seja agrupamento ou classificação, além da predição de acontecimentos com base em informações subjetivas usando redes neurais artificiais. O autor não se limitou nas relações das técnicas e cenários, mas preocupou-se em explicar também como se define uma equipe para projetos de mineração de dados. Para quem está iniciando na área pode ser uma leitura de conexão dos pontos de estudo aplicados em um propósito, mas não espere ver código ou pseudocódigo das técnicas pois este não é o foco do autor.

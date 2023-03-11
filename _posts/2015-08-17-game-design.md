@@ -8,14 +8,48 @@ tags: []
 redirect_from:
   - "/blog/resenha-de-livros/design-de-games/"
 ---
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+Design de games do autor Paul Shuytema tem como objetivo apresentar os conceitos de um game e as tarefas envolvidas na jornada para criação de um jogo, desde sua concepção e documentação até o desenvolvimento de códigos usando linguagem Lua, tendo como abordagem central o papel do designer de games, suas atividades e treinamentos necessários.
 
-## Where does it come from?
+## Sumário
 
-Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
+1. O que é design de games?
+2. O que um designer de games faz?
+3. Campo de treinamento de design: fazendo o dever de casa
+4. Campo de treinamento de design: criatividade e massa cinzenta
+5. O documento de design
+6. Aprendendo com as ferramentas
+7. Os átomos de um game
+8. Percepções e emoções do jogador
+9. Desafios para o jogador
+10. Interface com o usuário
+11. Gerenciamento do inventário e powerups
+12. Design do ambiente
+13. Design de enigmas
+14. Design de conflitos
+15. Design do fluxo do game
+16. Contando histórias (Storytelling)
+17. Próximos passos
 
-The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.
+Os capítulos deste livro foram separados em três partes, I – Introdução ao design de games, II – Teoria de design de games e III – Design de games no mundo real.
 
-## Why do we use it?
+## Capítulo 5 – O documento de design
 
-It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+No capítulo sobre o documento de design o autor apresenta seu processo de criação, passando pelo High Concept do game, que para determinados jogos possui um parágrafo com objetivo de descrever sua jogabilidade e desafios principais. O autor também aborda as apresentações de vendas, ressaltando sua importância, além de detalhar o uso do design técnico, especificação funcional, plano de marketing e plano de localização.
+
+Segundo Paul Shuytema o documento de design funciona como um documento de planta baixa do jogo, tendo como objetivo principal ilustrar como se deve jogá-lo, além de apresentar uma descrição abrangente de todos os aspectos, possibilitando que o game seja criado pela equipe de desenvolvimento.
+
+Para detalhar o documento de design o autor apresenta em tópicos seus principais componentes, além disso, no final do capítulo é criado um documento de design que será base para o desenvolvimento de um game nos capítulos seguintes.
+
+## Capítulo 9 – Desafios para o jogador
+
+O que de fato faz uma pessoa continuar jogando ou retornar para jogar um game? Segundo Paul grande parte dessa resposta está ligada aos desafios presentes no jogo, pois apenas os gráficos bonitos e trilhas sonoras bem selecionadas geram interesse de jogar, mas para retornar é preciso existir bons desafios.
+
+Neste capítulo são apresentados os conceitos relacionados as ações do jogador, fluxo do game e principalmente desafios, com dicas de como criá-los de maneira que o jogador não consiga decifrar facilmente, nesse ponto o autor recomenda desafios crescentes e variados, analisando também as relações entre risco e recompensa, além de abordar sobre desafios adaptáveis que são baseados em indicadores sobre o jogador e suas ações, equilibrando os desafios de acordo com nível do jogador através de um conjunto de opções pré-definidas, evitando desafios banais e impossíveis.
+
+No final do capítulo o autor reserva um bom espaço para falar sobre os encontros com os chefes de fase, um desafio presente nos maiores sucessos da indústria de games.
+
+## Conclusão
+
+Os interessados em desenvolvimento de game irão ficar satisfeito com essa leitura, pois através de uma análise detalhada Paul Shuytema apresenta um caminho para criar documentos de design, organizando e direcionando todo processo de criação de jogos. Para os desenvolvedores de software essa obra pode ser interessante quando se diz respeito aos conceitos da gamification, que visa aplicar técnicas do design de games para manter os usuários motivados durante suas atividades.
+
+Recomendo também acompanhar o site http://gamedeveloper.com.br/, que apresenta bons artigos sobre desenvolvimento de games e notícias da área.

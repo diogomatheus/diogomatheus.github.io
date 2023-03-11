@@ -8,14 +8,49 @@ tags: []
 redirect_from:
   - "/blog/resenha-de-livros/a-startup-enxuta/"
 ---
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+A startup enxuta do autor Eric Reis apresenta os principais passos e conceitos para sua jornada no empreendedorismo, trata-se de uma leitura motivadora, no qual os leitores ficam satisfeitos e com sentimento de que sabem o que deve ser feito. Para aqueles como eu, que organizam projetos, mas não iniciam por falta de direção, o conceito de MVP, mínimo produto viável, pode ser uma ótima forma de iniciar seus negócios.
 
-## Where does it come from?
+## Sumário
 
-Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
+1. Começar
+2. Definir
+3. Aprender
+4. Experimentar
+5. Saltar
+6. Testar
+7. Medir
+8. Pivotar
+9. Agrupar em lotes
+10. Crescer
+11. Adaptar
+12. Inovar
+13. Epílogo: não desperdice
+14. Junte-se ao movimento
 
-The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.
+O autor dividiu os capítulos em três partes, visão, direção e aceleração, para melhor organização, resultando em uma abordagem bastante didática e de fácil leitura, seja para os mais envolvidos com administração e empreendedorismo até iniciantes que se interessam pelo assunto.
 
-## Why do we use it?
+## Parte I – Visão [1 – 4]
 
-It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+<blockquote class="blockquote">
+  <p class="mb-2 text-right">Uma startup é uma instituição humana projetada para criar novos produtos e serviços sob condições de extrema incerteza.</p>
+</blockquote>
+
+Na primeira parte do livro o autor apresenta os conceitos básicos de uma Startup Enxuta, abordando experiências próprias e exemplos como da Zappos, loja online de sapatos que começou revendendo produtos de outras lojas, visando validar seu modelo de negócio, antes de realmente investir, utilizando o conceito “pense grande, comece pequeno”.
+
+## Parte II – Direção [5 – 8]
+
+Na segunda parte do livro é apresentado o ciclo de feedback, que segundo o autor é o caminho para criação de startups de sucesso, onde através de um MVP, produto mínimo viável, seja possível resgatar feedback dos clientes.
+
+Ainda nessa parte do livro, conhecemos o conceito de salto de fé, que são hipóteses que aceitamos como verdade no momento em que idealizamos um projeto, essas hipóteses, saltos de fé, devem ser o foco de nossos experimentos, comprovando através de medições concretas que nosso modelo de negócio está de acordo com as necessidades dos clientes e são acima de tudo viáveis. Em alguns casos o modelo de negócio pode não estar atendendo o público como deveria, nesse cenário, pode ser que tenhamos que optar por pivotar, ou seja, alterar nossa estratégia de maneira radical, visando atender um novo tipo de cliente ou até mesmo reformular nosso projeto como um todo.
+
+## Parte III – Aceleração [9 – 14]
+
+<blockquote class="blockquote">
+  <p class="mb-2 text-right">Sem dúvida, não há nada tão inútil quanto fazer com grande eficiência o que não devia ser feito de modo algum.</p>
+</blockquote>
+
+Para finalizar o autor reservou alguns capítulos para apresentar algumas maneiras que o mesmo considera ideal para modelar os processos de uma startup, agrupando processos em lotes pequenos, o que facilita na identificação e correção de problemas durante o ciclo de produção. Nesse momento é apresentado as cordas andon da Toyota, que são acionadas quando um funcionário encontra um problema, paralisando todo processo de produção até que o mesmo seja corrigido.
+
+## Conclusão
+
+Ótimo livro para quem se interessa por empreendedorismo, principalmente para os que idealizam possíveis iniciativas, mas não executam por falta de direção. Os passos apresentados pelo autor focam no desenvolvimento de produtos mínimos, experimentos, para encontrar clientes e verificar através de medição quais são suas reais necessidades, modelando o negócio de acordo com o aprendizado, através do processo cíclico, construir-medir-aprender, organizando as atividades em lotes pequenos, facilitando adaptação e aumentando agilidade da empresa.

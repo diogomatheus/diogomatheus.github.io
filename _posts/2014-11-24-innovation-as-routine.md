@@ -8,14 +8,55 @@ tags: []
 redirect_from:
   - "/blog/resenha-de-livros/inovacao-como-rotina/"
 ---
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+Inovação como rotina dos autores Paddy Miller e Thomas Wedell foca na inovação visando gerar resultado diário, tendo como objetivo apresentar as principais características para implantar um ambiente propício para inovação, leia-se pensamento inovador, deixando bem claro que o gerente de projetos não exige inovação de seus colaboradores, mas sim estimula esse comportamento através de mudanças no ambiente de trabalho, direcionando a inovação para obter resultados.
 
-## Where does it come from?
+Os autores fazem questão de apresentar suas definições para inovação e arquiteto de inovação, para facilitar o entendimento do que será apresentado.
 
-Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
+- Inovação: Criar resultados fazendo coisas novas.
+- Arquiteto de inovação: Aquele que faz as outras pessoas inovarem ao modificar o ambiente no qual elas trabalham.
 
-The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.
+## Sumário
 
-## Why do we use it?
+1. Inovação como rotina
+2. Foco
+3. Conectar
+4. Ajuste
+5. Selecionar
+6. Stealthstorm
+7. Persistir
+8. Epílogo
 
-It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+## Capítulo – Foco
+
+No segundo capítulo, sobre foco, os autores apresentam como fazer as pessoas se concentrarem nas ideias que interessam, além de ressaltar que foco é mais importante do que liberdade onde se faz necessário inovar em ambiente de trabalho diário, indicando que os líderes devem limitar e direcionar a busca pela inovação, com objetivo de retirar seus colaboradores da inércia e gerar resultados alinhados estrategicamente.
+
+Para ajudar as pessoas visando focar no que interessa, os autores apresentam três métodos.
+
+- Esclarecer o objetivo: o que estamos tentando alcançar?
+- Definir a área de segurança: quais são os limites da busca?
+- Mudar o espaço de busca: que áreas novas as pessoas deveriam examinar?
+
+Para encerrar o capítulo, os autores afirmam que a inovação funciona como um holofote, sendo responsabilidade do líder direcionar o feixe de luz na direção certa para que as pessoas possam olhar para as áreas certas e da mesma forma que os holofotes, esse conceito funciona melhor quando é concentrado em um objetivo.
+
+## Capítulo – Ajuste
+
+No quarto capítulo, sobre ajuste, os autores apresentam como ajudar as pessoas a aperfeiçoarem suas ideias, afirmando que as primeiras ideias são imperfeitas. Segundo Paddy Miller e Thomas Wedell, os líderes precisam fazer com que as pessoas testem, contestem e reformulem suas ideias. O objetivo nesse ponto é eliminar as fantasias sobre ideias milagrosas, que exitem, mas são raras, apresentando um caminho mais realista percorrido pelas ideias até chegar ao sucesso.
+
+<blockquote class="blockquote">
+  <p class="mb-2 text-right">As ideias bem-sucedidas não são descobertas, são elaboradas.</p>
+  <p class="blockquote-footer text-right">Paddy Miller e Thomas Wedell</p>
+</blockquote>
+
+Um dos pontos mais interessantes do capítulo sobre ajuste é o conceito de reenquadramento do problema, aplicado na maioria das vezes por empresas de consultoria com objetivo de diagnosticar os problemas de seus clientes, que consiste em se aprofundar, fazer perguntas e recolher fatos.
+
+Para reenquadrar problemas os autores apresentam cinco métodos simples.
+
+- Primeiro, explicar o que significa reenquadramento
+- Faça com que as pessoas definam seu problema por escrito
+- Cinco porquês, analisar a causa principal do problema
+- Tarefas a serem realizadas, montar uma lista de tarefas
+- Envolver outras pessoas, obter opiniões com perspectivas diferentes
+
+## Conclusão
+
+Paddy Miller e Thomas Wedell conseguiram no livro Inovação como rotina seu objetivo, apresentar conceitos e ações para proporcionar o pensamento inovador em qualquer ambiente, seguindo sua definição de inovação. Muita gente considera inovação fruto da liberdade, o que pode ser verdade, mas no cenário corporativo os resultados precisam ser alcançados em curto prazo na maioria das vezes, sendo necessário direcionar a inovação, selecionando as melhores ideias, conectando as pessoas e ajudando os colaboradores na busca pela inovação através da persistência, utilizando motivação intrínseca e extrínseca.

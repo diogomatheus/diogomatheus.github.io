@@ -10,7 +10,7 @@ redirect_from:
 ---
 O poder dos inquietos do autor Chris Guillebeau visa apresentar seus conceitos e estratégias para viver diferente da multidão, viajando pelo mundo e trabalhando de acordo com as necessidades para conquistar seus sonhos. Chris é empresário, escritor, já viajou para quase todos os países do mundo e trabalhou como voluntário na África Ocidental. Nesta obra o autor demonstra sua visão de mundo e possibilidades que a maioria ignora seguindo a multidão.
 
-Sumário
+## Sumário
 
 1. Os sonâmbulos e o mundo dos vivos
 2. Estabeleça os termos para uma vida excepcional
@@ -32,8 +32,8 @@ Os capítulos deste livro foram separados em três partes, I – Uma vida notáv
 No primeiro capítulo o autor aborda como as pessoas ao nosso redor podem ajudar ou prejudicar nosso caminho ao sucesso, das pessoas amigáveis aos guardiões e críticos. Neste capítulo é especificado o público alvo do livro e seus objetivos, que tem como base despertar o leitor para realizar suas metas e assumir a responsabilidade de suas ações.
 
 <blockquote class="blockquote">
-  <p class="mb-0">A maioria dos homens leva uma vida de desespero silencioso e vai ao túmulo sem ter expressado sua alma.</p>
-  <footer class="blockquote-footer">Henry David Thoreau</footer>
+  <p class="mb-2 text-right">A maioria dos homens leva uma vida de desespero silencioso e vai ao túmulo sem ter expressado sua alma.</p>
+  <p class="blockquote-footer text-right">Henry David Thoreau</p>
 </blockquote>
 
 ## Capítulo 5 – A competência é sua segurança
@@ -41,8 +41,8 @@ No primeiro capítulo o autor aborda como as pessoas ao nosso redor podem ajudar
 Neste capítulo o autor aborda o senso comum de que trabalhar para os outros em troca de um baixo salário é melhor do que ser empreendedor, se concentrando na tolerância ao risco. O autor apresenta algumas opções para assumir as responsabilidades da vida, como abrir um negócio próprio, realizar pequenos experimentos como reduzir carga horária de trabalho e até mesmo redefinir a busca pelo emprego contratando um chefe.
 
 <blockquote class="blockquote">
-  <p class="mb-0">Assuma o controle da própria vida e algo terrível acontece: você não tem mais a quem culpar.</p>
-  <footer class="blockquote-footer">Érica Jong</footer>
+  <p class="mb-2 text-right">Assuma o controle da própria vida e algo terrível acontece: você não tem mais a quem culpar.</p>
+  <p class="blockquote-footer text-right">Érica Jong</p>
 </blockquote>
 
 Sempre recomendo o trabalho como freelancer para meus amigos de profissão, pois muitos terminam o curso de graduação e vão direto para empresas de grande porte, onde são responsáveis por apenas uma parte do trabalho em seus projetos. Normalmente este tipo de colaborador tem dificuldade de responsabilizar-se pelo resultado do projeto, diferente daqueles que já tiveram experiência como freelancer, ser responsável pelas suas ações e resultados é um ótimo formador de profissionais.
