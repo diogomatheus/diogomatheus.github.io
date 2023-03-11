@@ -8,14 +8,49 @@ tags: []
 redirect_from:
   - "/blog/php/php-do-jeito-certo/"
 ---
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+Este artigo é um texto sobre a importância do projeto [PHP the right way](http://br.phptherightway.com/), que já foi traduzido para vários idiomas. Para os programadores mais jovens é um texto orientador que pode abrir diversos caminhos e antecipar muita coisa que está por vir na sua vida profissional, então não tenha vergonha de ler mais de uma vez, procurar materiais de apoio e até mesmo cursos baseados nesse conteúdo para entender melhor essas possibilidades, que cobre de padrões de codificação até virtualização, cache e automação.
 
-## Where does it come from?
+<blockquote class="blockquote">
+  <p class="mb-2 text-right">A mente que se abre a uma nova ideia jamais voltará ao seu tamanho original.</p>
+  <p class="blockquote-footer text-right">Albert Einstein</p>
+</blockquote>
 
-Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
+Antes de falar sobre este guia e seu conteúdo, quero parabenizar os estudantes da linguagem PHP, que apesar de sua fama e muitas vezes desvalorização, conseguem visualizar seu valor e agilidade, uma dica que posso passar é sejam inconformados, enquanto estiver desenvolvendo um projeto, busque alternativas e melhores práticas para os próximos. Todas as dicas presente no PHP the right way são aplicáveis em outras linguagens, recomendo fortemente o estudo de mais de uma linguagem em paralelo aos iniciantes no PHP, de preferência uma fortemente tipada, seja curioso mas tenha foco na produtividade, pois não adianta conhecer 10 frameworks, 20 ferramentas e no final do ano não ter suas ideias implementadas.
 
-The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.
+## O que é o PHP the right way?
 
-## Why do we use it?
+PHP the right way é um projeto que fornece informações atualizadas sobre boas práticas e ferramentas disponíveis na linguagem PHP, uma referência fácil de ler, que introduz os desenvolvedores no cenário de forma rápida, sem informações obsoletas.
 
-It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+As informações disponíveis são ótimas para os iniciantes e desenvolvedores com certa experiência, não se trata de uma receita, mas um guia de sugestões que conta com múltiplas opções, sendo considerado um documento vivo que continuará sendo atualizado.
+
+## Boas práticas de codificação
+
+De maneira genérica o projeto aborda três temas diferentes, guia de estilo de código que fala sobre as PSR e padrões de codificação, práticas de codificação que envolve padrões de projeto e alguns recursos essenciais, além dos destaques da linguagem como namespaces e SPL.
+
+Muitos ignoram os benefícios dos guias de estilo de código, principalmente quando se trabalha sozinho, mas quando se trata de trabalho coletivo a falta da padronização pode gerar inconsistências e muitas dores de cabeça entre os colaboradores, então acostume-se com os guias de estilo de código.
+
+## Gerenciamento de dependência
+
+Gerenciamento de dependência é algo relativamente recente no PHP quando se diz respeito as dependência de um projeto específico, graças ao [Composer](https://getcomposer.org/) podemos especificar quais componentes são usados pelos nossos projetos, uma lista das opções disponíveis pode ser encontrada no Packagist. Além de gerenciar as dependências o Composer também trabalha no gerenciamento das configurações, armazenando as versões usadas de cada componente, o que possibilita aos colaboradores replicar o ambiente do projeto.
+
+Uma opção para gerenciar as dependências do sistema/ambiente de execução é o [PEAR](http://pear.php.net/packages.php).
+
+## Segurança
+
+Na seção de segurança o projeto foca na existência de pessoas ruins prontas para invadir suas aplicações, sendo então importante tomar medidas para reforçar a segurança, indicando o texto da [OWASP](https://www.owasp.org/index.php/Guide_Table_of_Contents), que lista problemas de seguranças conhecidos e como se proteger contra eles, uma leitura obrigatória.
+
+Além dessa indicação também é abordado o uso de senhas no PHP, sugerindo o uso da função password_hash(), que usa o BCrypt internamente o algorítimo mais forte suportado pelo PHP hoje.
+
+Para fechar também é indicado o uso e os benefícios dos filtros de dados e outras práticas.
+
+## Servidores e publicação
+
+Nesta seção diversas opções de servidores e plataformas de publicação são apresentadas, os tempos mudaram, não temos apenas o servidor local e a hospedagem como opções amarradas, as plataformas de publicação hoje são ótimas para criar aplicações com escalabilidade um diferencial princialmente para prestadores de serviço.
+
+No texto os iniciantes terão ciência de que o apache tem concorrente e diversas ferramentas de automação estão disponíveis do [Phing](http://www.phing.info/) ao [Travis CI](https://travis-ci.org/), está na hora de avançar e aproveitar as tecnologias e recursos disponíveis.
+
+## Conclusão
+
+Para os iniciantes da linguagem PHP que estão procurando uma direção técnica sobre recursos e ferramentas que empresas sérias de software usam em seus projetos o PHP the right way é uma ótima fonte de conhecimento. Estude e tenha domínio dessas ferramentas e tecnologias, procure aplicar em seus projetos pessoais e levar para suas empresas, colabore para mudar a visão da linguagem que você trabalha criando projetos estruturados e automatizados.
+
+O objetivo deste artigo foi meramente disseminar o projeto e seus benefícios, cobrindo apenas alguns pontos do conteúdo oficial, não deixe de acessar o projeto para conferir o texto na integra.
