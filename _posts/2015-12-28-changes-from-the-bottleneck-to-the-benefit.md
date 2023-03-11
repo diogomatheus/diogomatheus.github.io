@@ -8,14 +8,53 @@ tags: []
 redirect_from:
   - "/blog/gerenciamento-de-projetos/mudancas-do-gargalo-ao-beneficio/"
 ---
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+Nada mais justo do que o último artigo do ano ser sobre mudanças, afinal quem nunca planejou uma grande mudança na virada do ano? O fato é: o que você fez sobre este planejamento? O quanto você se empenhou e até mesmo sacrificou para colocar em prática seus projetos? Seja visando estudo, mudar de área no trabalho e até mesmo estilo de vida.
 
-## Where does it come from?
+Mudança é tudo aquilo que transforma, para melhor ou pior, que muda nosso comportamento sobre determinado cenário com base em alguma causa ou em busca de algum ideal.
 
-Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
+## Qual é o objetivo da mudança?
 
-The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.
+Não existe uma receita, cada mudança terá um objetivo e o importante é que este seja identificado, planejado e acompanhado até chegar ao resultado esperado ou não ser mais necessário, mudar por insatisfação sem planejar pode gerar resultados negativos, mude sempre visando o benefício.
 
-## Why do we use it?
+<blockquote class="blockquote">
+  <p class="mb-2 text-right">O importante é isso: estar pronto para, a qualquer momento, sacrificar o que somos pelo que poderíamos vir a ser.</p>
+  <p class="blockquote-footer text-right">Charles Du Bois</p>
+</blockquote>
 
-It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+O planejamento de final de ano é importante, o que você espera para o ano seguinte? Quais são os principais feitos que você deseja realizar em curto, médio e longo prazo? Pegue uma folha de papel e faça uma pequena lista de prioridades, tendo sua lista, seja realista sobre os sacrifícios que pode realizar em sua rotina e selecione os itens mais adequados.
+
+## O gargalo da execução
+
+Na execução e implantação ocorre o principal ponto de gargalo em mudanças de impacto, principalmente as que afetam o dia a dia das pessoas, como uma obra na cidade, uma nova metodologia no ambiente de trabalho, etc. Como podemos definir e disponibilizar uma visão do benefício e motivo da mudança? Quem acredita no antigo método de general, no qual manda quem pode e obedece quem tem juízo, pode encontrar muitos problemas neste momento.
+
+Em uma grande obra o dia a dia dos moradores é afetado, mas qual é o objetivo da obra? Qual será o legado para os moradores? Como este legado será utilizado para melhorar suas vidas? Caso essas perguntas não sejam respondidas e divulgadas de forma adequada, qualquer inconformidade ou interpretação incorreta pode gerar problemas, uma grande tempestade. Uma questão específica está presente em todas mudanças, qual é a prioridade da mudança?
+
+Cada mudança terá suas próprias questões e dúvidas, caso os envolvidos não encontrem respostas concretas, o gargalo da execução poderá se agravar e a insatisfação será instaurada de maneira geral no ambiente. Em alguns momentos nosso planejamento de final de ano envolve outras pessoas e ignoramos esse aspecto, além de não definir o benefício de cada mudança, seus impactos e uma direção para realizá-los.
+
+## Como mitigar o gargalo da mudança?
+
+Para definir e iniciar uma mudança temos que levar em consideração sua prioridade, isso só é possível quando existe uma missão, um propósito maior, como ser um engenheiro de software, ter mais tempo para os filhos, virar gerente de projetos, etc. Existem diversos tipos de cenários considerados como propósito maior e essa definição influencia diretamente no caminho que será traçado, pois irá expor pequenas mudanças necessárias. No gerenciamento de projetos essa etapa normalmente é tratada ao realizar o controle integrado de mudanças através de um processo bem definido onde é analisado o benefício da mudança, seu impacto e prioridade, decidindo se essa mudança está de acordo com o propósito maior do projeto.
+
+Toda mudança pode ser encarada como um desafio, que trás uma sensação de imprevisibilidade aos envolvidos, essa sensação gera na maioria dos casos resistência à mudança. Para contornar esse problema precisamos de uma boa gestão de pessoas, para aumentar o entendimento dos envolvidos sobre o propósito da mudança, quanto maior esse entendimento menor será a resistência.
+
+Dessa forma a comunicação tem papel essencial para que nossas mudanças sejam bem gerenciadas, hoje temos diversos meios para acessar e disponibilizar as informações, cabe aos responsáveis pela mudança usá-los para compartilhar informações úteis e de credibilidade, para que os impactados pela mudança tenham suas respostas e uma direção para seguir em frente, confrontando qualquer gargalo visando o benefício futuro.
+
+<blockquote class="blockquote">
+  <p class="mb-2 text-right">O progresso é impossível sem mudança; e aqueles que não conseguem mudar as suas mentes não conseguem mudar nada.</p>
+  <p class="blockquote-footer text-right">George Bernard Shaw</p>
+</blockquote>
+
+Toda mudança gera desconforto e dependendo de sua natureza até mesmo o sentimento de sacrifício. Em casos de mudanças coletivas, temos obrigação de administrar o envolvimento dos interessados, demonstrar os benefícios e impactos da mudança.
+
+## Conclusão
+
+Mudanças sempre ocorrerão em nossas vidas, seja causada por nós ou terceiros, particularmente viso investir continuamente por resultados de médio prazo, o que reduz o sentimento de estagnação. Cada pessoa e organização terá seus próprios objetivos e missão, mas a maneira que tratamos essas mudanças e influenciamos os demais para demonstrar cada benefício é que faz toda diferença.
+
+Para muitos 2015 foi bastante problemático, mas o que você fez para conquistar seus objetivos? Independente se irá colher os frutos hoje ou amanhã, o grande ponto é transformar essas promessas de final de ano em metas, de forma que seja possível planejar e realizar ao longo do ano de forma realista.
+
+Esse ano consegui dedicar mais tempo aos estudos, além de experimentar novas tecnologias, algo que planejei no início deste ano e felizmente está dando certo, espero trazer mais novidades para compartilhar com vocês sempre que possível, desejo um 2016 de mais ação visando mudanças positivas, que todos nós tenhamos coragem de influenciar aquilo que está ao nosso alcance para chegar aos objetivos no final do próximo ano.
+
+<blockquote class="blockquote">
+  <p class="mb-2 text-right">Não há nada como regressar a um lugar que está igual para descobrir o quanto a gente mudou.</p>
+  <p class="blockquote-footer text-right">Nelson Mandela</p>
+</blockquote>
