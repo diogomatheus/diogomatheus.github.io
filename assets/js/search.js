@@ -14,7 +14,7 @@ $(document).ready(function() {
     });
   });
 
-  // Lunr search
+  // Lunr init search
   $('#lunr-search-form').submit(function(event) {
     var query = $('#lunr-search-input').val();
     if(query) {
@@ -38,7 +38,7 @@ $(document).ready(function() {
     event.preventDefault();
   });
 
-  // Lunr modal close
+  // Lunr close modal
   $("#lunr-results").on('click', '.close-lunr-search', function () {
     $('#lunr-results').hide(1000);
     $('body').removeClass('modal-open');
