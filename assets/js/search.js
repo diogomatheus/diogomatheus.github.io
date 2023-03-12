@@ -7,11 +7,13 @@ $(document).ready(function() {
     this.field('content');
   });
 
-  // Lunr search data
-  window.lunr_data = $.getJSON('/search-data.json');
-  window.lunr_data.then(function(data) {
+  // Lunr search data  
+  $.getJSON('/search-data.json', function(data) {
+    console.log(data);
     $.each(data, function(index, value){
-      window.lunr_idx.add($.extend({ 'id': index }, value));
+      window.lunr_idx.add(
+        $.extend({ 'id': index }, value)
+      );
     });
   });
 
@@ -22,7 +24,7 @@ $(document).ready(function() {
       $('#lunr-results').show(1000);
       $('body').addClass('modal-open');
 
-      $('#lunr-results ul').html('<div id="resultsmodal" class="modal fade show d-block" tabindex="-1" role="dialog" aria-labelledby="resultsmodal"><div class="modal-dialog shadow-lg" role="document"><div class="modal-content"><div class="modal-header" id="lunr-search-header"><button type="button" class="close close-lunr-search" data-dismiss="modal" aria-label="Close"> &times; </button></div><div class="modal-body"><ul class="mb-0"></ul></div><div class="modal-footer"><button type="button" class="btn btn-secondary btn-sm close-lunr-search" data-dismiss="modal">Fechar</button></div></div></div></div>');
+      $('#lunr-results').html('<div id="resultsmodal" class="modal fade show d-block" tabindex="-1" role="dialog" aria-labelledby="resultsmodal"><div class="modal-dialog shadow-lg" role="document"><div class="modal-content"><div class="modal-header" id="lunr-search-header"><button type="button" class="close close-lunr-search" data-dismiss="modal" aria-label="Close"> &times; </button></div><div class="modal-body"><ul class="mb-0"></ul></div><div class="modal-footer"><button type="button" class="btn btn-secondary btn-sm close-lunr-search" data-dismiss="modal">Fechar</button></div></div></div></div>');
       $('#lunr-search-header').prepend('<h5 class="modal-title">Resultados da busca por "' + query + '"</h5>');
       
       var results = window.lunr_idx.search(query);
