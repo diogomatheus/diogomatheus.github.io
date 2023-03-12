@@ -20,7 +20,7 @@ Pré-processadores são programas que recebem uma entrada, normalmente um texto,
 No caso dos pré-processadores CSS este fluxo não é diferente, onde os códigos são desenvolvidos através de seus recursos facilitadores, depois submetido ao processador tendo como resultado seu conteúdo adequado as limitações do CSS. O principal benefício dos pré-processadores é o ganho na produtividade, seja na criação ou manutenção de estilos, gerando aplicações com estilo organizado e sem duplicação de código.
 
 <figure class="figure mx-auto d-block">
-  <img src="{{ '/assets/images/posts/general/2015-07-20-css-preprocessors-overview.png' | prepend site.baseurl }}" class="figure-img mx-auto d-block">
+  <img src="{{ '/assets/images/posts/general/2015-07-20-css-preprocessors-overview.png' | prepend: site.baseurl }}" class="figure-img mx-auto d-block">
   <figcaption class="figure-caption text-center">Visão geral dos pré-processadores CSS</figcaption>
 </figure>
 
@@ -109,7 +109,7 @@ Com os conceitos apresentados, vamos ao que interessa, nesse exemplo iremos dese
 </ul>
 <div class="tab-content">
   <div class="tab-pane active" id="result-tabpanel" role="tabpanel" aria-labelledby="result-tab">
-    <img src="{{ '/assets/images/posts/general/2015-07-20-css-preprocessors-example' | prepend site.baseurl }}" class="img-responsive">
+    <img src="{{ '/assets/images/posts/general/2015-07-20-css-preprocessors-example.png' | prepend: site.baseurl }}" class="img-responsive">
   </div>
   <div class="tab-pane" id="index-tabpanel" role="tabpanel" aria-labelledby="index-tab">
 
