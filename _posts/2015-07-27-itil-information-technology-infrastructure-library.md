@@ -27,7 +27,7 @@ A versão 3 da ITIL foi lançada em 2007 e atualizada em 2011, composta de cinco
 A ITIL v3 em sua definição original de 2007 focou em oferecer uma visão integrada do ciclo de vida de serviços, envolvendo organização de TI e seus componentes de apoio, em 2011 foi atualizada com objetivo de definir processos formais e corrigir inconsistências.
 
 <figure class="figure mx-auto d-block">
-  <img src="{{ /assets/images/posts/general/2015-07-27-itil-service-lifecycle.png | prepend site.baseurl }}" class="figure-img mx-auto d-block">
+  <img src="{{ '/assets/images/posts/general/2015-07-27-itil-service-lifecycle.png' | prepend site.baseurl }}" class="figure-img mx-auto d-block">
   <figcaption class="figure-caption text-center">Ciclo de vida do serviços</figcaption>
 </figure>
 
