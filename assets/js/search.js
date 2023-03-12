@@ -2,12 +2,13 @@ $(document).ready(function() {
   
   // Lunr bootstrap
   $.getJSON('/search-data.json', function(data) {
+    window.lunr_corpus = data.posts;
     window.lunr_idx = lunr(function () {
       this.ref('id');
       this.field('title');
       this.field('content');
 
-      data.posts.forEach(function(value, index) {
+      window.lunr_corpus.forEach(function(value, index) {
         this.add($.extend({ 'id': index }, value))
       }, this);
     });
@@ -24,16 +25,15 @@ $(document).ready(function() {
       $('#lunr-search-header').prepend('<h5 class="modal-title">Resultados da busca por "' + query + '"</h5>');
       
       var results = window.lunr_idx.search(query);
-      console.log(results);
-      /*
       if (Array.isArray(results) && results.length) {
-        results.forEach(function(resultitem) {
-          var excerpt = resultitem.content.substring(0, 100) + '...';
-          $('#lunr-results ul').append('<li class="lunr-resultitem"><a href="' + resultitem.url + '"><span class="title">' + resultitem.title + '</span><br /><small><span class="body">' + excerpt + '</span></small></a></li>');
+        results.forEach(function(result) {
+          var post = window.lunr_corpus[result.ref];
+          var excerpt = post.content.substring(0, 100) + '...';
+          $('#lunr-results ul').append('<li class="lunr-resultitem"><a href="' + post.url + '"><span class="title">' + post.title + '</span><br /><small><span class="body">' + excerpt + '</span></small></a></li>');
         });
       } else {
         $('#lunr-results ul').html('<li class="lunr-resultitem">Desculpe, nenhum resultado foi encontado.</li>');
-      }*/
+      }
     }
     event.preventDefault();
   });
