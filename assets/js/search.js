@@ -1,19 +1,15 @@
 $(document).ready(function() {
   
   // Lunr bootstrap
-  window.lunr_idx = lunr(function () {
-    this.ref('id');
-    this.field('title');
-    this.field('content');
-  });
-
-  // Lunr search data  
   $.getJSON('/search-data.json', function(data) {
-    console.log(data);
-    $.each(data, function(index, value){
-      window.lunr_idx.add(
-        $.extend({ 'id': index }, value)
-      );
+    console.log(typeof data);
+
+    window.lunr_idx = lunr(function () {
+      this.ref('id');
+      this.field('title');
+      this.field('content');
+      $.each(data, function(index, value) { this.add( $.extend({ 'id': index }, value) ) });
+      // documents.forEach(function (doc) { this.add(doc) }, this)
     });
   });
 
