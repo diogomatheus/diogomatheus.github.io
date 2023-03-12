@@ -26,20 +26,20 @@ O interpretador identifica o código PHP por meio de TAGs, dentre essas, as mais
 
 <ul class="nav nav-tabs" role="tablist">
   <li class="nav-item" role="presentation">
-    <button class="nav-link active" id="standard-tab" data-toggle="tab" data-target="#standard" type="button" role="tab" aria-controls="standard" aria-selected="true">Standard</button>
+    <button class="nav-link active" id="standard-tab" data-toggle="tab" data-target="#standard-tabpanel" type="button" role="tab" aria-controls="standard-tabpanel" aria-selected="true">Standard</button>
   </li>
   <li class="nav-item" role="presentation">
-    <button class="nav-link" id="short-tab" data-toggle="tab" data-target="#short" type="button" role="tab" aria-controls="short" aria-selected="false">Short</button>
+    <button class="nav-link" id="short-tab" data-toggle="tab" data-target="#short-tabpanel" type="button" role="tab" aria-controls="short-tabpanel" aria-selected="false">Short</button>
   </li>
   <li class="nav-item" role="presentation">
-    <button class="nav-link" id="script-tab" data-toggle="tab" data-target="#script" type="button" role="tab" aria-controls="script" aria-selected="false">Script</button>
+    <button class="nav-link" id="script-tab" data-toggle="tab" data-target="#script-tabpanel" type="button" role="tab" aria-controls="script-tabpanel" aria-selected="false">Script</button>
   </li>
   <li class="nav-item" role="presentation">
-    <button class="nav-link" id="asp-tab" data-toggle="tab" data-target="#asp" type="button" role="tab" aria-controls="asp" aria-selected="false">ASP</button>
+    <button class="nav-link" id="asp-tab" data-toggle="tab" data-target="#asp-tabpanel" type="button" role="tab" aria-controls="asp-tabpanel" aria-selected="false">ASP</button>
   </li>
 </ul>
 <div class="tab-content">
-  <div class="tab-pane active" id="standard" role="tabpanel" aria-labelledby="standard-tab">
+  <div class="tab-pane active" id="standard-tabpanel" role="tabpanel" aria-labelledby="standard-tab">
 
 {% highlight php %}
 <?php
@@ -48,7 +48,7 @@ O interpretador identifica o código PHP por meio de TAGs, dentre essas, as mais
 {% endhighlight %}
 
   </div>
-  <div class="tab-pane" id="short" role="tabpanel" aria-labelledby="short-tab">
+  <div class="tab-pane" id="short-tabpanel" role="tabpanel" aria-labelledby="short-tab">
 
 {% highlight php %}
 <?
@@ -57,7 +57,7 @@ O interpretador identifica o código PHP por meio de TAGs, dentre essas, as mais
 {% endhighlight %}
 
   </div>
-  <div class="tab-pane" id="script" role="tabpanel" aria-labelledby="script-tab">
+  <div class="tab-pane" id="script-tabpanel" role="tabpanel" aria-labelledby="script-tab">
 
 {% highlight php %}
 <script language="php">
@@ -66,7 +66,7 @@ O interpretador identifica o código PHP por meio de TAGs, dentre essas, as mais
 {% endhighlight %}
 
   </div>
-  <div class="tab-pane" id="asp" role="tabpanel" aria-labelledby="asp-tab">
+  <div class="tab-pane" id="asp-tabpanel" role="tabpanel" aria-labelledby="asp-tab">
   
 {% highlight php %}
 <%
@@ -89,14 +89,14 @@ Existem dois tipos de comentários no PHP, o comentário de linha única e o com
 
 <ul class="nav nav-tabs" role="tablist">
   <li class="nav-item" role="presentation">
-    <button class="nav-link active" id="single-tab" data-toggle="tab" data-target="#single" type="button" role="tab" aria-controls="single" aria-selected="true">Linha única</button>
+    <button class="nav-link active" id="single-tab" data-toggle="tab" data-target="#single-tabpanel" type="button" role="tab" aria-controls="single-tabpanel" aria-selected="true">Linha única</button>
   </li>
   <li class="nav-item" role="presentation">
-    <button class="nav-link" id="multiple-tab" data-toggle="tab" data-target="#multiple" type="button" role="tab" aria-controls="multiple" aria-selected="false">Múltiplas linhas</button>
+    <button class="nav-link" id="multiple-tab" data-toggle="tab" data-target="#multiple-tabpanel" type="button" role="tab" aria-controls="multiple-tabpanel" aria-selected="false">Múltiplas linhas</button>
   </li>
 </ul>
 <div class="tab-content">
-  <div class="tab-pane active" id="single" role="tabpanel" aria-labelledby="single-tab">
+  <div class="tab-pane active" id="single-tabpanel" role="tabpanel" aria-labelledby="single-tab">
 
 {% highlight php %}
 <?php
@@ -106,7 +106,7 @@ Existem dois tipos de comentários no PHP, o comentário de linha única e o com
 {% endhighlight %}
 
   </div>
-  <div class="tab-pane" id="multiple" role="tabpanel" aria-labelledby="multiple-tab">
+  <div class="tab-pane" id="multiple-tabpanel" role="tabpanel" aria-labelledby="multiple-tab">
 
 {% highlight php %}
 <?php

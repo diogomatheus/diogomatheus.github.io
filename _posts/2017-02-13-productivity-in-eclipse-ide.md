@@ -52,20 +52,20 @@ No cenário de tecnologia, o surgimento quase diário de boas ferramentas de aut
 
 <ul class="nav nav-tabs" role="tablist">
   <li class="nav-item" role="presentation">
-    <button class="nav-link active" id="basic-tab" data-toggle="tab" data-target="#basic-tabcontent" type="button" role="tab" aria-controls="basic-tabcontent" aria-selected="true">Básico</button>
+    <button class="nav-link active" id="basic-tab" data-toggle="tab" data-target="#basic-tabpanel" type="button" role="tab" aria-controls="basic-tabpanel" aria-selected="true">Básico</button>
   </li>
   <li class="nav-item" role="presentation">
-    <button class="nav-link" id="search-tab" data-toggle="tab" data-target="#search-tabcontent" type="button" role="tab" aria-controls="search-tabcontent" aria-selected="false">Busca</button>
+    <button class="nav-link" id="search-tab" data-toggle="tab" data-target="#search-tabpanel" type="button" role="tab" aria-controls="search-tabpanel" aria-selected="false">Busca</button>
   </li>
   <li class="nav-item" role="presentation">
-    <button class="nav-link" id="format-tab" data-toggle="tab" data-target="#format-tabcontent" type="button" role="tab" aria-controls="format-tabcontent" aria-selected="false">Formatação</button>
+    <button class="nav-link" id="format-tab" data-toggle="tab" data-target="#format-tabpanel" type="button" role="tab" aria-controls="format-tabpanel" aria-selected="false">Formatação</button>
   </li>
   <li class="nav-item" role="presentation">
-    <button class="nav-link" id="refactoring-tab" data-toggle="tab" data-target="#refactoring-tabcontent" type="button" role="tab" aria-controls="refactoring-tabcontent" aria-selected="false">Refatoração</button>
+    <button class="nav-link" id="refactoring-tab" data-toggle="tab" data-target="#refactoring-tabpanel" type="button" role="tab" aria-controls="refactoring-tabpanel" aria-selected="false">Refatoração</button>
   </li>
 </ul>
 <div class="tab-content">
-  <div class="tab-pane active" id="basic-tabcontent" role="tabpanel" aria-labelledby="basic-tab">
+  <div class="tab-pane active" id="basic-tabpanel" role="tabpanel" aria-labelledby="basic-tab">
 
 {% highlight plaintext %}
 # Maximizar área de edição
@@ -95,7 +95,7 @@ Digitar syso + (ctrl + space)
 {% endhighlight %}
 
   </div>
-  <div class="tab-pane active" id="search-tabcontent" role="tabpanel" aria-labelledby="search-tab">
+  <div class="tab-pane" id="search-tabpanel" role="tabpanel" aria-labelledby="search-tab">
 
 {% highlight plaintext %}
 # Buscar resources (arquivos, etc)
@@ -121,7 +121,7 @@ Ctrl + H
 {% endhighlight %}
 
   </div>
-  <div class="tab-pane active" id="format-tabcontent" role="tabpanel" aria-labelledby="format-tab">
+  <div class="tab-pane" id="format-tabpanel" role="tabpanel" aria-labelledby="format-tab">
 
 {% highlight plaintext %}
 # Criar ou customizar um profile de organização
@@ -140,7 +140,7 @@ Clicar na linha + Alt + Seta (Cima/Baixo)
 {% endhighlight %}
 
   </div>
-  <div class="tab-pane active" id="refactoring-tabcontent" role="tabpanel" aria-labelledby="refactoring-tab">
+  <div class="tab-pane" id="refactoring-tabpanel" role="tabpanel" aria-labelledby="refactoring-tab">
 
 {% highlight plaintext %}
 # Renomear classes, métodos e variáveis
