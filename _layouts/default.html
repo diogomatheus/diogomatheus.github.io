@@ -1,27 +1,22 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-
     <head>
-
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="shortcut icon" type="image/x-icon" href="{{site.baseurl}}/{{site.favicon}}">
 
         {% seo %}
 
-        <link rel="shortcut icon" type="image/x-icon" href="{{site.baseurl}}/{{site.favicon}}">
-
         <!-- Font Awesome Icons -->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.3.1/css/all.min.css" integrity="sha512-KulI0psuJQK8UMpOeiMLDXJtGOZEBm8RZNTyBBHIWqoXoPMFcw+L5AEo0YMpsW8BfiuWrdD1rH6GWGgQBF59Lg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        
         <!-- Google Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Lora:400,400i,700" rel="stylesheet">
-        <!-- Bootstrap Modified -->
+        
+        <!-- Bootstrap (Modified) -->
         <link rel="stylesheet" href="{{site.baseurl}}/assets/css/main.css">
-        <!-- Theme Stylesheet -->
-        <link rel="stylesheet" href="{{site.baseurl}}/assets/css/theme.css">
-        <!-- Molokai Rouge Theme Stylesheet -->
-        <link rel="stylesheet" href="{{site.baseurl}}/assets/css/highlight-monokai-sublime.css">
-
+        
         <style>
             .lunrsearchresult .title {color: #d9230f;}
             .lunrsearchresult .url {color: silver;}
@@ -29,12 +24,16 @@
             .lunrsearchresult a:hover, .lunrsearchresult a:focus {text-decoration: none;}
             .lunrsearchresult a:hover .title {text-decoration: underline;}
         </style>
+        <!-- Theme Stylesheet -->
+        <link rel="stylesheet" href="{{site.baseurl}}/assets/css/theme.css">
+
+        <!-- Molokai Rouge Theme Stylesheet -->
+        <link rel="stylesheet" href="{{site.baseurl}}/assets/css/highlight-monokai-sublime.css">
     </head>
 
     <body class="{% if page.url == "/" %} homefirstpage {% endif %}">
-
-        <!-- Navbar -->
-        <nav id="MagicMenu" class="topnav navbar navbar-expand-lg navbar-light bg-white fixed-top">
+        
+        <nav class="topnav navbar navbar-expand-lg navbar-light bg-white fixed-top">
             <div class="container">
                 <a class="navbar-brand" href="{{ site.baseurl }}/">
                     <img src="{{ site.baseurl }}/{{ site.logo }}" alt="diogo matheus logo">
@@ -52,18 +51,15 @@
                 </div>
             </div>
         </nav>
-
-        <!-- Search Results -->
+        
         <div id="lunrsearchresults">
             <ul class="mb-0"></ul>
         </div>
-
-        <!-- Content -->
+        
         <main role="main">
             {{ content }}
         </main>
-
-        <!-- Footer -->
+        
         <footer class="bg-white border-top p-3 text-muted small">
             <div class="container">
                 <div class="row align-items-center justify-content-between">
@@ -79,64 +75,18 @@
             </div>
         </footer>
 
-        <!-- Jquery on header to make sure everything works, the rest of the scripts in footer for fast loading -->
-        <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
-        <script src="{{site.baseurl}}/assets/js/lunr.js"></script>
-        <script>
-        $(function() {
-            $("#lunrsearchresults").on('click', '#btnx', function () {
-                $('#lunrsearchresults').hide(1000);
-                $('body').removeClass('modal-open');
-            });
-        });
-        {% assign counter = 0 %}
-        var documents = [
-            {% for page in site.posts %}
-            {
-                "id": {{ counter }},
-                "url": "{{ site.url }}{{site.baseurl}}{{ page.url }}",
-                "title": "{{ page.title }}",
-                "body": "{{ page.date | date: "%d/%m/%Y" }} - {{ page.content | markdownify | replace: '.', '. ' | replace: '</h2>', ': ' | replace: '</h3>', ': ' | replace: '</h4>', ': ' | replace: '</p>', ' ' | strip_html | strip_newlines | replace: '  ', ' ' | replace: '"', ' ' }}"{% assign counter = counter | plus: 1 %}
-            }{% if forloop.last %}{% else %}, {% endif %}
-            {% endfor %}
-        ];
-
-        var idx = lunr(function () {
-            this.ref('id')
-            this.field('title')
-            this.field('body')
-            documents.forEach(function (doc) { this.add(doc) }, this)
-        });
-
-        function lunr_search(term) {
-            $('#lunrsearchresults').show( 1000 );
-            $( "body" ).addClass( "modal-open" );
-            
-            document.getElementById('lunrsearchresults').innerHTML = '<div id="resultsmodal" class="modal fade show d-block"  tabindex="-1" role="dialog" aria-labelledby="resultsmodal"> <div class="modal-dialog shadow-lg" role="document"> <div class="modal-content"> <div class="modal-header" id="modtit"> <button type="button" class="close" id="btnx" data-dismiss="modal" aria-label="Close"> &times; </button> </div> <div class="modal-body"> <ul class="mb-0"> </ul>    </div> <div class="modal-footer"><button id="btnx" type="button" class="btn btn-secondary btn-sm" data-dismiss="modal">Fechar</button></div></div> </div></div>';
-            if(term) {
-                document.getElementById('modtit').innerHTML = "<h5 class='modal-title'>Resultados da busca por '" + term + "'</h5>" + document.getElementById('modtit').innerHTML;
-                var results = idx.search(term);
-                if(results.length>0){
-                    for (var i = 0; i < results.length; i++) {
-                        // more statements
-                        var ref = results[i]['ref'];
-                        var url = documents[ref]['url'];
-                        var title = documents[ref]['title'];
-                        var body = documents[ref]['body'].substring(0,160)+'...';
-                        document.querySelectorAll('#lunrsearchresults ul')[0].innerHTML = document.querySelectorAll('#lunrsearchresults ul')[0].innerHTML + "<li class='lunrsearchresult'><a href='" + url + "'><span class='title'>" + title + "</span><br /><small><span class='body'>"+ body +"</span></small></a></li>";
-                    }
-                } else {
-                    document.querySelectorAll('#lunrsearchresults ul')[0].innerHTML = "<li class='lunrsearchresult'>Desculpe, nenhum resultado encontrado. Feche e tente uma pesquisa diferente!</li>";
-                }
-            }
-            return false;
-        }
-        </script>
-        <!-- Scripts: popper, bootstrap, theme, lunr -->
+        <!-- jQuery 3.3.1 -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js" integrity="sha512-+NqPlbbtM1QqiK8ZAo4Yrj2c4lNQoGv8P79DPtKzj++l5jnN39rHA/xsqn8zE9l0uSoxaCdrOgFs6yjyfbBxSg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        
+        <!-- lunr.js 2.1.5 -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.1.5/lunr.min.js" integrity="sha512-AmAVKTR6tOwOBb0iM+vRuu66lzQD89smS/T12dW2j9NsNFX1UauB5rozMaL2V7MDqgtsTX9gs7H74ikS3gtRQw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        
+        <!-- popper.js 1.14.6 -->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+        
+        <!-- Twitter Bootstrap 4.2.1 -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha512-9D39OISItQmmaHlgjDXXwRVfk9zsM8qHUIL1nzVVJ0DWXpo0SgRNfsU08CeKa7bw7YEEf3Pc9hX33NduCkggCQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
         <script src="{{site.baseurl}}/assets/js/theme.js"></script>
-
     </body>
-
 </html>
