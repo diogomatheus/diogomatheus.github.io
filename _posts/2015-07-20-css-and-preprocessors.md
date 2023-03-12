@@ -109,7 +109,7 @@ Com os conceitos apresentados, vamos ao que interessa, nesse exemplo iremos dese
 </ul>
 <div class="tab-content">
   <div class="tab-pane active" id="result-tabpanel" role="tabpanel" aria-labelledby="result-tab">
-    <img src="{{ '/assets/images/posts/general/2015-07-20-css-preprocessors-example.png' | prepend: site.baseurl }}" class="img-responsive">
+    <img src="{{ '/assets/images/posts/general/2015-07-20-css-preprocessors-example.jpg' | prepend: site.baseurl }}" class="img-responsive">
   </div>
   <div class="tab-pane" id="index-tabpanel" role="tabpanel" aria-labelledby="index-tab">
 
