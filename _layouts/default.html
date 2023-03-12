@@ -19,9 +19,6 @@
 
         <!-- Mundana Theme -->
         <link rel="stylesheet" href="{{site.baseurl}}/assets/css/application.css">
-
-        <!-- Highlight Molokai Sublime -->
-        <link rel="stylesheet" href="{{site.baseurl}}/assets/css/highlight-monokai-sublime.css">
     </head>
     <body class="{% if page.url == "/" %} homefirstpage {% endif %}">
         <nav class="topnav navbar navbar-expand-lg navbar-light bg-white fixed-top">
@@ -30,7 +27,7 @@
                     <img src="{{ site.baseurl }}/{{ site.logo }}" alt="diogo matheus logo">
                 </a>
                 <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarColor02" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
+                    <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="navbar-collapse collapse" id="navbarColor02" style="">
                     <ul class="navbar-nav mr-auto d-flex align-items-center"></ul>
@@ -42,15 +39,12 @@
                 </div>
             </div>
         </nav>
-        
         <div id="lunrsearchresults">
             <ul class="mb-0"></ul>
         </div>
-        
         <main role="main">
             {{ content }}
         </main>
-        
         <footer class="bg-white border-top p-3 text-muted small">
             <div class="container">
                 <div class="row align-items-center justify-content-between">
