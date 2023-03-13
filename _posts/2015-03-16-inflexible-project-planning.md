@@ -8,14 +8,86 @@ tags: []
 redirect_from:
   - "/blog/gerenciamento-de-projetos/planejamento-de-projeto-engessado/"
 ---
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+Em algumas organizações o conceito de gerenciamento de projetos está se transformando para pior, o número de projetos paralelos para cada gerente está aumentando, seja por conta dos cortes de custos, crise financeira, etc. Nenhuma novidade até então, mas um detalhe bastante negativo cada vez mais tem ocorrido, esses projetos não são mais gerenciados de fato, apenas planejados, mudanças e adaptações visando o benefício do projeto estão cada vez mais difíceis de serem possíveis, onde não importa se os colaboradores trabalharam mais de um ano por algo que não será utilizado ou não irá agregar valor ao cliente, se o retorno financeiro chegar, o sucesso do projeto será comemorado independente da percepção do cliente sobre o produto.
 
-## Where does it come from?
+## Definição de planejar
 
-Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
+Planejar é o ato ou efeito de prever, antecipar, preparar ou projetar algo que ainda não aconteceu, visando alcançar determinado objetivo.
 
-The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.
+## Definição de gerenciar
 
-## Why do we use it?
+Gerenciar é o ato ou efeito de administrar um negócio ou projeto, visando dirigir, governar, dispor e organizar para conseguir atingir os objetivos propostos.
 
-It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+## Planejar não é o suficiente
+
+Em um ambiente de múltiplos projetos, normalmente os gerentes de projetos assumem o papel de planejadores, em determinados casos pouco sabem sobre os detalhes envolvidos no projeto e os cronogramas são feitos através de estimativas aproximadas, sem envolvimento dos colaboradores responsáveis pela execução, como exigir comprometimento neste cenário?
+
+O planejamento do projeto quando não executado corretamente é algo subjetivo e cabe aos responsáveis pela sua aprovação analisar as informações utilizadas para construção das estimativas antes de aprovar sua iniciação. Projetos planejados corretamente não necessariamente terão sucesso, mas oferecerão uma ótima base para tomada de decisões e direcionamento do trabalho que será realizado, porém todo projeto está sujeito a mudanças, sendo responsabilidade do gerente de projetos monitorar e controlar as possíveis mudanças, influenciando seus impactos.
+
+## Selecionando o ciclo de vida do projeto
+
+Ciclo de vida do projeto, também conhecido como metodologia, é uma estrutura lógica usada para produzir as entregas do projeto. Segundo o guia de boas práticas PMBOK 5º edição, existem quatro tipos de ciclos de vida para projetos, sendo estes divididos em duas categorias.
+
+Ciclo orientado ao plano
+
+<div class="table-responsive">
+  <table class="table table-hover">
+    <thead class="thead-light">
+      <tr>
+        <th scope="col">Nome</th>
+        <th scope="col">Descrição</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Preditivo</td>
+        <td>Ciclo no qual todos os detalhes do projeto são definidos na fase de planejamento, ideal para projetos onde o escopo é conhecido. Ex: Projetos de construção.</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+Ciclo orientado à mudanças
+
+<div class="table-responsive">
+  <table class="table table-hover">
+    <thead class="thead-light">
+      <tr>
+        <th scope="col">Nome</th>
+        <th scope="col">Descrição</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Incremental</td>
+        <td>Ciclo no qual as entregas são realizadas em porções funcionais, cada etapa agrega mais funcionalidades. Ex: Website.</td>
+      </tr>
+      <tr>
+        <td>Iterativo</td>
+        <td>Ciclo no qual as entregas são realizadas em iterações, onde cada iteração agrega valor ao projeto, mas não necessariamente visível ao cliente. Ex: Software</td>
+      </tr>
+      <tr>
+        <td>Adaptativo</td>
+        <td>Ciclo no qual existe restrição de prazo e custo, porém seus requisitos são priorizados junto ao cliente e  refinados conforme o projeto avança. Ex: Software com restrição de prazo</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+O gerente de projetos é responsável por analisar os fatores ambientais, informações históricas de projetos semelhantes e os requisitos do projeto, visando escolher o ciclo de vida que melhor atende ao projeto para atingir seu objetivo e agregar valor ao cliente.
+
+Os principais projetos engessados são aqueles que possuem características para mudança constante, na área de engenharia de software os projetos complexos com restrição de prazo são ótimos exemplos, para estes casos se o gerente de projetos optar por um ciclo orientado ao plano, seu resultado será um projeto de planejamento engessado.
+
+## Impacto dos projetos engessados nos colaboradores
+
+Para maioria dos colaboradores envolvidos nesse tipo de projeto o sentimento será de frustração, pois chegará um momento do projeto em que estará nítido para todos que o projeto está fora da direção correta, afinal está sendo construído algo que não está mais de acordo com as necessidades atuais do cliente.
+
+Nesse cenário é comum que determinados colaboradores resolvam questões por conta própria, resultado da falta de disponibilidade dos gerentes de projetos, o que deixa o projeto ainda mais perigoso, pois cada colaborador terá uma visão diferente do que está sendo construído, prejudicando totalmente os processos de integração.
+
+## Como as metodologias ágeis podem ajudar?
+
+As metodologias ágeis como Scrum e Extreme Programming, são ciclos de vida de projetos orientados à mudanças e além de seus benefícios, possibilitam uma delegação de tarefas e responsabilidades bem vista pelos colaboradores, através de sua visão de liberdade e participação, porém ainda sim direcionada, algo que para realidade dos projetos citados é essencial, possibilitando que os gerentes de projetos fiquem concentrados no planejamento de outros projetos, integração e monitoramento dos que estão em execução, além de gerenciar as partes interessadas e possíveis mudanças, visando agregar valor, não apenas entregar.
+
+## Conclusão
+
+O planejamento é uma fase essencial para os projetos, onde o trabalho envolvido será compreendido e detalhado de acordo com o nível exigido pelo ciclo de vida escolhido, identificando atividades, riscos, etc. Porém nos projetos de grande porte, principalmente na área de engenharia de software, os requisitos iniciais podem alterar durante sua execução, sendo trivial para seu sucesso, no ponto de vista de agregar valor ao cliente, que os requisitos e as partes interessadas sejam gerenciadas de perto, envolvendo os colaboradores responsáveis pela execução e garantindo que existe uma comunicação eficiente entre os colaboradores da equipe para identificar os riscos e gerar solicitações de mudança quando necessário, em outras palavras, optando pelos ciclos de vida orientados à mudanças quando exigido pelos requisitos do projeto.

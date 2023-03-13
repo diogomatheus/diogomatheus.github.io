@@ -8,14 +8,86 @@ tags: [ "featured" ]
 redirect_from:
   - "/blog/gerenciamento-de-projetos/interpretando-os-fatores-da-motivacao/"
 ---
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+Recentemente ao conversar com alguns amigos sobre motivação de equipes, pude verificar algumas interpretações diferentes sobre o que de fato seria motivar colaboradores. Para cada interpretação diferente foram apresentadas justificativas e opiniões, enquanto alguns acreditavam que motivação seria qualquer coisa que motiva uma ação, independente de sofrer influência positiva ou negativa, outros julgaram que motivação só existe através de influência positiva. Neste artigo irei apresentar minha interpretação sobre este debate, o que não significa ser uma verdade absoluta, apenas minha opinião acompanhada de argumentos.
 
-## Where does it come from?
+Confira algumas definições de termos semelhantes.
 
-Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
+<div class="table-responsive">
+  <table class="table table-hover">
+    <thead class="thead-light">
+      <tr>
+        <th scope="col">Termo</th>
+        <th scope="col">Definição</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Motivação</td>
+        <td>Motivação é um construto, algo não observável, impulso interno, seja este um anseio, desejo, vontade ou esforço, desencadeado pelo direcionamento do pensamento, da atenção, da ação a um objetivo visto pelo indivíduo como positivo, que pode ser engatilhado tanto internamente quanto externamente.</td>
+      </tr>
+      <tr>
+        <td>Desmotivação</td>
+        <td>Desmotivação é normalmente engatilhada por fatores externos, como executar uma ação mesmo sem identificar benefícios ou não obter determinado resultado esperado. Um profissional desmotivado tende a direcionar sua energia para o lado negativo de tudo que vê, pois não consegue encontrar pontos positivos.</td>
+      </tr>
+      <tr>
+        <td>Caos criativo</td>
+        <td>Ambiente onde as metas definidas se aproximam ao limite do caos, porém todos os colaboradores conseguem visualizar que essas metas são possíveis de serem realizadas e seus benefícios.</td>
+      </tr>
+      <tr>
+        <td>Caos destrutivo</td>
+        <td>Ambiente onde as metas definidas são visivelmente inatingíveis para os colaboradores, neste caso o recomendado é dividir essas metas em pequenos ciclos, como nas metodologias ágeis, criando pequenos ciclos de caos criativo controlado.</td>
+      </tr>
+      <tr>
+        <td>Influência</td>
+        <td>Ação ou efeito de influir, que uma pessoa exerce sobre algo ou alguém, podendo ou não alterar sua capacidade de agir.</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
 
-The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.
+## O que gera motivação nos colaboradores?
 
-## Why do we use it?
+Na maioria dos projetos de longo prazo uma das características mais importantes para o seu sucesso é a persistência de seus colaboradores, seja na execução das atividades planejadas ou manutenção de possíveis problemas até seu encerramento. Para uma organização global apenas um resultado de qualidade não é o bastante, os talentos internos precisam continuar inovando, criando uma rotina para inovação. Em sua obra Inovação como rotina, Miller e Wedell (2013), apresentam algumas dicas de como motivar colaboradores visando persistir na criação de resultados, confira os dois tipos de motivação segundo Miller e Wedell.
 
-It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+<div class="table-responsive">
+  <table class="table table-hover">
+    <thead class="thead-light">
+      <tr>
+        <th scope="col">Tipo</th>
+        <th scope="col">Definição</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Intrínseca</td>
+        <td>Motivação intrínseca é quando você gosta de uma atividade pelo que ela é, comer bem ou socializar com os amigos, assim como qualquer atividade profissional que promova prazer.</td>
+      </tr>
+      <tr>
+        <td>Extrínseca</td>
+        <td>Motivação extrínseca é quando você gosta da atividade mas a realiza para obter alguma outra coisa, como dinheiro ou promoção.</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+Um líder ou gerente de projetos não pode exigir motivação, mas pode influenciar positivamente no ambiente e seus colaboradores, detalhando os objetivos do projeto para melhor compreensão, resultando em uma visão detalhada dos benefícios envolvidos no empreendimento, o que pode gerar motivação intrínseca, mas no cenário corporativo é preciso empatia para identificar quais são os reais interesses dos colaboradores, as vezes o momento será de reavaliar o salário ou alinhar uma possível promoção, seja realista e não prometa promoções, ninguém sabe o dia de amanhã, tudo pode estar bem encaminhado mas uma crise no projeto pode impedir que uma promoção prometida ocorra, o que seria muito mais perigoso do que ser realista sobre os fatos, pois iria resultar em desmotivação ou até mesmo no pedido de demissão por parte do colaborador insatisfeito. O ideal nesse cenário é ficar atento para equilibrar esses fatores, ninguém gosta de trabalhar apenas pelo salário sem identificar um objetivo na atividade, assim como não adianta ter um objetivo se o salário está incompatível com o oferecido no mercado.
+
+Motivação também está relacionado com autodisciplina, que costuma gerar uma direção de rotina, se essa rotina estiver bem definida e sustentável logo para os demais irá refletir como motivação, organização e resultados positivos.
+
+## Análise de cenários negativos
+
+Assalto
+
+Imagine um cenário no qual um assaltante está influênciando negativamente uma determinada pessoa através de ameaças, para que entregue todo seu dinheiro. O resultado desse cenário normalmente é o dinheiro ser entregue, uma ação, mas de alguma forma podemos considerar o assaltado como motivado para entregar seu dinheiro? Acredito que não, apesar de que podemos dizer que este foi influenciado para executar está ação e sentiu-se desmotivado pois não identificou nenhum benefício na execução dessa ação.
+
+Ameaça de demissão
+
+O mesmo se aplica para um cenário no qual determinado líder ou gerente de projetos ameaça seus colaboradores através de possíveis demissões, redução de benefícios, etc. Esses ambientes são definidos como caos destrutivo, onde resultados imediatos podem ser obtidos, mas seu reflexo é apresentado em médio e longo prazo, através da perda de colaboradores e desmotivação de toda equipe em futuros projetos.
+
+## Conclusão
+
+Motivação é mais do que um resultado imediato de uma ação, podendo ser analisada apenas em médio e longo prazo, onde sua interpretação pode variar de acordo com o ponto de vista, um líder ou gerente de projetos pode acreditar que sua ameaça de demissão, influência negativa, está motivando melhores resultados no projeto, mas na verdade está apenas influenciando nestes resultados temporariamente, seu impacto é desmotivador para os colaboradores, gerando um cenário de caos destrutivo e mesmo que salve os resultados de um determinado projeto pode prejudicar futuros resultados da empresa. Minha opinião sobre este debate é de que motivação gera resultados positivos para ambos os lados, tanto para empresa quanto para o colaborador, sendo essa originada somente pela influência de fatores positivos de acordo com cada indivíduo. Qual é sua interpretação sobre motivação de equipes? Você prefere salvar um projeto custe o que custar ou motivar seus talentos internos em um ambiente sustentável?
+
+## Referência(s)
+
+- MILLER, Paddy; WEDELL, Thomas. **Inovação como rotina**. M.Books, 2013.
