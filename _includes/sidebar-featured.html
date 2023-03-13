@@ -5,13 +5,13 @@
     <li class="mb-4">
       <span>
         <h6 class="font-weight-bold">
-          <a href="{{site.baseurl}}{{ post.url }}" class="text-dark">{{ post.title }}</a>
+          <a href="{{ post.url | prepend: site.baseurl }}" class="text-dark">{{ post.title }}</a>
         </h6>
         <span class="d-block text-muted">
           Em 
           <span class="catlist">
             {% for category in post.categories %}
-            <a class="text-muted smoothscroll" href="{{site.baseurl}}/categorias.html#{{ category | slugify: 'latin' }}">{{ category | downcase }}</a><span class="sep">, </span>
+            <a class="text-muted smoothscroll" href="{{ site.baseurl }}/categorias.html#{{ category | slugify: 'latin' }}">{{ category | downcase }}</a><span class="sep">, </span>
             {% endfor %}
           </span>
         </span>

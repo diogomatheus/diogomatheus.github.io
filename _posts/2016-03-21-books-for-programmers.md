@@ -31,7 +31,7 @@ Na minha visão de mundo, um programador eficaz consegue escrever soluções leg
       <tr>
         <td>10</td>
         <td>
-          <img src="{{site.baseurl}}/assets/images/posts/general/2016-03-21-regular-expressions.jpg" class="img-responsive m-0 p-0">
+          <img src="{{ '/assets/images/posts/general/2016-03-21-regular-expressions.jpg' | prepend: site.baseurl}}" class="img-responsive m-0 p-0">
         </td>
         <td class="align-middle">
           Expressões regulares<br />
@@ -41,7 +41,7 @@ Na minha visão de mundo, um programador eficaz consegue escrever soluções leg
       <tr>
         <td>9</td>
         <td>
-          <img src="{{site.baseurl}}/assets/images/posts/general/2016-03-21-implementing-lean-software-development.jpg" class="img-responsive m-0 p-0">
+          <img src="{{ '/assets/images/posts/general/2016-03-21-implementing-lean-software-development.jpg' | prepend: site.baseurl}}" class="img-responsive m-0 p-0">
         </td>
         <td class="align-middle">
           Implementando o desenvolvimento lean de software<br />
@@ -51,7 +51,7 @@ Na minha visão de mundo, um programador eficaz consegue escrever soluções leg
       <tr>
         <td>8</td>
         <td>
-          <img src="{{site.baseurl}}/assets/images/posts/general/2016-03-21-applying-uml-and-patterns.jpg" class="img-responsive m-0 p-0">
+          <img src="{{ '/assets/images/posts/general/2016-03-21-applying-uml-and-patterns.jpg' | prepend: site.baseurl}}" class="img-responsive m-0 p-0">
         </td>
         <td class="align-middle">
           Utilizando UML e Padrões<br />
@@ -61,7 +61,7 @@ Na minha visão de mundo, um programador eficaz consegue escrever soluções leg
       <tr>
         <td>7</td>
         <td>
-          <img src="{{site.baseurl}}/assets/images/posts/general/2016-03-21-the-mythical-man-month.jpg" class="img-responsive m-0 p-0">
+          <img src="{{ '/assets/images/posts/general/2016-03-21-the-mythical-man-month.jpg' | prepend: site.baseurl}}" class="img-responsive m-0 p-0">
         </td>
         <td class="align-middle">
           O mítico homem-mês<br />
@@ -71,7 +71,7 @@ Na minha visão de mundo, um programador eficaz consegue escrever soluções leg
       <tr>
         <td>6</td>
         <td>
-          <img src="{{site.baseurl}}/assets/images/posts/general/2016-03-21-refactoring-to-patterns.jpg" class="img-responsive m-0 p-0">
+          <img src="{{ '/assets/images/posts/general/2016-03-21-refactoring-to-patterns.jpg' | prepend: site.baseurl}}" class="img-responsive m-0 p-0">
         </td>
         <td class="align-middle">
           Refatoração para padrões<br />
@@ -81,7 +81,7 @@ Na minha visão de mundo, um programador eficaz consegue escrever soluções leg
       <tr>
         <td>5</td>
         <td>
-          <img src="{{site.baseurl}}/assets/images/posts/general/2016-03-21-the-clean-coder.jpg" class="img-responsive m-0 p-0">
+          <img src="{{ '/assets/images/posts/general/2016-03-21-the-clean-coder.jpg' | prepend: site.baseurl}}" class="img-responsive m-0 p-0">
         </td>
         <td class="align-middle">
           O codificador limpo<br />
@@ -91,7 +91,7 @@ Na minha visão de mundo, um programador eficaz consegue escrever soluções leg
       <tr>
         <td>4</td>
         <td>
-          <img src="{{site.baseurl}}/assets/images/posts/general/2016-03-21-refactoring.jpg" class="img-responsive m-0 p-0">
+          <img src="{{ '/assets/images/posts/general/2016-03-21-refactoring.jpg' | prepend: site.baseurl}}" class="img-responsive m-0 p-0">
         </td>
         <td class="align-middle">
           Refatoração<br />
@@ -101,7 +101,7 @@ Na minha visão de mundo, um programador eficaz consegue escrever soluções leg
       <tr>
         <td>3</td>
         <td>
-          <img src="{{site.baseurl}}/assets/images/posts/general/2016-03-21-design-patterns.jpg" class="img-responsive m-0 p-0">
+          <img src="{{ '/assets/images/posts/general/2016-03-21-design-patterns.jpg' | prepend: site.baseurl}}" class="img-responsive m-0 p-0">
         </td>
         <td class="align-middle">
           Padrões de projeto<br />
@@ -111,7 +111,7 @@ Na minha visão de mundo, um programador eficaz consegue escrever soluções leg
       <tr>
         <td>2</td>
         <td>
-          <img src="{{site.baseurl}}/assets/images/posts/general/2016-03-21-clean-code.jpg" class="img-responsive m-0 p-0">
+          <img src="{{ '/assets/images/posts/general/2016-03-21-clean-code.jpg' | prepend: site.baseurl}}" class="img-responsive m-0 p-0">
         </td>
         <td class="align-middle">
           Código limpo<br />
@@ -121,7 +121,7 @@ Na minha visão de mundo, um programador eficaz consegue escrever soluções leg
       <tr>
         <td>1</td>
         <td>
-          <img src="{{site.baseurl}}/assets/images/posts/general/2016-03-21-the-pragmatic-programmer.jpg" class="img-responsive m-0 p-0">
+          <img src="{{ '/assets/images/posts/general/2016-03-21-the-pragmatic-programmer.jpg' | prepend: site.baseurl }}" class="img-responsive m-0 p-0">
         </td>
         <td class="align-middle">
           O programador pragmático<br />

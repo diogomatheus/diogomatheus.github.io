@@ -18,12 +18,12 @@ redirect_from:
         {% assign latest_post = site.posts[0] %}
         <div class="col-md-6">
             <div class="card border-0 mb-4 box-shadow">   
-                <a href="{{site.baseurl}}{{latest_post.url}}">
-                    <div class="topfirstimage" style="background-image: url({{site.baseurl}}/{{latest_post.image}}); height: 200px; background-size: cover; background-repeat: no-repeat;"></div>     
+                <a href="{{ latest_post.url | prepend: site.baseurl }}">
+                    <div class="topfirstimage" style="background-image: url({{ site.baseurl }}/{{ latest_post.image }}); height: 200px; background-size: cover; background-repeat: no-repeat;"></div>     
                 </a>
                 <div class="card-body px-0 pb-0 d-flex flex-column align-items-start">
                     <h2 class="h4 font-weight-bold">
-                        <a class="text-dark" href="{{site.baseurl}}{{latest_post.url}}">{{ latest_post.title }}</a>
+                        <a class="text-dark" href="{{ latest_post.url | prepend: site.baseurl }}">{{ latest_post.title }}</a>
                     </h2>
                     <p class="excerpt">
                         {{ latest_post.excerpt | strip_html | strip_newlines | truncate: 136 }}
@@ -33,7 +33,7 @@ redirect_from:
                             Em 
                             <span class="catlist">
                                 {% for category in latest_post.categories %}
-                                <a class="text-muted smoothscroll" href="{{site.baseurl}}/categorias.html#{{ category | slugify: 'latin' }}">{{ category | downcase }}</a><span class="sep">, </span>
+                                <a class="text-muted smoothscroll" href="{{ site.baseur l}}/categorias.html#{{ category | slugify: 'latin' }}">{{ category | downcase }}</a><span class="sep">, </span>
                                 {% endfor %}
                             </span>                   
                         </small>
@@ -52,20 +52,20 @@ redirect_from:
             <div class="mb-3 d-flex align-items-center">                
                 {% if second_post.image %}
                 <div class="image-preview">
-                    <a href="{{site.baseurl}}{{second_post.url}}">
-                        <img class="w-100" src="{{site.baseurl}}/{{second_post.image}}" alt="{{ second_post.title }}">
+                    <a href="{{ second_post.url | prepend: site.baseurl }}">
+                        <img class="w-100" src="{{ site.baseurl }}/{{ second_post.image }}" alt="{{ second_post.title }}">
                     </a>
                 </div>
                 {% endif %}                
                 <div class="pl-3">
                     <h2 class="mb-2 h6 font-weight-bold">
-                        <a class="text-dark" href="{{site.baseurl}}{{second_post.url}}">{{ second_post.title }}</a>
+                        <a class="text-dark" href="{{ second_post.url | prepend: site.baseurl }}">{{ second_post.title }}</a>
                     </h2>
                     <small class="d-block text-muted">
                         Em 
                         <span class="catlist">
                             {% for category in second_post.categories %}
-                            <a class="text-muted smoothscroll" href="{{site.baseurl}}/categorias.html#{{ category | slugify: 'latin' }}">{{ category | downcase }}</a><span class="sep">, </span>
+                            <a class="text-muted smoothscroll" href="{{ site.baseurl }}/categorias.html#{{ category | slugify: 'latin' }}">{{ category | downcase }}</a><span class="sep">, </span>
                             {% endfor %}
                         </span>                   
                     </small>
@@ -80,20 +80,20 @@ redirect_from:
             <div class="mb-3 d-flex align-items-center">                
                 {% if third_post.image %}
                 <div class="image-preview">
-                    <a href="{{site.baseurl}}{{third_post.url}}">
-                        <img class="w-100" src="{{site.baseurl}}/{{third_post.image}}" alt="{{ third_post.title }}">
+                    <a href="{{ third_post.url | prepend: site.baseurl }}">
+                        <img class="w-100" src="{{ site.baseurl }}/{{ third_post.image }}" alt="{{ third_post.title }}">
                     </a>
                 </div>
                 {% endif %}                
                 <div class="pl-3">
                     <h2 class="mb-2 h6 font-weight-bold">
-                        <a class="text-dark" href="{{site.baseurl}}{{third_post.url}}">{{ third_post.title }}</a>
+                        <a class="text-dark" href="{{ third_post.url | prepend: site.baseurl }}">{{ third_post.title }}</a>
                     </h2>
                     <small class="d-block text-muted">
                         Em 
                         <span class="catlist">
                             {% for category in third_post.categories %}
-                            <a class="text-muted smoothscroll" href="{{site.baseurl}}/categorias.html#{{ category | slugify: 'latin' }}">{{ category | downcase }}</a><span class="sep">, </span>
+                            <a class="text-muted smoothscroll" href="{{ site.baseurl }}/categorias.html#{{ category | slugify: 'latin' }}">{{ category | downcase }}</a><span class="sep">, </span>
                             {% endfor %}
                         </span>                   
                     </small>
@@ -108,20 +108,20 @@ redirect_from:
             <div class="mb-3 d-flex align-items-center">                
                 {% if fourth_post.image %}
                 <div class="image-preview">
-                    <a href="{{site.baseurl}}{{fourth_post.url}}">
-                        <img class="w-100" src="{{site.baseurl}}/{{fourth_post.image}}" alt="{{ fourth_post.title }}">
+                    <a href="{{ fourth_post.url | prepend: site.baseurl }}">
+                        <img class="w-100" src="{{ site.baseurl }}/{{ fourth_post.image }}" alt="{{ fourth_post.title }}">
                     </a>
                 </div>
                 {% endif %}                
                 <div class="pl-3">
                     <h2 class="mb-2 h6 font-weight-bold">
-                        <a class="text-dark" href="{{site.baseurl}}{{fourth_post.url}}">{{ fourth_post.title }}</a>
+                        <a class="text-dark" href="{{ fourth_post.url | prepend: site.baseurl }}">{{ fourth_post.title }}</a>
                     </h2>
                     <small class="d-block text-muted">
                         Em 
                         <span class="catlist">
                             {% for category in fourth_post.categories %}
-                            <a class="text-muted smoothscroll" href="{{site.baseurl}}/categorias.html#{{ category | slugify: 'latin' }}">{{ category | downcase }}</a><span class="sep">, </span>
+                            <a class="text-muted smoothscroll" href="{{ site.baseurl }}/categorias.html#{{ category | slugify: 'latin' }}">{{ category | downcase }}</a><span class="sep">, </span>
                             {% endfor %}
                         </span>                   
                     </small>
@@ -146,9 +146,9 @@ redirect_from:
                     <p class="mb-3 lead">
                         {{ post.excerpt | strip_html | strip_newlines | truncate: 136 }}
                     </p>
-                    <a href="{{site.baseurl}}{{post.url}}" class="btn btn-dark">Continue lendo</a>
+                    <a href="{{ post.url | prepend: site.baseurl }}" class="btn btn-dark">Continue lendo</a>
                 </div>
-                <div class="col-md-6 d-none d-md-block" style="background-size:cover; background-position:top; background-image:url({{site.baseurl}}/{{post.image}});"></div>
+                <div class="col-md-6 d-none d-md-block" style="background-size:cover; background-position:top; background-image:url({{ site.baseurl }}/{{ post.image }});"></div>
             </div>
         </div>
     </div> 
@@ -188,7 +188,7 @@ redirect_from:
                     {% if page == paginator.page %}
                     <li class="page-item disabled"><span class="webjeda page-link">{{ page }}</span></li>
                     {% elsif page == 1 %}
-                    <li class="page-item"><a class="page-link" href="{{site.baseurl}}/">{{ page }}</a></li>
+                    <li class="page-item"><a class="page-link" href="{{ '/' | prepend: site.baseurl }}">{{ page }}</a></li>
                     {% elsif page == paginator.total_pages %}
                     <li class="page-item"><a class="page-link" href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a></li>
                     {% else %}

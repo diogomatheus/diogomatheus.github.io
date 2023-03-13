@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <link rel="shortcut icon" type="image/x-icon" href="{{site.baseurl}}/{{site.favicon}}">
+        <link rel="shortcut icon" type="image/x-icon" href="{{ site.baseurl }}/{{ site.favicon }}">
 
         {% seo %}
 
@@ -15,15 +15,15 @@
         <link href="https://fonts.googleapis.com/css?family=Lora:400,400i,700" rel="stylesheet">
         
         <!-- Twitter Bootstrap 4.1.3 (Mundana Theme Version) -->
-        <link rel="stylesheet" href="{{site.baseurl}}/assets/css/bootstrap.min.css">
+        <link rel="stylesheet" href="{{ '/assets/css/bootstrap.min.css' | prepend: site.baseurl }}">
 
         <!-- Mundana Theme -->
-        <link rel="stylesheet" href="{{site.baseurl}}/assets/css/application.css">
+        <link rel="stylesheet" href="{{ '/assets/css/application.css' | prepend: site.baseurl }}">
     </head>
     <body class="{% if page.url == "/" %} homefirstpage {% endif %}">
         <nav class="topnav navbar navbar-expand-lg navbar-light bg-white fixed-top">
             <div class="container">
-                <a class="navbar-brand" href="{{ site.baseurl }}/">
+                <a class="navbar-brand" href="{{ '/' | prepend: site.baseurl }}">
                     <img src="{{ site.baseurl }}/{{ site.logo }}" alt="diogo matheus logo">
                 </a>
                 <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarColor02" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
@@ -49,7 +49,7 @@
             <div class="container">
                 <div class="row align-items-center justify-content-between">
                     <div class="footer-social-media">
-                        <a href="{{site.baseurl}}/feed.xml" target="_blank" title="RSS"><i class="fas fa-rss-square"></i></a>
+                        <a href="{{ '/feed.xml' | prepend: site.baseurl }}" target="_blank" title="RSS"><i class="fas fa-rss-square"></i></a>
                         <a href="https://www.linkedin.com/in/diogomatheuscosta" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
                         <a href="https://github.com/diogomatheus" target="_blank" title="GitHub"><i class="fab fa-github-square"></i></a>
                         <a href="https://www.youtube.com/@diogomatheus_" target="_blank" title="Youtube"><i class="fab fa-youtube-square"></i></a>
@@ -73,9 +73,9 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha512-n6dYFOG599s4/mGlA6E+YLgtg9uPTOMDUb0IprSMDYVLr0ctiRryPEQ8gpM4DCMlx7M2G3CK+ZcaoOoJolzdCg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
         <!-- Lunr Search -->
-        <script src="{{site.baseurl}}/assets/js/search.js"></script>
+        <script src="{{ '/assets/js/search.js' | prepend: site.baseurl }}"></script>
         
         <!-- Mundana Theme -->
-        <script src="{{site.baseurl}}/assets/js/application.js"></script>
+        <script src="{{ '/assets/js/application.js' | prepend: site.baseurl }}"></script>
     </body>
 </html>

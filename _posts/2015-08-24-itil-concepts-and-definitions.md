@@ -193,7 +193,7 @@ Papel é um conjunto de responsabilidade e autoridade concedido para uma pessoa 
 RACI é o acrônimo de Responsible, Accountable, Consulted e Informed, que são as quatro classificações possíveis atribuídas aos relacionamentos da matriz entre atividades e papéis. Citada por guias de boas práticas como PMBOK, ITIL e COBIT essa ferramenta se destaca pelos resultados obtidos de forma ágil.
 
 <figure class="figure mx-auto d-block">
-  <img src="{{site.baseurl}}/assets/images/posts/general/2015-08-24-raci.jpg" class="figure-img mx-auto d-block">
+  <img src="{{ '/assets/images/posts/general/2015-08-24-raci.jpg' | prepend: site.baseurl }}" class="figure-img mx-auto d-block">
   <figcaption class="figure-caption text-center">RACI</figcaption>
 </figure>
 
