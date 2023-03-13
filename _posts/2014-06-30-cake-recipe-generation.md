@@ -8,14 +8,30 @@ tags: []
 redirect_from:
   - "/blog/gerenciamento-de-projetos/geracao-receita-de-bolo/"
 ---
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+Sim, estamos na era da receita de bolo, não importa mais aspectos como cultura, partes interessadas, etc, repetimos os mesmos métodos que outros criaram e utilizaram, com objetivo de obter seus resultados, mesmo que estes métodos não tenham o menor sentido ao nosso contexto, estamos preguiçosos e acomodados o suficiente para não pensar mais no que é melhor para os nossos projetos.
 
-## Where does it come from?
+## Criando receitas
 
-Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
+Se você quer ganhar dinheiro, apenas pense, invente um método, seja para ganhar dinheiro, produtividade, mulheres, homens, etc. Ofereça na internet e divulgue como se realmente tivesse dado certo para você, com certeza terá milhares de pessoas comprando seu método, você ganhará dinheiro, as pessoas acreditarão por um curto período e depois se esquecerão de que gastaram dinheiro em algo que não foi aproveitado, até porque, irão se culpar pela falta de capacidade para replicar este método e obter os resultados informados.
 
-The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.
+<blockquote class="blockquote">
+  <p class="mb-2 text-right">Ensine-o a pescar, e você o estará alimentando pelo resto da vida.</p>
+  <p class="blockquote-footer text-right">Provérbio chinês</p>
+</blockquote>
 
-## Why do we use it?
+Não me entenda mal, se você criou um método que deu certo, você de fato é diferenciado, mas procure ensinar os passos que fizeram você chegar ao ponto de conseguir criar seu próprio método, não venda seus métodos.
 
-It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+## Fugindo das receitas
+
+Se você não quer gastar dinheiro sem ter retorno, evite comprar soluções do tipo receita, que te ofereçam resultados de puro marketing, estude tudo que seja de seu interesse em sua essência, não somente sua aplicação em determinado cenário, procure entender o motivo pelo qual determinado método gera resultados para determinados indivíduos, mas não compre todos os métodos disponíveis na internet em busca do que dará certo para você, estude e pense mais, talvez dessa forma você tenha controle sobre o que está realmente fazendo em seus projetos.
+
+<blockquote class="blockquote">
+  <p class="mb-2 text-right">O que torna alguém um ótimo cozinheiro não é o fato de replicar receitas, mas sim de inventar receitas.</p>
+  <p class="blockquote-footer text-right">Costa, Diogo Matheus</p>
+</blockquote>
+
+## Cenário corporativo
+
+No mundo corporativo é comum que métodos de sucesso sejam adotados pelas empresas, com objetivo de otimizar seus processos, mas muitos não compreendem o fato desses métodos terem resultados distintos quando aplicados. O motivo é simples, algumas empresas possuem capacidade de adaptar determinados métodos de acordo com sua realidade, enquanto outros apenas esperam milagres.
+
+Enquanto existir gerente de projetos que tenha como propósito apenas o bolo pronto, seus colaboradores estarão presos no ciclo da insatisfação, executando sempre os mesmos métodos, pessoas não são maquinas, busque opiniões internas visando melhorias, implemente melhorias pequenas, evoluir aos poucos é melhor do que sonhar com grandes revoluções, o que já gerou resultado no passado pode estar resultando em prejuízo, se até os seres vivos estão em constante evolução segundo Darwin, por que nossos métodos estão estagnados?
