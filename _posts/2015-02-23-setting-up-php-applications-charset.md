@@ -8,14 +8,126 @@ tags: []
 redirect_from:
   - "/blog/php/configurando-charset-de-uma-aplicacao-php/"
 ---
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+Imagine que você está desenvolvendo uma aplicação para internet em seu ambiente local, chegou o dia de colocar o sistema em produção, um servidor compartilhado, hospedagem. Além de verificar se está tudo de acordo com as funcionalidades, uma das preocupações neste cenário é analisar se o charset está devidamente configurado na aplicação e banco de dados.
 
-## Where does it come from?
+## O que é charset?
 
-Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
+Charset, Character Set, é o conjunto de caracteres que são utilizados para criação de documentos, bancos de dados, sites, etc. Cada charset possui uma lista de caracteres disponíveis, sendo estes representados por uma posição de referência.
 
-The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.
+Confira alguns caracteres disponíveis no charset ASCII.
 
-## Why do we use it?
+TABLE
 
-It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+## Qual é a importância do charset?
+
+O charset de um documento, indica ao browser, navegador, qual codificação foi utilizada, possibilitando que o documento seja interpretado, exibindo suas informações corretamente ao usuário. Caso exista algum tipo de incompatibilidade entre o conteúdo, charset declarado e charset utilizado para salvar o documento no seu editor, exemplo Eclipse, isso poderá comprometer sua exibição, gerando possíveis problemas, como erro na codificação do documento ou caracteres incorretos sendo exibidos na aplicação.
+
+## Configurando charset de uma aplicação PHP
+
+Existem 127 charsets disponíveis para uso na internet, onde os mais utilizados são ISO-8859-1 e UTF-8, se você está desenvolvendo algum conteúdo, terá que decidir qual codificação irá utilizar. O charset UTF-8 é uma recomendação, pois cobre quase todos os caracteres e símbolos do mundo, confira os passos recomendados para configurar o charset de sua aplicação.
+
+Recomendações para configurar o navegador
+
+<ul class="nav nav-tabs" role="tablist">
+  <li class="nav-item" role="presentation">
+    <button class="nav-link active" id="php-tab" data-toggle="tab" data-target="#php-tabpanel" type="button" role="tab" aria-controls="php-tabpanel" aria-selected="true">Script PHP</button>
+  </li>
+  <li class="nav-item" role="presentation">
+    <button class="nav-link" id="html-tab" data-toggle="tab" data-target="#html-tabpanel" type="button" role="tab" aria-controls="html-tabpanel" aria-selected="false">Metatag HTML</button>
+  </li>
+  <li class="nav-item" role="presentation">
+    <button class="nav-link" id="form-tab" data-toggle="tab" data-target="#form-tabpanel" type="button" role="tab" aria-controls="form-tabpanel" aria-selected="false">Formulário</button>
+  </li>
+</ul>
+<div class="tab-content">
+  <div class="tab-pane active" id="php-tabpanel" role="tabpanel" aria-labelledby="php-tab">
+    <p>Informar o charset no início do script, junto ao tipo do conteúdo, nesse caso HTML.</p>
+
+{% highlight php %}
+<?php header("Content-type: text/html; charset=utf-8"); ?>
+{% endhighlight %}
+    
+  </div>
+  <div class="tab-pane" id="html-tabpanel" role="tabpanel" aria-labelledby="html-tab">
+    <p>Informar o charset por meio de metatag no cabeçalho da página HTML.</p>
+
+{% highlight html %}
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+{% endhighlight %}
+
+  </div>
+  <div class="tab-pane" id="form-tabpanel" role="tabpanel" aria-labelledby="form-tab">
+    <p>Informar o charset na declaração do(s) formulário(s).</p>
+
+{% highlight html %}
+<form accept-charset="utf-8" ...>
+{% endhighlight %}
+
+  </div>
+</div>
+
+Recomendações para configurar o banco de dados
+
+Verificar se as tabelas e campos de caracteres estão configurados para utilizar coleção utf8_general_ci, além de informar o charset ao abrir conexão com banco de dados.
+
+<ul class="nav nav-tabs" role="tablist">
+  <li class="nav-item" role="presentation">
+    <button class="nav-link active" id="mysql-tab" data-toggle="tab" data-target="#mysql-tabpanel" type="button" role="tab" aria-controls="mysql-tabpanel" aria-selected="true">Conexão MySQL</button>
+  </li>
+  <li class="nav-item" role="presentation">
+    <button class="nav-link" id="pdo-tab" data-toggle="tab" data-target="#pdo-tabpanel" type="button" role="tab" aria-controls="pdo-tabpanel" aria-selected="false">Conexão PDO</button>
+  </li>
+  <li class="nav-item" role="presentation">
+    <button class="nav-link" id="zf2-tab" data-toggle="tab" data-target="#zf2-tabpanel" type="button" role="tab" aria-controls="zf2-tabpanel" aria-selected="false">Conexão ZF2</button>
+  </li>
+</ul>
+<div class="tab-content">
+  <div class="tab-pane active" id="mysql-tabpanel" role="tabpanel" aria-labelledby="mysql-tab">
+    <p>Informar o charset através da função mysql_set_charset.</p>
+
+{% highlight php %}
+<?php mysql_set_charset('utf8'); ?>
+{% endhighlight %}
+
+  </div>
+  <div class="tab-pane" id="pdo-tabpanel" role="tabpanel" aria-labelledby="pdo-tab">
+    <p>Informar o charset na abertura da conexão.</p>
+
+{% highlight php %}
+<?php
+$handler = new PDO(
+  "mysql:host=localhost;dbname=dbname",
+  'username',
+  'password',
+  array(PDO::MYSQL_ATTR_INIT_COMMAND => "SET NAMES utf8")
+);
+?>
+{% endhighlight %}
+
+  </div>
+  <div class="tab-pane" id="zf2-tabpanel" role="tabpanel" aria-labelledby="zf2-tab">
+    <p>Informar o charset através da opção driver_options, no global.php.</p>
+
+{% highlight php %}
+<?php
+return array(
+  'db' => array(
+    'driver' => 'Pdo',
+    'dsn' => 'mysql:dbname=dbname;host=localhost',
+    'driver_options' => array(PDO::MYSQL_ATTR_INIT_COMMAND => 'SET NAMES utf8'),
+  )
+);
+?>
+{% endhighlight %}
+
+  </div>
+</div>
+
+## Conclusão
+
+Espero que vocês economizem um pouco do tempo que passei ao pesquisar esse tema, apesar do artigo ter foco em uma aplicação PHP, os passos são semelhantes em outros cenários.
+
+## Referência(s)
+
+- [**UTF-8, PHP and MySQL**](http://akrabat.com/php/utf8-php-and-mysql/). Allen, Rob. Acesso em: 20 fevereiro 2015.
+- [**Charsets**](http://www.w3.org/International/getting-started/characters). W3. Acesso em 21 fevereiro 2015.
