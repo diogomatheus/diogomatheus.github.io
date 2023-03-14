@@ -8,14 +8,42 @@ tags: []
 redirect_from:
   - "/blog/gerenciamento-de-projetos/estrutura-analitica-do-projeto-eap/"
 ---
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+Estrutura Analítica do Projeto [EAP / WBS – Work Breakdown Structure] é a ferramenta básica da gestão de escopo, uma estrutura gráfica que visa detalhar os entregáveis do projeto, blocos de trabalho envolvidos na realização do projeto, criada através de decomposição e opinião especializada. É uma estrutura hierárquica orientada às entregas ou fases, realizadas para completar determinado projeto.
 
-## Where does it come from?
+## Objetivo
 
-Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
+Analisar e decompor todo trabalho envolvido para realização de um projeto.
 
-The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.
+## Exemplo de EAP
 
-## Why do we use it?
+<figure class="figure mx-auto d-block">
+  <img src="{{ '/assets/images/posts/general/2013-08-05-wbs-example.jpg' | prepend: site.baseurl }}" class="figure-img mx-auto d-block">
+  <figcaption class="figure-caption text-center">Projeto Finlândia</figcaption>
+</figure>
 
-It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+## Pacotes de trabalho
+
+Os elementos de níveis mais baixos da EAP, que não foram decompostos, são denominados pacotes de trabalho, servindo como base lógica para definição de atividades, designação de responsabilidade, estimativas e etc.
+
+## Nível de detalhamento
+
+O detalhamento influencia diretamente na qualidade da EAP, caso nossa EAP seja bastante detalhada, teremos muitos pacotes de trabalhos pequenos, o que facilita no controle dos pacotes, mas dificulta no planejamento, caso nossa EAP seja pouco detalhada não teremos controle do que está sendo feito nem mesmo por quem está sendo feito.
+
+Não existe uma maneira certa, muito menos regras para criação da EAP, devemos detalhar nossa EAP buscando representar todo o trabalho envolvido no projeto, de maneira que facilite o gerenciamento dos pacotes de trabalho.
+
+## Dicionário da EAP
+
+O dicionário da EAP detalha cada um dos pacotes de trabalho, visando orientar todos os membros da equipe, além de conter questões técnicas e etc.
+
+## PMBOK 5º – Processo Criar a EAP
+
+<figure class="figure mx-auto d-block">
+  <img src="{{ '/assets/images/posts/general/2013-08-05-wbs-process.jpg' | prepend: site.baseurl }}" class="figure-img mx-auto d-block">
+  <figcaption class="figure-caption text-center">Processo – Criar a EAP</figcaption>
+</figure>
+
+A linha de base do escopo é composta pela EAP, dicionário de EAP e declaração de escopo.
+
+## Conclusão
+
+Quando criamos nossa EAP, analisamos os requisitos e escopo do projeto, tentando compreender todo trabalho envolvido, decompondo baseado em entregas ou fases. No final da decomposição criamos uma representação gráfica, que busca facilitar o entendimento geral do trabalho envolvido para os membros da equipe, partes interessadas e etc.
