@@ -8,14 +8,47 @@ tags: []
 redirect_from:
   - "/blog/xhtml-css/identificando-elementos-com-id-e-classes/"
 ---
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+Quem está iniciando no mundo do desenvolvimento utilizando as tecnologias XHTML e CSS, em algum momento irá se perguntar qual a diferença entre identificar um elemento com ID ou Classe?
 
-## Where does it come from?
+Para quem já trabalha na área pode parecer uma questão simples, mas costumo observar pessoas com uma boa experiência confundindo os conceitos desses atributos.
 
-Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
+## ID não se repete
 
-The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.
+Deve ser utilizado para representar um elemento único em nossa página. Quando adicionamos um ID em determinado elemento, este não deve se repetir em outro elemento.
 
-## Why do we use it?
+{% highlight html %}
+<!-- Cada elemento pode ter apenas um ID -->
+<p id="helloWorld">Hello Word!</p>
+{% endhighlight %}
 
-It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+## Classes são modelos de elementos
+
+Quando definimos uma classe, podemos atribuí-la para diversos elementos em nossa página, onde cada elemento irá herdar as características dessa(s) classe(s).
+
+{% highlight html %}
+<!-- Cada elemento pode ter diversas classes -->
+<p class="oneClass anotherClass">Hello Word!</p>
+{% endhighlight %}
+
+## Quando utilizar ID e Classe?
+
+Basicamente devemos analisar se o elemento que desejamos identificar pode se repetir em nossa página, por exemplo, se queremos destacar um único elemento é recomendado utilizar ID, mas se nosso objetivo é destacar vários elementos, gerando componentes, que podem se repetir diversas vezes em nossa página, o ideal seria utilizar classe(s).
+
+{% highlight html %}
+<!-- Elementos podem receber ambos atributos, ID e Classe(s) -->
+<p id="helloWorld" class="oneClass anotherClass">Hello Word!</p>
+{% endhighlight %}
+
+## Especificação e Abstração
+
+Quando trabalhamos com ID, estamos especificando uma identificação única para determinado elemento, essa especificação reflete em alguns recursos, por exemplo, quando precisamos manipular dinamicamente atributos e conteúdo de elementos em nossa página, podemos utilizar o método [getElementById](https://developer.mozilla.org/en-US/docs/Web/API/document.getElementById), da [API DOM](http://pt.wikipedia.org/wiki/Document_Object_Model), retornando o elemento desejado, recebendo como parâmetro um ID.
+
+Por outro lado, ao trabalhar com classes, estamos abstraindo informações de determinado(s) elemento(s), separando em quantas classes for necessário, o que torna nosso desafio ainda maior, abstrair essas informações, que na maioria das vezes são de aparência, de tal maneira que não seja necessário duplicar linhas de código.
+
+## Conclusão
+
+Não se trata de uma escolha, apenas do entendimento de cada conceito, aplicando de acordo com nossa necessidade. Nem todos os elementos precisam de identificação, mas quando for preciso, devemos aplicar o atributo que se encaixar melhor, seja ID, classe ou ambos, visando manipulação ou formatação um elemento bem mapeado se destaca dos demais.
+
+## Referência(s)
+
+- http://css-tricks.com/the-difference-between-id-and-class/
