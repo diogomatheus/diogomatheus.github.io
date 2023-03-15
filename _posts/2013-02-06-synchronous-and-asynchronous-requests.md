@@ -8,14 +8,67 @@ tags: []
 redirect_from:
   - "/blog/php/requisicoes-sincronas-e-assincronas/"
 ---
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+No ambiente cliente-servidor, nossas aplicações trabalham através de requisições e respostas, onde o cliente (Ex: Navegador) envia uma requisição e o servidor, local onde está nossa aplicação, retorna uma resposta, nesse processo existem diversas etapas, mas o objetivo deste artigo não é abordar cada estado de uma requisição, nesse momento vamos entender como funciona uma requisição utilizando comunicação síncrona e assíncrona.
 
-## Where does it come from?
+## Tipos de requisição
 
-Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
+Síncrona
 
-The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.
+Quando uma requisição é enviada, o processo remetente é bloqueado até que ocorra uma resposta, ou seja, não é possível enviar novas requisições até que nossa requisição atual seja finalizada, existe sincronismo entre as requisições.
 
-## Why do we use it?
+Assíncrona
 
-It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+Em uma requisição assíncrona, não existe sincronismo entre as requisições, sendo assim, podemos enviar diversas requisições em paralelo, onde cada resposta retorna quando estiver pronta.
+
+<figure class="figure mx-auto d-block">
+  <img src="{{ '/assets/images/posts/general/2013-02-06-http-request-types.jpg' | prepend: site.baseurl }}" class="figure-img mx-auto d-block">
+  <figcaption class="figure-caption text-center">Requisição Síncrona e Assíncrona</figcaption>
+</figure>
+
+Requisição vs Pizza
+
+Agora que conhecemos os tipos de requisição, vamos fazer uma analogia com um caso do nosso cotidiano, comprar pizza. Quando queremos comprar pizza, temos basicamente duas opções, ir comprar em alguma pizzaria ou pedir pelo telefone, essas situações são equivalentes aos tipos de requisição, pois pedimos pizza pelo telefone por comodidade, não queremos sair de casa para comprar, apenas fazemos uma solicitação, continuamos nossas tarefas e recebemos uma resposta quando essa estiver pronta, nossa pizza neste caso, esse fluxo de comodidade representa uma requisição assíncrona, enviamos uma requisição em paralelo e aguardamos sua resposta a qualquer momento, sem sincronismo, já no caso de ir comprar uma pizza, realizamos uma sincronia, compramos nossa pizza, voltamos para casa, para depois continuar com nossas tarefas.
+
+<figure class="figure mx-auto d-block">
+  <img src="{{ '/assets/images/posts/general/2013-02-06-http-request-and-pizza.jpg' | prepend: site.baseurl }}" class="figure-img mx-auto d-block">
+  <figcaption class="figure-caption text-center">Analogia entre requisições e pizza</figcaption>
+</figure>
+
+## AJAX síncrono e assíncrono com jQuery
+
+Muita gente acredita que AJAX se resume em requisições assíncronas, mas isso é um engano, também é possível realizar requisições síncronas, como estudamos anteriormente, nas requisições síncronas, só prosseguimos com nossas tarefas após obter nossa resposta.
+
+Por padrão o jQuery utiliza requisições assíncronas para trabalhar com AJAX, mas caso seja necessário trabalhar com AJAX através de requisições síncronas, precisamos trabalhar com o método [jQuery.ajax()](http://api.jquery.com/jQuery.ajax/) configurando sua propriedade async como false.
+
+Requisição síncrona
+
+{% highlight javascript %}
+$.ajax({
+  url: 'script.php',
+  async: false
+}).done(function(data) {
+  alert(data);
+});
+{% endhighlight %}
+
+Requisição assíncrona
+
+{% highlight javascript %}
+$.ajax({
+  url: 'script.php',
+  async: true
+}).done(function(data) {
+  alert(data);
+});
+{% endhighlight %}
+
+Arquivo script.php
+
+{% highlight php %}
+<?php
+sleep(5);
+echo 'Hello World';
+?>
+{% endhighlight %}
+
+No caso da requisição síncrona o navegador fica bloqueado enquanto aguarda o retorno da requisição, afinal estamos indo comprar nossa pizza, faça seu teste.
