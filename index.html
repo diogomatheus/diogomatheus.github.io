@@ -1,0 +1,186 @@
+---
+layout: "default"
+title: "Publicações sobre tecnologia"
+description: "Publicações sobre tecnologia, abordando tópicos como programação, engenharia de software, arquitetura de software, governança, gerenciamento de projetos e serviços, etc."
+pagination:
+  enabled: true
+redirect_from:
+  - "/blog/"
+---
+<div class="container">
+  <!-- if home page -->
+  {% if page.url == "/" %}
+
+  {% assign first_post = site.posts[0] %}
+  <div class="row pt-4">
+
+    <div class="col-md-6">
+      <div class="card border-0 mb-4 box-shadow">   
+        <a href="{{ first_post.url | prepend: site.baseurl }}">
+          <div class="topfirstimage" style="background-image: url({{ site.baseurl }}/{{ first_post.image }}); height: 200px; background-size: cover; background-repeat: no-repeat;"></div>     
+        </a>
+        <div class="card-body px-0 pb-0 d-flex flex-column align-items-start">
+          <h2 class="h4 font-weight-bold">
+            <a class="text-dark" href="{{ first_post.url | prepend: site.baseurl }}">{{ first_post.title }}</a>
+          </h2>
+          <p class="excerpt">
+            {{ first_post.excerpt | strip_html | strip_newlines | truncate: 180 }}
+          </p>
+          <div>
+            <small class="d-block text-muted">
+              Em 
+              <span class="catlist">
+                {% for category in first_post.categories %}
+                <a class="text-muted smoothscroll" href="{{ site.baseur l}}/categorias.html#{{ category | slugify: 'latin' }}">{{ category | downcase }}</a><span class="sep">, </span>
+                {% endfor %}
+              </span>
+            </small>
+            <small class="text-muted">{{ first_post.date | date: "%d/%m/%Y" }}</small>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-6">
+      {%- assign second_post = site.posts[1] -%}        
+      <div class="mb-3 d-flex align-items-center">                
+          {% if second_post.image %}
+          <div class="image-preview">
+            <a href="{{ second_post.url | prepend: site.baseurl }}">
+              <img class="w-100" src="{{ site.baseurl }}/{{ second_post.image }}" alt="{{ second_post.title }}">
+            </a>
+          </div>
+          {% endif %}                
+          <div class="pl-3">
+            <h2 class="mb-2 h6 font-weight-bold">
+              <a class="text-dark" href="{{ second_post.url | prepend: site.baseurl }}">{{ second_post.title }}</a>
+            </h2>
+            <small class="d-block text-muted">
+              Em 
+              <span class="catlist">
+                  {% for category in second_post.categories %}
+                  <a class="text-muted smoothscroll" href="{{ site.baseurl }}/categorias.html#{{ category | slugify: 'latin' }}">{{ category | downcase }}</a><span class="sep">, </span>
+                  {% endfor %}
+              </span>
+            </small>
+            <small class="text-muted">{{ second_post.date | date: "%d/%m/%Y" }}</small>
+          </div>
+      </div>
+            
+      {%- assign third_post = site.posts[2] -%}        
+      <div class="mb-3 d-flex align-items-center">                
+          {% if third_post.image %}
+          <div class="image-preview">
+            <a href="{{ third_post.url | prepend: site.baseurl }}">
+              <img class="w-100" src="{{ site.baseurl }}/{{ third_post.image }}" alt="{{ third_post.title }}">
+            </a>
+          </div>
+          {% endif %}                
+          <div class="pl-3">
+            <h2 class="mb-2 h6 font-weight-bold">
+              <a class="text-dark" href="{{ third_post.url | prepend: site.baseurl }}">{{ third_post.title }}</a>
+            </h2>
+            <small class="d-block text-muted">
+              Em 
+              <span class="catlist">
+                {% for category in third_post.categories %}
+                <a class="text-muted smoothscroll" href="{{ site.baseurl }}/categorias.html#{{ category | slugify: 'latin' }}">{{ category | downcase }}</a><span class="sep">, </span>
+                {% endfor %}
+              </span>
+            </small>
+            <small class="text-muted">{{ third_post.date | date: "%d/%m/%Y" }}</small>
+          </div>
+      </div>
+            
+      {%- assign fourth_post = site.posts[3] -%}        
+      <div class="mb-3 d-flex align-items-center">                
+        {% if fourth_post.image %}
+        <div class="image-preview">
+          <a href="{{ fourth_post.url | prepend: site.baseurl }}">
+            <img class="w-100" src="{{ site.baseurl }}/{{ fourth_post.image }}" alt="{{ fourth_post.title }}">
+          </a>
+        </div>
+        {% endif %}                
+        <div class="pl-3">
+          <h2 class="mb-2 h6 font-weight-bold">
+            <a class="text-dark" href="{{ fourth_post.url | prepend: site.baseurl }}">{{ fourth_post.title }}</a>
+          </h2>
+          <small class="d-block text-muted">
+            Em 
+            <span class="catlist">
+              {% for category in fourth_post.categories %}
+              <a class="text-muted smoothscroll" href="{{ site.baseurl }}/categorias.html#{{ category | slugify: 'latin' }}">{{ category | downcase }}</a><span class="sep">, </span>
+              {% endfor %}
+            </span>                   
+          </small>
+          <small class="text-muted">{{ fourth_post.date | date: "%d/%m/%Y" }}</small>
+        </div>
+      </div>
+
+      {%- assign fifth_post = site.posts[4] -%}        
+      <div class="mb-3 d-flex align-items-center">                
+        {% if fifth_post.image %}
+        <div class="image-preview">
+          <a href="{{ fifth_post.url | prepend: site.baseurl }}">
+            <img class="w-100" src="{{ site.baseurl }}/{{ fifth_post.image }}" alt="{{ fifth_post.title }}">
+          </a>
+        </div>
+        {% endif %}                
+        <div class="pl-3">
+          <h2 class="mb-2 h6 font-weight-bold">
+            <a class="text-dark" href="{{ fifth_post.url | prepend: site.baseurl }}">{{ fifth_post.title }}</a>
+          </h2>
+          <small class="d-block text-muted">
+            Em 
+            <span class="catlist">
+              {% for category in fifth_post.categories %}
+              <a class="text-muted smoothscroll" href="{{ site.baseurl }}/categorias.html#{{ category | slugify: 'latin' }}">{{ category | downcase }}</a><span class="sep">, </span>
+              {% endfor %}
+            </span>                   
+          </small>
+          <small class="text-muted">{{ fifth_post.date | date: "%d/%m/%Y" }}</small>
+        </div>
+      </div>
+    </div>
+  </div>
+        
+  <!-- Sticky publication, tags: [sticky] -->
+  {% for post in site.posts %} 
+  {% if post.tags contains "sticky" %}
+  <div class="jumbotron jumbotron-fluid jumbotron-home pt-0 pb-0 mt-3 mb-2rem bg-lightblue position-relative">
+    <div class="h-100 tofront">
+      <div class="row justify-content-between">
+        <div class="col-md-6 pt-6 pb-6 pl-5 pr-5 align-self-center">
+          <h1 class="mb-3">{{ post.title }}</h1>
+          <p class="mb-3 lead">
+            {{ post.excerpt | strip_html | strip_newlines | truncate: 130 }}
+          </p>
+          <a href="{{ post.url | prepend: site.baseurl }}" class="btn btn-dark">Continue lendo</a>
+        </div>
+        <div class="col-md-6 d-none d-md-block" style="background-size:cover; background-position:top; background-image:url({{ site.baseurl }}/{{ post.image }});"></div>
+      </div>
+    </div>
+  </div> 
+  {% break %}
+  {% endif %}
+  {% endfor %}
+
+  {% endif %}
+  <!-- endif home page -->
+    
+  <div class="row mt-3">
+    <div class="col-md-8 main-loop">
+      <h4 class="font-weight-bold spanborder"><span>Publicações</span></h4>
+
+      {% for post in paginator.posts %}
+      {% include publication-card.html %}
+      {% endfor %}
+
+      {% include pagination.html %}
+    </div>
+    <div class="col-md-4">
+      {% include sidebar-featured.html %}    
+    </div>
+  </div>
+  
+</div>

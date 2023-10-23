@@ -1,0 +1,42 @@
+lang: pt_BR
+name: Diogo Matheus
+description: Publicações sobre tecnologia, abordando tópicos como programação, engenharia de software, arquitetura de software, governança, gerenciamento de projetos e serviços, etc.
+favicon: assets/images/diogomatheus-icon.ico
+logo: assets/images/diogomatheus-logo.png
+disqus: diogomatheus
+
+paginate: 10
+paginate_path: /pagina/:num/
+seo_paginator_message: "Página %{current} de %{total} para "
+permalink: /:year/:month/:day/:title:output_ext
+
+authors:
+  diogomatheus:
+    name: Diogo Matheus
+    avatar: assets/images/diogomatheus-profile.jpg
+    twitter: https://twitter.com/diogomatheus_
+
+defaults:
+  - scope:
+      path: _posts
+    values:
+      layout: post
+      author: diogomatheus
+
+include: [_pages]
+exclude: [README.markdown, package.json, grunt.js, Gruntfile.js, Gruntfile.coffee, node_modules]
+
+plugins: 
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-paginate
+  - jekyll-seo-tag
+  - jekyll-redirect-from
+
+whitelist:
+  - jekyll-redirect-from
+
+markdown: kramdown
+highlighter: rouge
+kramdown:
+  input: GFM

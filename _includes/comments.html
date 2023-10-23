@@ -1,0 +1,19 @@
+<div id="comments" class="mt-5">
+  <div id="disqus_thread"></div>
+
+  <!-- Disqus - Self-invoking function -->
+  <script type="text/javascript">
+    (function() {
+      var disqus_element = document.createElement('script');
+      disqus_element.type = 'text/javascript';
+      disqus_element.async = true;
+      disqus_element.src = window.location.protocol + '//' + '{{site.disqus}}.disqus.com/embed.js';
+      (document.head || document.body).appendChild(disqus_element);
+    })();
+  </script>
+
+  <!-- Disqus - Script disabled message -->
+  <noscript>
+    Por favor, habilite o JavaScript para ver os <a href="http://disqus.com/?ref_noscript">comentários fornecidos pelo Disqus.</a>
+  </noscript>
+</div>

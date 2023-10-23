@@ -1,0 +1,28 @@
+<div class="mb-5 d-flex justify-content-between publication-card">
+	<div class="pr-3">
+		<h2 class="mb-1 h4 font-weight-bold">
+			<a class="text-dark" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+		</h2>
+		<p class="excerpt">
+			{{ post.excerpt  | strip_html | strip_newlines | truncate: 180 }}
+		</p>
+		<small class="d-block text-muted">
+			Em 
+			<span class="catlist">
+				{% for category in post.categories %}
+				<a class="text-muted smoothscroll" href="{{ site.baseurl }}/categorias.html#{{ category | slugify: 'latin' }}">{{ category | downcase }}</a><span class="sep">, </span>
+				{% endfor %}
+			</span>
+		</small>
+		<small class="text-muted">
+			{{ post.date | date: "%d/%m/%Y" }}
+		</small>
+	</div>
+	{% if post.image %}
+	<div class="image-preview text-right">
+		<a href="{{ post.url | prepend: site.baseurl }}">
+			<img class="w-100" src="{{ site.baseurl }}/{{ post.image }}" alt="{{ post.title }}">
+		</a>
+	</div>
+	{% endif %}
+</div>

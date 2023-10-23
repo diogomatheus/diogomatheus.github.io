@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-ZPM6RGKL2J"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-ZPM6RGKL2J');
+    </script>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="shortcut icon" type="image/x-icon" href="{{ site.baseurl }}/{{ site.favicon }}">
+
+    {% seo %}
+
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.3.1/css/all.min.css" integrity="sha512-KulI0psuJQK8UMpOeiMLDXJtGOZEBm8RZNTyBBHIWqoXoPMFcw+L5AEo0YMpsW8BfiuWrdD1rH6GWGgQBF59Lg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Google Fonts -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora:400,400i,700">
+
+    <!-- Twitter Bootstrap 4.1.3 (Mundana Theme Version) -->
+    <link rel="stylesheet" href="{{ '/assets/css/bootstrap.min.css' | prepend: site.baseurl }}">
+
+    <!-- Mundana Theme -->
+    <link rel="stylesheet" href="{{ '/assets/css/application.css' | prepend: site.baseurl }}">
+  </head>
+  <body class="{% if page.url == "/" %} homepage {% endif %}">
+    <nav class="topnav navbar navbar-expand-lg navbar-light bg-white border-bottom fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="{{ '/' | prepend: site.baseurl }}">
+          <img src="{{ site.baseurl }}/{{ site.logo }}" alt="diogo matheus logo">
+        </a>
+        <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarColor02" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="navbar-collapse collapse" id="navbarColor02">
+          <ul class="navbar-nav mr-auto d-flex align-items-center"></ul>
+          <ul class="navbar-nav ml-auto d-flex align-items-center">
+            <form id="lunr-search-form" class="hidden-sm-down">
+              <input type="text" id="lunr-search-input" name="q" value="" placeholder="Pesquisar..." class="form-control text-small" autocomplete="off" > 
+            </form>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div id="lunr-results">
+      <ul class="mb-0"></ul>
+    </div>
+    <main role="main">
+      {{ content }}
+    </main>
+    <footer class="bg-white border-top text-muted small">
+      <div class="container">
+        <div class="row align-items-center justify-content-between">
+          <div class="footer-social-media">
+            <a href="{{ '/feed.xml' | prepend: site.baseurl }}" target="_blank" title="RSS"><i class="fas fa-rss-square"></i></a>
+            <a href="https://www.linkedin.com/in/diogomatheuscosta" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+            <a href="https://github.com/diogomatheus" target="_blank" title="GitHub"><i class="fab fa-github-square"></i></a>
+            <a href="https://www.youtube.com/@diogomatheus_" target="_blank" title="Youtube"><i class="fab fa-youtube-square"></i></a>
+            <a href="https://twitter.com/diogomatheus_" target="_blank" title="Twitter"><i class="fab fa-twitter-square"></i></a>
+          </div>
+          <div>Copyright © <script>document.write(new Date().getFullYear())</script></div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- jQuery 3.3.1 -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js" integrity="sha512-+NqPlbbtM1QqiK8ZAo4Yrj2c4lNQoGv8P79DPtKzj++l5jnN39rHA/xsqn8zE9l0uSoxaCdrOgFs6yjyfbBxSg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <!-- popper.js 1.14.6 -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    
+    <!-- Twitter Bootstrap 4.1.3 -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha512-n6dYFOG599s4/mGlA6E+YLgtg9uPTOMDUb0IprSMDYVLr0ctiRryPEQ8gpM4DCMlx7M2G3CK+ZcaoOoJolzdCg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <!-- Mundana Theme -->
+    <script src="{{ '/assets/js/application.js' | prepend: site.baseurl }}"></script>
+
+    <!-- lunr.js 2.1.5 -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.1.5/lunr.min.js" integrity="sha512-AmAVKTR6tOwOBb0iM+vRuu66lzQD89smS/T12dW2j9NsNFX1UauB5rozMaL2V7MDqgtsTX9gs7H74ikS3gtRQw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <!-- Lunr corpus -->
+    <script src="{{ '/assets/js/lunr-corpus.js' | prepend: site.baseurl }}"></script>
+
+    <!-- Lunr search -->
+    <script src="{{ '/assets/js/lunr-search.js' | prepend: site.baseurl }}"></script>
+  </body>
+</html>

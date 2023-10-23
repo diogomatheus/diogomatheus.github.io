@@ -1,0 +1,80 @@
+<div class="mt-5">
+  {% if paginator.total_pages > 1 %}
+  <ul class="pagination"> 
+      {% if paginator.previous_page %}
+      <li class="page-item">
+        <a class="page-link" href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">
+          &laquo; 
+          <span class="d-none page-link-label">Anterior</span>
+        </a>
+      </li>
+      {% else %}
+      <li class="page-item disabled">
+        <span class="prev page-link">
+          &laquo; 
+          <span class="d-none page-link-label">Anterior</span>
+        </span>
+      </li>
+      {% endif %}
+
+      {% assign abstraction_previous = paginator.page | minus: 2 %}
+      {% assign abstracted_previous = false %}
+      {% assign abstraction_next = paginator.page | plus: 2 %}
+      {% assign abstracted_next = false %}
+
+      {% for page in (1..paginator.total_pages) %}
+      {% if page == paginator.page %}
+      <li class="page-item disabled">
+        <span class="webjeda page-link">{{ page }}</span>
+      </li>
+      {% elsif page == 1 %}
+      <li class="page-item">
+        <a class="page-link" href="{{ '/' | prepend: site.baseurl }}">{{ page }}</a>
+      </li>
+      {% elsif page == paginator.total_pages %}
+      <li class="page-item">
+        <a class="page-link" href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a>
+      </li>
+      {% else %}
+
+      {% if page < abstraction_previous %}
+      {% if abstracted_previous == false %}
+      <li class="page-item disabled">
+        <span class="webjeda page-link">...</span>
+      </li>
+      {% assign abstracted_previous = true %}
+      {% endif %}
+      {% elsif page > abstraction_next %}
+      {% if abstracted_next == false %}
+      <li class="page-item disabled">
+        <span class="webjeda page-link">...</span>
+      </li>
+      {% assign abstracted_next = true %}
+      {% endif %}
+      {% else %}
+      <li class="page-item">
+        <a class="page-link" href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a>
+      </li>
+      {% endif %}
+
+      {% endif %}
+      {% endfor %}
+
+      {% if paginator.next_page %}
+      <li class="page-item">
+        <a class="page-link" href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">
+          <span class="d-none page-link-label">Próximo</span> 
+          &raquo;
+        </a>
+      </li>
+      {% else %}
+      <li class="page-item disabled">
+        <span class="next page-link">
+          <span class="d-none page-link-label">Próximo</span> 
+          &raquo;
+        </span>
+      </li>
+      {% endif %}
+  </ul>
+  {% endif %}      
+</div>
